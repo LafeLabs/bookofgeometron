@@ -9,15 +9,15 @@
  - Civilizations
  - Organic Media
  - The Street Network
- - Code Structure
+ - Code
  - Scrolls
  - Maps
  - Feeds
- - Geometron Virtual Machine
- - 2d symbol usage of Geometron
+ - Symbols
+ - 2d Web Graphics
  - Symbolic languages and fonts
  - Machine Control
- - Geometron in 3d and beyond 
+ - Geometron in 3d and beyond
  - Ontology
  - Trash Robot
  - Full Stack Geometron
