@@ -1,0 +1,75 @@
+
+\section{Maps}\label{maps}
+
+Maps are a format in Trash Robot/Geometron which are a generalized meme.
+They represent an ordered list of objects, each of which has a position
+in a rectangular area on the screen. Each element in the ordered array
+has an x and y position and width all normalized to the size of the
+square area, as well as an angle in degrees. The other properties each
+element has are a url for an image if they're an image, HTML text for
+both if they are not an image and for alt text if they are, and a link
+destination which can be either a url or a map or scroll link inside the
+geometron system. Maps can link to scrolls as well as other maps. Also,
+each element has a Boolean variable ``maplinkmode'' which is false if it
+is just a normal HTML link and true if it is a map or scroll link. Maps
+are all stored in the ``\url{maps/}'' sub-directory of each Trash
+Robot/Geometron instance. They are in
+\href{https://www.json.org/json-en.html}{JSON} format.
+
+Scrolls are all stored in the \url{scrolls/} directory. Links inside the
+Geometron system are identified as to whether they are scolls or maps by
+the full name of the file. For instance one would link to this scroll
+from anywhere in the system using the name ``scrolls/maps'' as the
+destination of either a link in a map element which has maplinkmode set
+to ``true'' or in a hyperlink in the markdown format of the
+\href{scrolls/scrolls}{Scroll}.
+
+Maps are defined with the JavaScript library ``mapfactory.js'' which is
+in the ``jscode'' directory at \url{jscode/mapfactory.js}.
+
+Maps are created in Javascript by for example in a DIV element called
+``mainmap'' with following code:
+
+Maps are edited using the program \url{mapeditor.html}. Click on all the
+things at random to figure out how to use that program. Save often.
+Copy/paste JSON code from the text area to share maps across the
+Internet or privately with other users. You can email JSON code, store
+it, copy it etc, and anyone can import it with a paste into their
+Geometron instance and save it locally on their server. This generalized
+meme format replaces both meme making software and PowerPoint as well as
+a large number of HTML frameworks and formats. It allows for a
+generalized system for encoding information on an image, which can be
+critical to documenting self-replicating physical technology. The three
+pillars of all Geometron/Trash Robot software are the Map, the Scroll,
+and the Symbols which are created with the Geometron language. This
+``symbol'' is generalized to include those made in all physical media,
+so that includes things like lab-on-chip fluidic circuits, hybrid
+upcycled electronic circuits, laser cut shapes etc. Once Geometron is
+used to encode all human language and all symbols and also all
+technology, it can drive the hardware which displays maps and scrolls.
+When all of this lives on fully upcycled hardware, the system if fully
+metabolized and we can build self-replicating technology that does not
+have any mining, money, or property, the ultimate goal of Trash Magic.
+
+\subsection{Deletion}\label{deletion}
+
+Maps are deleted with \url{mapdelete.html}. Just click ``delete'' to
+delete. Be careful, there is no backup. Also on public servers this
+might break, as do all file creation and editing functions from time to
+time. It will work instantly on a \href{scrolls/terminal}{Raspbery Pi
+Terminal}.
+
+\subsection{Replication}\label{replication}
+
+When you create a new map, run \url{dnagenerator.php}, and the next time
+the whole tree is replicated that map will come along for the ride. To
+replicate a specific map, find the URL of that map and use copy.php. The
+syntax is
+
+The ``from'' url can be anywhere on the Open Web or anywhere visible on
+the local network. For example,
+\href{https://www.pastebin.com}{pastebin.com} or a raw code link on
+\href{https://www.github.com}{Github}
+
+\subsection{Map editor Icon Meanings}\label{map-editor-icon-meanings}
+
