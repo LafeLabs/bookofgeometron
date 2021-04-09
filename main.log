@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  9 APR 2021 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  9 APR 2021 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,7 +598,7 @@ LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
- <cover.png, id=72, 351.3125pt x 501.875pt>
+ <cover.png, id=104, 351.3125pt x 501.875pt>
 File: cover.png Graphic file (type png)
 
 <use cover.png>
@@ -630,11 +630,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
- [3]) (./main.lof)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-[5] [6
+ [3] [4]) (./main.lof) [5] [6
 
 ] (./civilizations.tex
 Overfull \hbox (2.08818pt too wide) in paragraph at lines 3--9
@@ -759,47 +755,92 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [37] (./symbols.tex [38
 
 ] [39]
-Overfull \hbox (8.4983pt too wide) in paragraph at lines 70--72
+Overfull \hbox (8.4983pt too wide) in paragraph at lines 68--70
 []\OT1/cmr/m/n/12 0200-0217: Fixed shapes, glyphs com-posed of se-quences
  []
 
 [40] [41]
-Overfull \hbox (8.09137pt too wide) in paragraph at lines 111--118
+Overfull \hbox (8.09137pt too wide) in paragraph at lines 109--116
 []\OT1/cmr/m/n/12 The soft-ware pre-sented here al-lows us to use Ge-ometron
  []
 
 [42]
-Overfull \hbox (4.41226pt too wide) in paragraph at lines 149--150
+Overfull \hbox (4.41226pt too wide) in paragraph at lines 147--148
 [][]\OT1/cmr/m/n/12 Learn to op-er-ate Ge-ometron with the Hello Ge-ometron
  []
 
 [43] [44] [45] [46] [47] [48] [49] [50] [51] [52]
-Underfull \hbox (badness 10000) in paragraph at lines 403--413
+Underfull \hbox (badness 10000) in paragraph at lines 401--411
 
  []
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 421--428
+Underfull \hbox (badness 10000) in paragraph at lines 419--426
 
  []
 
-[54] [55]) [56] [57] (./ontology.tex [58
+[54] [55]) [56] [57] (./web2d.tex
+Overfull \hbox (40.98686pt too wide) in paragraph at lines 14--16
+[]\OT1/cmr/m/n/12 symmetries and scales, dif-fer-ent meth-ods of ge-ometron(AG)
+ 
+ []
 
-] [59] [60]
+
+Overfull \hbox (3.37613pt too wide) in paragraph at lines 16--18
+[]\OT1/cmr/m/n/12 cursor,movements, ba-sic con-struc-tions(segment, cir-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58
+
+]
+Overfull \hbox (6.77054pt too wide) in paragraph at lines 32--34
+[]\OT1/cmr/m/n/12 editing the hy-per-cube and shape ta-ble, shar-ing them,
+ []
+
+
+Overfull \hbox (2.52753pt too wide) in paragraph at lines 36--38
+[]\OT1/cmr/m/n/12 control pan-els, soft-key in-ter-faces, writ-ing ge-ometron
+ []
+
+) [59] (./shapes.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60
+
+])
+[61] (./machines.tex) [62
+
+] (./geometron3d.tex
+Overfull \hbox (1.54837pt too wide) in paragraph at lines 15--17
+[]\OT1/cmr/m/n/12 quantum ge-ometron: ro-ta-tions in hilbert space, rep-
+ []
+
+
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [63
+
+])
+[64] (./ontology.tex [65
+
+] [66] [67]
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [61]
-[62] [63] [64] [65] [66] [67] [68] [69]
+ [68]
+[69] [70] [71] [72] [73] [74] [75] [76]
 Overfull \hbox (2.46225pt too wide) in paragraph at lines 311--333
 \OT1/cmr/m/n/12 at through the lens of these self-replicating sys-tems, where
  []
 
-[70] [71] [72] [73] [74] [75] [76]
+[77] [78] [79] [80] [81] [82] [83]
 Overfull \hbox (1.87476pt too wide) in paragraph at lines 478--489
 []\OT1/cmr/m/n/12 The power of a fully self-replicating and evolv-ing Open
  []
 
-[77]
+[84]
 Overfull \hbox (7.26631pt too wide) in paragraph at lines 502--514
 \OT1/cmr/m/n/12 mathematicians. ``Ob-ject'' here can mean \OT1/cmr/m/it/12 any-
 thing\OT1/cmr/m/n/12 . Math-
@@ -811,24 +852,24 @@ Overfull \hbox (12.97186pt too wide) in paragraph at lines 502--514
 s
  []
 
-[78] [79]
+[85] [86]
 Overfull \hbox (11.44226pt too wide) in paragraph at lines 551--570
 \OT1/cmr/m/n/12 de-fines truth and false-hood with-out con-tra-dic-tion. Goedel
 's
  []
 
-[80] [81] [82]
+[87] [88] [89]
 Overfull \hbox (6.57054pt too wide) in paragraph at lines 634--650
 []\OT1/cmr/m/n/12 We fur-ther state from the out-set that all self-replicating
  []
 
-[83]
+[90]
 Overfull \hbox (100.02519pt too wide) in paragraph at lines 667--667
 []    \OT1/cmtt/m/n/12 The desire of the author to describe self-replicating se
 ts,[] 
  []
 
-[84] [85]
+[91] [92]
 Overfull \hbox (19.75015pt too wide) in paragraph at lines 713--713
 []    \OT1/cmtt/m/n/12 in-person pitches and classes and discussions,[] 
  []
@@ -839,10 +880,10 @@ Overfull \hbox (137.07521pt too wide) in paragraph at lines 714--714
 ial media[] 
  []
 
-[86]
+[93]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87]
+ [94]
 Overfull \hbox (11.40521pt too wide) in paragraph at lines 787--804
 \OT1/cmr/m/n/12 briefly here in or-der for this doc-u-ment to truly self-replic
 ate.
@@ -851,35 +892,39 @@ ate.
 
 Underfull \vbox (badness 3646) has occurred while \output is active []
 
- [88]
+ [95]
 Overfull \hbox (340.85031pt too wide) in paragraph at lines 808--808
 []\OT1/cmtt/m/n/12 sudo curl -o replicator.php https://raw.githubusercontent.co
 m/LafeLabs/thing/master/php/replicator.txt[] 
  []
 
-[89]
+[96]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
-[91] [92]) [93]
+ [97]
+[98] [99]) [100] [101] (./trashrobot.tex) [102
+
+] (./fullstack.tex)
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 68.
+(in both cases you will find help in the memoir manual). on input line 79.
 
-[94]
+[103
+
+]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 
 
 Package rerunfilecheck Warning: File `main.out' has changed.
@@ -887,23 +932,23 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: E02C6C8D7D66643FF71A60947905CF4E;868
-(rerunfilecheck)             After:  56F0DAD05E9B3E97F25E6346CE4FADA3;967.
+(rerunfilecheck)             Before: 1FFA49E2806D95BB0B14B40A9B1E9F18;1360
+(rerunfilecheck)             After:  4FC1BE104C1E062ACBC587268B51E244;1710.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 9108 strings out of 494953
- 129410 string characters out of 6180977
- 248619 words of memory out of 5000000
- 12149 multiletter control sequences out of 15000+600000
+ 9167 strings out of 494953
+ 130139 string characters out of 6180977
+ 248685 words of memory out of 5000000
+ 12169 multiletter control sequences out of 15000+600000
  10941 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,11n,29p,418b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.8.2} has been referenced but does not exi
-st, replaced by a fixed one
+ 32i,11n,30p,419b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.12.2} has been referenced but does not ex
+ist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/shar
@@ -913,10 +958,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (100 pages, 259074 bytes).
+Output written on main.pdf (109 pages, 265413 bytes).
 PDF statistics:
- 742 PDF objects out of 1000 (max. 8388607)
- 623 compressed objects within 7 object streams
- 160 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 831 PDF objects out of 1000 (max. 8388607)
+ 702 compressed objects within 8 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

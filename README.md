@@ -15,7 +15,7 @@
  - Feeds
  - Symbols
  - 2d Web Graphics
- - Symbolic languages and fonts
+ - Shapes and fonts
  - Machine Control
  - Geometron in 3d and beyond
  - Ontology
