@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  9 APR 2021 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  9 APR 2021 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,7 +598,7 @@ LaTeX Info: Redefining \nameref on input line 18.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
- <cover.png, id=104, 351.3125pt x 501.875pt>
+ <cover.png, id=128, 351.3125pt x 501.875pt>
 File: cover.png Graphic file (type png)
 
 <use cover.png>
@@ -630,7 +630,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
- [3] [4]) (./main.lof) [5] [6
+ [3] [4]
+Overfull \hbox (2.03766pt too wide) detected at line 60
+ \OT1/cmr/bx/n/12 102
+ []
+
+
+Overfull \hbox (2.03766pt too wide) detected at line 62
+ \OT1/cmr/bx/n/12 103
+ []
+
+) (./main.lof) [5] [6
 
 ] (./civilizations.tex
 Overfull \hbox (2.08818pt too wide) in paragraph at lines 3--9
@@ -902,9 +912,26 @@ m/LafeLabs/thing/master/php/replicator.txt[]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [97]
-[98] [99]) [100] [101] (./trashrobot.tex) [102
+[98] [99]) [100] [101] (./trashrobot.tex
+Overfull \hbox (297.62529pt too wide) in paragraph at lines 12--12
+[]        \OT1/cmtt/m/n/12 Shop(art,robots,clothes,accessories, plastic shapes,
+ both Etsy and via Street Network),[] 
+ []
 
-] (./fullstack.tex)
+
+Overfull \hbox (174.12523pt too wide) in paragraph at lines 14--14
+[]        \OT1/cmtt/m/n/12 construction methods(duct tape, cardboard, trash tie
+s, HDPE sheets)[] 
+ []
+
+) [102
+
+] (./fullstack.tex
+Overfull \hbox (7.94553pt too wide) in paragraph at lines 13--15
+[]\OT1/cmr/m/n/12 roctal, stor-age hard-ware, scal-ing, read/write/operate 
+ []
+
+)
 
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
@@ -925,43 +952,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 1FFA49E2806D95BB0B14B40A9B1E9F18;1360
-(rerunfilecheck)             After:  4FC1BE104C1E062ACBC587268B51E244;1710.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4FC1BE104C1E062ACBC587268B51E244;1710.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 9167 strings out of 494953
- 130139 string characters out of 6180977
+ 9172 strings out of 494953
+ 130205 string characters out of 6180977
  248685 words of memory out of 5000000
- 12169 multiletter control sequences out of 15000+600000
+ 12175 multiletter control sequences out of 15000+600000
  10941 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  32i,11n,30p,419b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.12.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (109 pages, 265413 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (109 pages, 267143 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 702 compressed objects within 8 object streams
- 181 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 852 PDF objects out of 1000 (max. 8388607)
+ 723 compressed objects within 8 object streams
+ 180 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
