@@ -1,0 +1,13 @@
+\select@language {english}
+\contentsline {chapter}{Contents}{iv}{section*.1}
+\contentsline {chapter}{List of Figures}{iv}{section*.2}
+\contentsline {chapter}{\chapternumberline {1}civilizations}{1}{chapter.1}
+\contentsline {chapter}{\chapternumberline {2}scrolls}{10}{chapter.2}
+\contentsline {subsection}{Create a scroll}{11}{section*.3}
+\contentsline {subsection}{Edit a scroll}{12}{section*.4}
+\contentsline {subsection}{copy a scroll from another place online}{12}{section*.5}
+\contentsline {subsection}{link to a scroll from a scroll}{13}{section*.6}
+\contentsline {subsection}{Delete Scrolls}{13}{section*.7}
+\contentsline {subsection}{Some technical details and use of Math}{14}{section*.8}
+\contentsline {subsection}{Code structure}{14}{section*.9}
+\contentsline {subsection}{LaTeX workflow}{15}{section*.10}
