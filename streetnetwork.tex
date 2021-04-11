@@ -24,6 +24,28 @@ outline:
 \end{itemize}
 
 \subsection{What is the Street Network?}
+
+We want an information network based around physical replication of technology from trash.  To stimulate the replication of the Network, we need it to create value for people who use it and operate it. This value can be of many kinds: it can directly provide physical goods people need, it can facilitate business in the monetary economy, it can provide mutual aid to a community, it can create local social connections, can build network power for users, and any of these values can be traded for materials and space needed to continue to expand the network.  
+
+This book will describe several products and services which Operators in the network can provide to local users.  These can be exchanged for money or bartered directly for materials to expand the system(for instance one can ask users who are paying for goods or services to simply buy more computer equipment to build out more network infrastructure.)  We aim to have the goods sold be as much as possible based on a stream of trash which are upcycled into sellable products.  The prototype product here is a purse, the ArtBox, which can be constructed using the methods of Geometron and which contains the tools to replicate itself.  It is, in essence, a self-replicating purse with a unique Open Brand, the Trash Robot Brand, which will be documented in its own chapter.  
+
+Services rendered will generally be of the kind which makes money for the user.  So for instance a passerby might place an advertisement on a news scroll for a local coffee shop for their service which other coffee shop customers(this is all over the wifi network of the coffee shop so everyone is indeed a customer) might want.  This makes the user money, which motivates them to come back and place more ads, so they are making money which they can pay to the Operator.  All of this commerce then motivates people to come into the coffee shop and read and share documents.  Since wifi has a time limit and requires purchase, this brings higher traffic to the coffee shop, which then has their revenue go up, so to keep the system running, it is worth it to them to barter snacks and coffee to the Operator of the network.  
+
+Structure and purpose of the network: domains, places, operators, mutual aid, markets, 
+
+Networks are advertised with physical media which points to domains which point to physical places, specifically to the location of the physical web server, and have a hyperlink which only works on the local wifi network which links to the web server on that network.
+
+The Street Network is social media based around physically local instances of the Web which are not on the public Internet.  Wifi networks are used to share documents locally with other users on the same network.  The Geometron servers function as public bulletin boards, where documents are shared freely with all other users. Any user can edit or delete any file. All files can be copied by anyone.  Documents are all visible by both mobile devices and computers, as long as they are on the same wifi network.  The Street Network is an example of Organic Media. It is intended to facilitate replication by users.  Users can create and share documents advertising whatever commerce they wish to engage in: they can sell things, share ideas, give things away for free, advertise services, advertise businesses, describe how to make things, or look for others with shared interests.  There are no users and no databases.  There is just a list of documents which users can click on to read, edit using the editors or delete using the file deletion tools.
+
+The Geometron documents are stored on a Geometron Terminal, which is based on the Raspberry Pi mini-computer.  Raspberry Pi is a non profit project from the UK to create a minimalist Linux based computer, mostly for education, research, art, and maker hobbies.   They can be purchased easily online for approximately 50 US Dollars.  The two most widely used formats of Geometron documents are the Scroll and the Map.  A scroll is just a text file, with some formatting in a markup language called Markdown.
+
+Edit scrolls.
+
+Edit maps.
+
+Workflow, developers, apps.  reference code structure chapter. Coffee shop developer community.
+
+
 \subsection{Building the Geometron Terminal}
 
 Buy the stuff:
@@ -40,7 +62,7 @@ Mini USB keyboard(without number pad)
 \item
 mouse
 \item
-Sunfounder HDMI display with 12 volt power supply and USB power out to drive PI, wall plug and HDMI cable
+Sunfounder HDMI display with 12 volt power supply and USB power out to drive PI, wall plug and HDMI cable, or similar display which can run off of a 12 volt barrel connector with a USB power output to drive the Pi.
 \item
 12 V LiPo battery pack with wall plug charger from TalentCell(sold via amazon)
 \item
@@ -48,6 +70,8 @@ wifi hotspot
 \end{itemize}
 
 Put it together.  Just assemble the Sunfounder terminal as per the instructions.  
+
+If you have a display that does not have a mount for the Pi, build an integrated terminal with cardboard, duct tape, and plastic HDPE sheet from milk bottles.
 
 Burn the card with NOOBS, put it in the Pi.
 
@@ -61,9 +85,11 @@ Boot up the pi, set it up with no password
 
 Install Apache and php
 
-copy the Geometron code replicator script replicator.php into the web directory. 
+copy the Geometron code replicator script replicator.php into the web directory. THis can be found from any geometron server at [serverurl]/php/replicator.txt.  
 
-Learn to use with subsequent chapters of this book, customize and deploy, replicate to other peoople
+Learn to use with subsequent chapters of this book, customize and deploy, replicate to other people
+
+run in headless mode, or on big screen, discuss display options, how to deploy in different places
 
 \subsection{The Operators}
 \subsection{Psychogeography}
