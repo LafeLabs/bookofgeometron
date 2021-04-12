@@ -2,39 +2,31 @@
 
 \section{Code}\label{code}
 
-There are five basic types of code used in the Geometron System,
-corresponding to five Alchemy archetypes. These are:
+\subsection{Philosophy}
 
-\begin{itemize}
-\tightlist
-\item
-  Air: CSS
-\item
-  Water: HTML
-\item
-  Fire:JavaScript
-\item
-  Earth:Geometron Hypercube
-\item
-  Aether:PHP
-\end{itemize}
+All our code of all kinds is organic media as described in previous chapters.
 
-Geometron is \href{scrolls/geometron.md}{documented here}. The other
-four can all be learned from
-\href{https://www.w3schools.com/}{W3schools.com}, using
-\href{https://developer.mozilla.org/en-US/}{Mozilla's documentation of
-web developer technology} and \url{https://www.php.net/} as a reference
-for PHP.
+All code can be copied by all users. All code is human readable, and can be copied by copy/paste.  All code can be edited on all servers by all users.  All code can be deleted by all users on all servers.  No native code.  All code is run from a browser, and can be run from any browser on the local network.  All code is part of a server which can be replicated as a block with a single operating, copying all files from any computer on a local network to any other computer on that network.  Each instance of the code is totally self-contained, and can be edited and replicated to create a new node with no relations of any kind with any other node.  A single Raspberry Pi could be used to replicate a server to a laptop on a coffee shop which pushes the code to a public git repository which is then replicated to a globally visible url, which replicates to more computers, git repos, terminals, and servers, and so on, replicating a single instance to the whole world of billions of devices in a matter of minutes if the relations between network nodes are set up properly, all with no centralized structure of any kind.  
 
-All code self-replicates.
+This system does not have ``users'' in the sense that they exist in current information technology systems.  The systems just \emph{are}.  Think of them like any other appliance outside of information technology.  We will illustrate the idea of a commonly shared thing with an example.
 
-All code is human readable.
+When you go into a coffee shop, the counter where orders come out and are picked up by customers does not have divisions by property.  Customers are not assigned a special area on the counter to the exclusion of others.  Likewise the baristas do not have zones marked off that are theirs, with some complex system for assigning a space over from barista to customer(like the driver and rider in a ride sharing app).  Instead, the counter is a shared resource: its value to customer and barista alike is maximized by it being a common space where cups of coffee appear and are taken based on whatever is most convenient at the moment.  Sometimes someone breaks the model here, and throws a huge dirty backpack on the counter or spills something sticky everywhere, putting the system out of use.  But again we all accept that the risk of this and the added work to correct it is outweighed by the benefit of the counter being an open space.  
 
-All code can be edited by all users.
+Our information systems in Geometron are like the counter top in a coffee shop.  Indeed, one of the primary use cases is to have the software run on a server literally sitting on the counter of a coffee shop.  As with the counter, the benefit to customers, workers, and owners of the coffee shop is such that it simply has more value shared with no property than it would if there were \emph{any} barriers to the flow of information.  Anyone with any experience designing and building information technology systems will need to constantly remind themselves how different a model this is to any existing system.  Even anonymous message boards are not structured this way.  Users are still users, even if they're just an anonymized IP address.  In our model there \emph{simply are no users!!}  No users means no passwords. It also means there are no ``transactions'' involving money or property, as any application which actually does commerce can't function without a user on each side of the transaction.  Our media can \emph{enable} all kinds of commercial transactions! People can post things which say how to get ahold of them, or link to pages with more specific content some of which might be private.  But the point is that something like an advertisement for some good or service on a local network is worth more the more people see it.  If members of a community are all posting to each other and all getting value from seeing those posts, it is in everyone's best interest to have things be as free as possible, and this means no users.
 
-All code can be deleted by all users.
+Without users, there are also no passwords, no databases, and no ``security'' of any kind.  Security is physical in a physical space, and our networks are physically local and not on the open Internet.  In order for this to work, people need to not put any private information on the network, ever.  The only way users on their private devices interact with Geometron is through their web browser.  
 
-All code can be copied by all users.
+All that said, encryption can be used in interesting ways in a free open physically local network node.  Files can be encrypted in a human-readable format, dropped on a server, and copied out across the web from server to server and laptop to laptop.  One can think of numerous applications for this.  In the initial version of Geometron that is being released with this book, there are no built in cryptography technologies of any kind.  But with the application development workflow described in this work users can easily build that tech in whatever direction they choose. Again, this is the power of a fully open system: you can sit in a coffee shop anonymously editing code, write a totally new kind of cryptography application, share with other users in the coffee shop, who then copy to github and share with the world, and in no time your application has spread to the whole world, untraceable to you, and with others forking the code, riffing on it and improving it.  Your project shared with one person on a coffee shop can come back to you in the form of a vast new ecosystem of derived code, shared freely across the global network and finally back to your coffee shop.  
+
+
+
+\subsection{Structure}
+
+All Geometron apps run in a web browser and so are composed of HTML, CSS and JavaScript.  PHP scripts are used to communicate between the web browser and the file system on the server(even if it is just a localhost server on a laptop).  
+
+Each instance of Geometron has a file structure where various types of files are always stored.  Whatever directory on the web server a Geometron instance is in can have subdirectories which also have yet another Geometron instance. We aim to have the whole system be well under 10 megabytes, so a 1 gigabyte storage capacity server can host a hundred instances easily, each in its own subdirectory.  All Geometron applications are html files which sit in the root directory of that instance(although this might be a subdirectory on a server).  JavaScript libaries are stored in the directory 
+
+
 
 The initial location of the Trash Robot/Geometron Thing code is at
 \url{https://github.com/lafelabs/thing/}.
