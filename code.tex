@@ -3,7 +3,9 @@
 \section{Code}\label{code}
 
 
-This chapter is for you to learn how to become a Geometron Developer.  To do this you will first need to learn the basics of Web Development. I strongly encourage you to learn how I did(unless you are already a web developer).  You need to learn the basics of HTML, CSS, JavaScript, and PHP.  I learned these from https://www.w3schools.com/.  I had to learn using Microsoft Visual Studio Code, because I did not have an editor yet(I needed to learn to make web code to make web code to make web code.) But you will be able to entirely learn all material on all four of those languages using the code editor built into each Geometron instance and testing instantly on the same instance. 
+Geometron Developers are a critical member of the swarm that makes up the Network, and this chapter is intended to describe how to learn to take on this important role in the swarm.  We assume that you are willing to dig in and learn code but not that you already know a lot about it.
+
+If you are a bit technical but not specifically a web develoer you will first need to learn the basics of Web Development. I strongly encourage you to learn how I did(unless you are already a web developer).  You need to learn the basics of HTML, CSS, JavaScript, and PHP.  I learned these from https://www.w3schools.com/.  I had to learn using Microsoft Visual Studio Code, because I did not have an editor yet(I needed to learn to make web code to make web code to make web code.) But you will be able to entirely learn all material on all four of those languages using the code editor built into each Geometron instance and testing instantly on the same instance. 
 
 \subsection{Philosophy}
 
@@ -21,9 +23,13 @@ Without users, there are also no passwords, no databases, and no ``security'' of
 
 All that said, encryption can be used in interesting ways in a free open physically local network node.  Files can be encrypted in a human-readable format, dropped on a server, and copied out across the web from server to server and laptop to laptop.  One can think of numerous applications for this.  In the initial version of Geometron that is being released with this book, there are no built in cryptography technologies of any kind.  But with the application development workflow described in this work users can easily build that tech in whatever direction they choose. Again, this is the power of a fully open system: you can sit in a coffee shop anonymously editing code, write a totally new kind of cryptography application, share with other users in the coffee shop, who then copy to github and share with the world, and in no time your application has spread to the whole world, untraceable to you, and with others forking the code, riffing on it and improving it.  Your project shared with one person on a coffee shop can come back to you in the form of a vast new ecosystem of derived code, shared freely across the global network and finally back to your coffee shop.  
 
+We also need to specifically state here that part of the philosophy of Geometron is to have as little server side code as possible, and in particular to have no command line installations needed at all.  I \emph{strongly} advocate against any use whatsoever of systems like node.js or other server side packages which might do things the user cannot immediately see, copy, edit, or destroy.  This is why I am such a strong proponent of using only PHP for almost all server side code.  The only exceptions are for direct physical control of machines.  For building robots using the Raspberry Pi we will use Python, along with shell scripts to set them up, and for Arduino-based robots we'll use that language(C++ with some nice libraries).
 
+It is inevitable that developers who like these kinds of things, be it Ruby, Node, or the latest fad language like Rust or Go will want to rewrite all this in their favorite server-side language.  I again cannot overstate how strong my opposition is to to this.  PHP is unique in how it can run on pretty much any server with no added installations.  It is installed by default on all new macs.  It is installed with one command and actually always works on the Raspberry Pi and other standard *nix command prompts.  And most importantly it just runs in the browser, where a file of the form filename.php in the browser just runs the script. This is what enables the self-replication and self-editing that makes this a form of organic media and not just another software platform.  Please keep an open mind about this approach before trying to advocate for a supposedly ``more advanced'' language than PHP.  
 
-\subsection{Structure}
+The same statement applies to my choice to use JSON instead of XML for most of the data.  This was not a choice made at random.  I've played around a lot with both formats and feel very strongly that JSON is more appropriate for how we handle information in this system than XML is, for numerous reasons.  
+
+\subsection{Code Structure}
 
 All Geometron apps run in a web browser and so are composed of HTML, CSS and JavaScript.  PHP scripts are used to communicate between the web browser and the file system on the server(even if it is just a localhost server on a laptop).  
 
@@ -220,12 +226,31 @@ We must also address how bad code is dealt with.  Not all bad code is from typos
 
 Also, data files in the data directory can be directly edited with editor.php, which always gives us yet another way of copy/pasting the raw data, even in cases where some data is hidden in the app, or where there is no copy/paste input/output window, which might be inconvenient for some apps.
 
+Some more technical details on editor.php should be elaborated on here.  The look of the editor, which developers are likely to have strong opinions about, can be easily changed in two ways.  You can edit the CSS code in the style element at the end of the file and/or you can change the theme used in the Ace.js library.  The Ace themes are somewhat poorly documented but there are lots of them.  You can see how they look by using the pulldown menu of themes(as well as various other properties) in the menu at the page https://ace.c9.io/build/kitchen-sink.html. You can just google ace.js themes to find this page, also.  The thing to note with setting themes is that when you use the ``kitchen sink'' to test a theme, there are spaces, but the names used in the code have underscores.  A small detail but it can be frustrating if you don't look out for it.  The list of the actual names is in the github repo linked from the main Ace website at ace.c9.io.  If you are willing to dive deeper into the documentation of Ace, there are lots of other neat features you can turn on in the JavaScript.  For details on fancier things, again go to the main ace website and click around on the howto and other documentation.  If you have time, please do this and make a better version! What exists as of the writing of this book lacks numerous basic features which could be added, such as undo.
 
-Also Python.  And Adruino, but that's just mentioned here and really dealt with in the machine control chapter.
+The code in editor.php which creates the editor itself is 
+
+\begin{verbatim}
+  editor = ace.edit("maineditor");
+  editor.setTheme("ace/theme/vibrant_ink");
+  editor.getSession().setMode("ace/mode/html");
+  editor.getSession().setUseWrapMode(true);
+  editor.$blockScrolling = Infinity;
+\end{verbatim}
+
+This is about three quarters of the way down through the main script element in the file. 
+
+To change the theme without delving into Ace.js lore, just replace ``vibrant_ink'' with whatever theme you want from the list on the Ace page. There are lots of light themes as well as dark themes. 
+
+By default, editor.php starts out editing index.html.  As with all web servers, this is the file displayed automatically when a user puts the URL into their browser of your server.  We keep a backup of the default user page at user.html, which allows us to copy/paste arbitrary applications into this file and then revert back easily later if we want to have the default user page.  This means that by default the editor starts out with syntax highlighting for html.  Ace has syntax highlighting for a lot of languages.  By default, editor.php sets themes based on what type of file it is for the files which are most commonly used in the Geometron system.  So for example, if a file is in the jscode/ directory and has the file ending .js it will have syntax highlighting for JavaScript.  Files in the data directory are also formatted with JS, because they're in JSON which is part of JS.  Markdown files are recognized by .md and highlighted accordingly.  Python files are also detected, and these are useful for building hardware control on the Raspberry Pi as well as various other science things.  Arduino is close enough to C++ that using the c++ formatting is tolerable, but one thing that would be very useful is if someone wrote a highlighter for Ace.js which actually knew all the Arduino keywords. The software also automatically detects .sh files which are *nix shell script files which can be very useful for setting up things on a Raspberry Pi like an off button and robotics controls.  There is an older version of the Trash Robot documented later in this work which used the Pi for control which had several of these setup scripts, but that is now unused in the current version.
+
+We must also talk about forks and deleters, both of which are critical to the operation of our system.  Any Geometron instance can be forked down into a subdirectory using the app fork.html.  This creates new directories within whatever directory the existing instance is in(initially just the main web directory on the server).
+
+
 
 need to talk about fork.html, rdelete, deletefile, deletebranch,
 
-talk about the deleters, how delete works
+Forks and branches.
 
 mathuser.php
 user.php
@@ -233,3 +258,15 @@ copydata.php
 replicatornodata.php
 dir.php
 mkdir.php
+
+\subsection{Chaos feed}
+
+\subsection{Example: Duality App}
+
+This example should further clarify what we want to do with Geometron and how we can build and use apps for people to freely share information.  This app example shows a number of more advanced aspects to operation than the wall example above. It is intended to explore dualities between images.  Duality can be interpreted any number of ways.  This is a purely artistic app, which is typical of what we want to be doing with this system.  
+
+Duality.html uses the hammer.js library, another open source JavaScript library which is used repeatedly in the Geometron system.  It also has its own JSON data format which can be freely shared in raw text from user to user. 
+
+\subsection{the Math Rocks app}
+
+Use of the mathjax library.

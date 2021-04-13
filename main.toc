@@ -4,81 +4,86 @@
 \contentsline {chapter}{\chapternumberline {1}Civilizations}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}Organic Media}{10}{chapter.2}
 \contentsline {section}{\numberline {2.1}Organic Media}{10}{section.2.1}
-\contentsline {chapter}{\chapternumberline {3}Street Network}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Street Network}{15}{section.3.1}
-\contentsline {subsection}{What is the Street Network?}{18}{section*.3}
-\contentsline {subsection}{use cases}{22}{section*.4}
-\contentsline {subsection}{Building the Geometron Terminal/Server}{28}{section*.5}
-\contentsline {subsection}{The Operators}{30}{section*.6}
-\contentsline {subsection}{Psychogeography}{30}{section*.7}
-\contentsline {subsection}{Domains}{30}{section*.8}
-\contentsline {subsection}{Street Market}{30}{section*.9}
-\contentsline {subsection}{Coffee Shops and Pubs}{30}{section*.10}
-\contentsline {subsection}{Scaling Up}{30}{section*.11}
-\contentsline {subsection}{Domains}{33}{section*.12}
-\contentsline {subsection}{Terminals}{33}{section*.13}
-\contentsline {subsection}{Laptops}{33}{section*.14}
-\contentsline {chapter}{\chapternumberline {4}Code}{34}{chapter.4}
-\contentsline {section}{\numberline {4.1}Code}{34}{section.4.1}
-\contentsline {subsection}{Philosophy}{35}{section*.15}
-\contentsline {subsection}{Structure}{38}{section*.16}
-\contentsline {chapter}{\chapternumberline {5}Scrolls}{55}{chapter.5}
-\contentsline {subsection}{Create a scroll}{56}{section*.17}
-\contentsline {subsection}{Edit a scroll}{57}{section*.18}
-\contentsline {subsection}{copy a scroll from another place online}{57}{section*.19}
-\contentsline {subsection}{link to a scroll from a scroll}{58}{section*.20}
-\contentsline {subsection}{Delete Scrolls}{58}{section*.21}
-\contentsline {subsection}{Some technical details and use of Math}{59}{section*.22}
-\contentsline {subsection}{Code structure}{59}{section*.23}
-\contentsline {subsection}{LaTeX workflow}{60}{section*.24}
-\contentsline {chapter}{\chapternumberline {6}Maps}{61}{chapter.6}
-\contentsline {section}{\numberline {6.1}Maps}{61}{section.6.1}
-\contentsline {subsection}{Deletion}{64}{section*.25}
-\contentsline {subsection}{Replication}{64}{section*.26}
-\contentsline {subsection}{Map editor Icon Meanings}{64}{section*.27}
-\contentsline {subsection}{Examples}{64}{section*.28}
-\contentsline {subsection}{conclusions}{66}{section*.29}
-\contentsline {chapter}{\chapternumberline {7}Feeds}{67}{chapter.7}
-\contentsline {section}{\numberline {7.1}Feeds}{67}{section.7.1}
-\contentsline {subsection}{\href {globalimagefeed.html}{Global Image Feed}}{68}{section*.30}
-\contentsline {subsection}{\href {linkfeed.html}{Link Feed}}{68}{section*.31}
-\contentsline {subsection}{\href {chaosfeed.html}{Chaos Feed}}{70}{section*.32}
-\contentsline {subsection}{\href {iconfeed.html}{Icon Feed}}{70}{section*.33}
-\contentsline {subsection}{\href {symbolfeed.html}{Symbol Feed}}{71}{section*.34}
-\contentsline {subsection}{\href {wall.html}{Wall}}{71}{section*.35}
-\contentsline {chapter}{\chapternumberline {8}Symbols}{72}{chapter.8}
-\contentsline {section}{\numberline {8.1}Geometron}{77}{section.8.1}
-\contentsline {chapter}{\chapternumberline {9}2d Web Graphics}{92}{chapter.9}
-\contentsline {section}{\numberline {9.1}2d Web Symbols and Icons}{92}{section.9.1}
-\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{94}{chapter.10}
-\contentsline {section}{\numberline {10.1}shapes and fonts: examples}{94}{section.10.1}
-\contentsline {chapter}{\chapternumberline {11}Machine Control}{98}{chapter.11}
-\contentsline {section}{\numberline {11.1}Machine Control}{98}{section.11.1}
-\contentsline {chapter}{\chapternumberline {12}Geometron in 3d and Beyond}{99}{chapter.12}
-\contentsline {section}{\numberline {12.1}Geometron in 3d and Beyond}{99}{section.12.1}
-\contentsline {chapter}{\chapternumberline {13}Ontology}{101}{chapter.13}
-\contentsline {section}{\numberline {13.1}Ontology}{101}{section.13.1}
-\contentsline {section}{\numberline {13.2}On Self-Replicating Sets}{105}{section.13.2}
-\contentsline {subsubsection}{2020}{105}{section*.36}
-\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{105}{section*.37}
-\contentsline {subsection}{2. Self-Replication in Human society}{111}{section*.38}
-\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{118}{section*.39}
-\contentsline {subsection}{4. Self Replicating Sets/Documents}{122}{section*.40}
-\contentsline {subsubsection}{Motivation and definitions}{122}{section*.41}
-\contentsline {subsubsection}{This Set}{128}{section*.42}
-\contentsline {subsubsection}{Code and replication of code}{130}{section*.43}
-\contentsline {subsubsection}{Server replication}{132}{section*.44}
-\contentsline {subsubsection}{Pdf document}{135}{section*.45}
-\contentsline {subsection}{5. Generalization and Social Implications}{135}{section*.46}
-\contentsline {chapter}{\chapternumberline {14}Trash Robot}{139}{chapter.14}
-\contentsline {section}{\numberline {14.1}Trash Robot}{139}{section.14.1}
-\contentsline {subsection}{What is Trash Robot?}{139}{section*.47}
-\contentsline {subsection}{The Open Brand}{140}{section*.48}
-\contentsline {subsection}{The ArtBox}{140}{section*.49}
-\contentsline {subsection}{Laser Cut Acrylic}{140}{section*.50}
-\contentsline {subsection}{skeletron}{140}{section*.51}
-\contentsline {subsection}{textiles}{140}{section*.52}
-\contentsline {subsection}{The icon token printer robot}{141}{section*.53}
-\contentsline {subsection}{Arduino Generic Shield}{141}{section*.54}
-\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{144}{chapter.15}
-\contentsline {section}{\numberline {15.1}Full Stack Geometron}{144}{section.15.1}
+\contentsline {subsection}{ArtBox}{14}{section*.3}
+\contentsline {subsection}{Geometron}{14}{section*.4}
+\contentsline {chapter}{\chapternumberline {3}Street Network}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Street Network}{17}{section.3.1}
+\contentsline {subsection}{What is the Street Network?}{20}{section*.5}
+\contentsline {subsection}{use cases}{24}{section*.6}
+\contentsline {subsection}{Building the Geometron Terminal/Server}{30}{section*.7}
+\contentsline {subsection}{The Operators}{31}{section*.8}
+\contentsline {subsection}{Psychogeography}{32}{section*.9}
+\contentsline {subsection}{Domains}{33}{section*.10}
+\contentsline {subsection}{Street Market}{33}{section*.11}
+\contentsline {subsection}{Coffee Shops and Pubs}{33}{section*.12}
+\contentsline {subsection}{Scaling Up}{33}{section*.13}
+\contentsline {subsection}{Domains}{36}{section*.14}
+\contentsline {subsection}{Terminals}{36}{section*.15}
+\contentsline {subsection}{Laptops}{36}{section*.16}
+\contentsline {chapter}{\chapternumberline {4}Code}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Code}{37}{section.4.1}
+\contentsline {subsection}{Philosophy}{38}{section*.17}
+\contentsline {subsection}{Code Structure}{43}{section*.18}
+\contentsline {subsection}{Chaos feed}{61}{section*.19}
+\contentsline {subsection}{Example: Duality App}{61}{section*.20}
+\contentsline {subsection}{the Math Rocks app}{62}{section*.21}
+\contentsline {chapter}{\chapternumberline {5}Scrolls}{63}{chapter.5}
+\contentsline {subsection}{Create a scroll}{64}{section*.22}
+\contentsline {subsection}{Edit a scroll}{65}{section*.23}
+\contentsline {subsection}{copy a scroll from another place online}{65}{section*.24}
+\contentsline {subsection}{link to a scroll from a scroll}{66}{section*.25}
+\contentsline {subsection}{Delete Scrolls}{66}{section*.26}
+\contentsline {subsection}{Some technical details and use of Math}{67}{section*.27}
+\contentsline {subsection}{Code structure}{67}{section*.28}
+\contentsline {subsection}{LaTeX workflow}{68}{section*.29}
+\contentsline {chapter}{\chapternumberline {6}Maps}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}Maps}{69}{section.6.1}
+\contentsline {subsection}{Deletion}{72}{section*.30}
+\contentsline {subsection}{Replication}{72}{section*.31}
+\contentsline {subsection}{Map editor Icon Meanings}{72}{section*.32}
+\contentsline {subsection}{Examples}{72}{section*.33}
+\contentsline {subsection}{conclusions}{74}{section*.34}
+\contentsline {chapter}{\chapternumberline {7}Feeds}{75}{chapter.7}
+\contentsline {section}{\numberline {7.1}Feeds}{75}{section.7.1}
+\contentsline {subsection}{\href {globalimagefeed.html}{Global Image Feed}}{76}{section*.35}
+\contentsline {subsection}{\href {linkfeed.html}{Link Feed}}{76}{section*.36}
+\contentsline {subsection}{\href {chaosfeed.html}{Chaos Feed}}{78}{section*.37}
+\contentsline {subsection}{\href {iconfeed.html}{Icon Feed}}{78}{section*.38}
+\contentsline {subsection}{\href {symbolfeed.html}{Symbol Feed}}{79}{section*.39}
+\contentsline {subsection}{\href {wall.html}{Wall}}{79}{section*.40}
+\contentsline {chapter}{\chapternumberline {8}Symbols}{80}{chapter.8}
+\contentsline {section}{\numberline {8.1}Geometron}{85}{section.8.1}
+\contentsline {chapter}{\chapternumberline {9}2d Web Graphics}{100}{chapter.9}
+\contentsline {section}{\numberline {9.1}2d Web Symbols and Icons}{100}{section.9.1}
+\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{102}{chapter.10}
+\contentsline {section}{\numberline {10.1}shapes and fonts: examples}{102}{section.10.1}
+\contentsline {chapter}{\chapternumberline {11}Machine Control}{108}{chapter.11}
+\contentsline {section}{\numberline {11.1}Machine Control}{108}{section.11.1}
+\contentsline {chapter}{\chapternumberline {12}Geometron in 3d and Beyond}{109}{chapter.12}
+\contentsline {section}{\numberline {12.1}Geometron in 3d and Beyond}{109}{section.12.1}
+\contentsline {chapter}{\chapternumberline {13}Ontology}{111}{chapter.13}
+\contentsline {section}{\numberline {13.1}Ontology}{111}{section.13.1}
+\contentsline {section}{\numberline {13.2}On Self-Replicating Sets}{115}{section.13.2}
+\contentsline {subsubsection}{2020}{115}{section*.41}
+\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{115}{section*.42}
+\contentsline {subsection}{2. Self-Replication in Human society}{121}{section*.43}
+\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{128}{section*.44}
+\contentsline {subsection}{4. Self Replicating Sets/Documents}{132}{section*.45}
+\contentsline {subsubsection}{Motivation and definitions}{132}{section*.46}
+\contentsline {subsubsection}{This Set}{138}{section*.47}
+\contentsline {subsubsection}{Code and replication of code}{140}{section*.48}
+\contentsline {subsubsection}{Server replication}{142}{section*.49}
+\contentsline {subsubsection}{Pdf document}{145}{section*.50}
+\contentsline {subsection}{5. Generalization and Social Implications}{145}{section*.51}
+\contentsline {chapter}{\chapternumberline {14}Trash Robot}{149}{chapter.14}
+\contentsline {section}{\numberline {14.1}Trash Robot}{149}{section.14.1}
+\contentsline {subsection}{What is Trash Robot?}{149}{section*.52}
+\contentsline {subsection}{The Open Brand}{150}{section*.53}
+\contentsline {subsection}{The ArtBox}{150}{section*.54}
+\contentsline {subsection}{Laser Cut Acrylic}{150}{section*.55}
+\contentsline {subsection}{skeletron}{150}{section*.56}
+\contentsline {subsection}{textiles}{150}{section*.57}
+\contentsline {subsection}{The icon token printer robot}{151}{section*.58}
+\contentsline {subsection}{Arduino Generic Shield}{151}{section*.59}
+\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{154}{chapter.15}
+\contentsline {section}{\numberline {15.1}Full Stack Geometron}{154}{section.15.1}
