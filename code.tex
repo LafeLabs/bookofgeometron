@@ -64,7 +64,6 @@ Editor.php functions by using two other php scripts: filesaver.php and fileloade
 To create a new file using editor.php you use the question mark to input information to the script, with the field ``newfile''. For example, to create a new application entitled triangles.html, you would put ``editor.php?newfile=triangle.html'', and scroll down to the very bottom of the list of files to find your new file.  Then just start editing it, and when you want to add it to the geometron instance, click on dnagenerator.php and it will be added to the dna to replicate to the next instance. Also, it will now be linked from editor.php, so when you reload the editor, you can click that link to get to your new app.   This also works for other files besides new applications, you just include the directory name with the file, for instance ``editor.php?newfile=jscode/newjslib.js''.  
 
 
-
 To create another instance of the full Trash Robot/Geometron system, we
 copy a program called ``replicator.php'' into the main web directory of
 the server. The raw code can be found at either locally on this server
@@ -212,3 +211,25 @@ A little bit of CSS code sets the size of the textarea element to take up the wh
       
   }
 \end{verbatim}
+
+This is very simple: keystrokes save the file. If you want to copy/paste the whole thing, just select all the text and do it, and then you can drop the whole thing into another wall on another Geometron page instance and it can be edited there and shared and copied etc. etc. from Geometron instance to Geometron instance.  
+
+Another replicator script which is useful is copy.php.  To see the source code, as with all PHP scripts in Geometron, go to any Geometron server and look at php/copy.txt.  This program takes as inputs a from and to field and copies a file from one url which can be global or local to a local file location on the server.  So for instance to copy wall.html from trashrobot.org to your local raspberry pi, you can navigate a browser on the same local network as the Pi to http://[the pi's IP address]/copy.php?from=https://www.trashrobot.org/data/wall.txt&to=data/wall.txt.  this is a long URL.  But it can be put into a link with a shorter text or an image or icon, so that on a page a user can just click it like a button and they will copy the data/wall.txt file from the one server to the other.  If links like this are used to copy a file from one server to the next, decentralized replication can propagate very quickly.  Again, we can replicate using this tool from a Pi to a local developer's laptop, to a Github repository, to a public web page, to other local Pi servers all over the world, where the whole process is then repeated again and again.  And we can be doing this with \emph{any} file in the whole Geometron system: apps, data, JavaScript libraries, PHP scripts, scrolls, maps, feeds, symbols, all the other formats to be discussed here.  And again there are now owners of any of these documents.  They are not saved in a user directory and emailed to another user or shared via app from user to user.  They simply are not owned by anyone.  They are shared resources to be replicated or destroyed.  
+
+We must also address how bad code is dealt with.  Not all bad code is from typos.  Malicious code or media of a bad nature can be intentionally created. What do we do with bad information? We totally destroy it.  Not by simply editing it but by replicating a non-corrupted version, totally annihilating the bad instance.  In the most extreme case we step out of the Geometron system and just wipe the whole thing clean and then go back and re-replicate.  A Raspberry Pi's whole system lives on a cheap little SD card the size of a fingernail.  If you really think it's infected with something so nefarious that you can't deal with it, you can always pull that out and destroy it and put a new one for just a few dollars, without any impact on your overall setup.  Our goal in Geometron is not to destroy bad things but to create good things that replicate faster than bad things and destroy them by overwhelming numbers.  If a bad thing copies a million times and a good thing copies a billion times, on average we all still win.  
+
+Also, data files in the data directory can be directly edited with editor.php, which always gives us yet another way of copy/pasting the raw data, even in cases where some data is hidden in the app, or where there is no copy/paste input/output window, which might be inconvenient for some apps.
+
+
+Also Python.  And Adruino, but that's just mentioned here and really dealt with in the machine control chapter.
+
+need to talk about fork.html, rdelete, deletefile, deletebranch,
+
+talk about the deleters, how delete works
+
+mathuser.php
+user.php
+copydata.php
+replicatornodata.php
+dir.php
+mkdir.php
