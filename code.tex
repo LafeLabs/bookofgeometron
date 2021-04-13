@@ -59,6 +59,12 @@ There is a window in editor.php which lists all the html and also some php files
 
 The next most important script in understanding the system is text2php.php.  This script takes all the files in the php/ directory which end in .txt and copies them into the main directory with the extension changed to .php, making them executable.  This is why we need two copies of every PHP script: because we can't be editing PHP scripts which are actively running, and we want editor.php to be able to edit every single file on the server including itself! Editor.php, like so many code editors, was largely written in itself.  You can use it to edit the file php/editor.txt, then run text2php.php and you'll find the editor has changed!! If you corrupt the editor, you'll probably want to just run the replicator again to wipe and replace the whole system.  But this is a very useful first exercise if you're learning to become a Geometron developer, and I strongly encourage you to actually do this, right when you get started.  Go into php/editor.txt and change something in the CSS to change something like background color, run the script, and click back to editor.php and you should see your customized editor. You can change themes by referring to the documentation on Ace.js.
 
+Editor.php functions by using two other php scripts: filesaver.php and fileloader.php.  When you click on a file to load it into the editor, fileloader.php is engaged using the XMLHttpRequest object in JavaScript to fetch arbitrary files and load them into the Ace.js editor.  As you hit keys when the cursor is in the editor, the file is updated using filesaver.php with every keystroke.  Once again, there is no safety net here! If you mess around with the code, it changes instantly.
+
+To create a new file using editor.php you use the question mark to input information to the script, with the field ``newfile''. For example, to create a new application entitled triangles.html, you would put ``editor.php?newfile=triangle.html'', and scroll down to the very bottom of the list of files to find your new file.  Then just start editing it, and when you want to add it to the geometron instance, click on dnagenerator.php and it will be added to the dna to replicate to the next instance. Also, it will now be linked from editor.php, so when you reload the editor, you can click that link to get to your new app.   This also works for other files besides new applications, you just include the directory name with the file, for instance ``editor.php?newfile=jscode/newjslib.js''.  
+
+
+
 To create another instance of the full Trash Robot/Geometron system, we
 copy a program called ``replicator.php'' into the main web directory of
 the server. The raw code can be found at either locally on this server
@@ -169,3 +175,40 @@ no backups. We prevent data loss with massive redundancy of replication.
 If all users frequently not only replicate but pass along all
 information, loss is a normal part of information life cycle and easy
 deletion is healthy.
+
+There is a standard structure to applications in Geometron.  An application generally uses the PHP scripts fileloader.php and filesaver.php via the JavaScript XMLHttpRequest object to edit some data file.  That data file is always human readable in the sense that it has some global url which you can navigate a browser to and it will display the text in a way that can be copy/pasted via email, text messages etc. With the specific exceptions of formats specific to Geometron, all data will be in the ``data'' directory.  In general, the format will either be some form of plain text for human consumption or in the JSON format.  The actual function of the application is then in completely client-side JavaScript.  For our JavaScript libraries We always use either a library which is free and open source and exists on a publicly available CDN or a library which is written by us, in the Geometron network(and is therefore public domain), and which is replicated from the ``jscode'' directory by replicator.php by way of dna.txt.   
+
+Another element we try to have in all Geometron applications is a text input/output, either an ``input'' HTML element or a ``textarea'' HTML element, which can be used to import and export the JSON data. There will generally also be a button to import and a button to export.  Whatever other buttons and inputs will be added to manipulate the data, and in general as modifications are made, the JSON file is instantly updated in real time as you go, just like with editor.php.  Then, when you press the EXPORT button, the JSON code will appear in the text area or input.  You can then copy it to the clipboard of a computer or mobile device, paste into a text message, email, private file, or public pastebin, and share with anyone anywhere, and if they have their own local copy of the same application, they can drop it into the same text window in their browser and hit the IMPORT button to load the same data into their app instance.  
+
+Perhaps the simplest Geometron app is the wall.html app.  This is just an html page where the whole screen is a text box in which everything you type is saved to the file data/wall.txt.  That's all! The HTML code in the body of the document is simply 
+
+\begin{verbatim}
+<textarea id = "wall"></textarea>
+\end{verbatim}
+
+A little bit of CSS code sets the size of the textarea element to take up the whole screen. The function of the app is in a script element and is as follows:
+
+\begin{verbatim}
+  wall = "";
+
+  var httpc2 = new XMLHttpRequest();
+  httpc2.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          wall = this.responseText;
+          document.getElementById("wall").value = wall;
+      }
+  };
+  
+  httpc2.open("GET", "fileloader.php?filename=data/wall.txt", true);
+  httpc2.send();
+  
+  document.getElementById("wall").onkeyup = function() {
+          wall = this.value;
+          var httpc = new XMLHttpRequest();
+          var url = "filesaver.php";        
+          httpc.open("POST", url, true);
+          httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+          httpc.send("data="+encodeURIComponent(wall)+"&filename=data/wall.txt");//send text to filesaver.php        
+      
+  }
+\end{verbatim}
