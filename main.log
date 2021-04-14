@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  13 APR 2021 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  14 APR 2021 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,7 +662,7 @@ Overfull \hbox (2.03766pt too wide) detected at line 79
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 89
- \OT1/cmr/bx/n/12 177
+ \OT1/cmr/bx/n/12 180
  []
 
 ) (./main.lof [5]) [6] (./civilizations.tex
@@ -674,41 +674,37 @@ Overfull \hbox (2.08818pt too wide) in paragraph at lines 3--9
 
 
 ] [2] [3] [4] [5] [6] [7] [8]) [9] (./organicmedia.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+Overfull \hbox (1.34837pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/12 In or-der to build a world of abun-dance from waste streams
+ []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [10
 
 ] [11] [12]
-[13] [14] [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 3646) has occurred while \output is active []
-
- [17]
-[18]) [19] (./streetnetwork.tex
+[13] [14] [15] [16] [17] [18] [19]) [20] (./streetnetwork.tex
 Overfull \hbox (30.41614pt too wide) in paragraph at lines 9--11
 \OT1/cmr/m/n/12 Gen-eral de-scrip-tion of what the sys-tem does(scrolls,maps,
  []
 
-[20
+[21
 
 ]
 Overfull \hbox (1.57013pt too wide) in paragraph at lines 11--13
 \OT1/cmr/m/n/12 to build the Ter-mi-nal. Op-tions in-volv-ing big screens
  []
 
-[21]
+[22]
 Overfull \hbox (0.6132pt too wide) in paragraph at lines 15--17
 \OT1/cmr/m/n/12 get-ing nodes of power: Sand Hill Road. Wall Street.
  []
 
-[22] [23]
+[23] [24]
 Overfull \hbox (1.02615pt too wide) in paragraph at lines 32--33
 \OT1/cmr/m/n/12 which Op-er-a-tors in the net-work can pro-vide to lo-cal users
 .
@@ -719,7 +715,7 @@ Overfull \hbox (0.3998pt too wide) in paragraph at lines 32--33
 \OT1/cmr/m/n/12 purse with a unique Open Brand, the Trash Robot Brand,
  []
 
-[24]
+[25]
 Overfull \hbox (6.18304pt too wide) in paragraph at lines 36--37
 []\OT1/cmr/m/n/12 Structure and pur-pose of the net-work: do-mains, places,
  []
@@ -729,7 +725,7 @@ Overfull \hbox (2.7192pt too wide) in paragraph at lines 40--41
 []\OT1/cmr/m/n/12 The Street Net-work is so-cial me-dia based around phys-
  []
 
-[25]
+[26]
 Overfull \hbox (1.12201pt too wide) in paragraph at lines 42--43
 []\OT1/cmr/m/n/12 The Ge-ometron doc-u-ments are stored on a Ge-ometron
  []
@@ -745,42 +741,43 @@ Overfull \hbox (38.2341pt too wide) in paragraph at lines 46--47
 n. 
  []
 
-[26]
+[27]
 Underfull \vbox (badness 3646) has occurred while \output is active []
 
- [27]
-[28] [29] [30] [31] [32] [33] [34] [35] [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [28]
+Overfull \hbox (1.0396pt too wide) in paragraph at lines 64--68
+[]\OT1/cmr/m/n/12 Trash Robot Mak-ers: build trash robots. Trash Robot
+ []
 
- [37]
-[38] [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-[41] [42]
-Overfull \hbox (5.28445pt too wide) in paragraph at lines 249--253
+[29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
+[44] [45]
+Overfull \hbox (5.28445pt too wide) in paragraph at lines 266--270
 []\OT1/cmr/m/n/12 post on the global Ge-ometron server when and where
  []
 
-[43]) [44] (./code.tex
+
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+ [46])
+[47] (./code.tex
 Overfull \hbox (1.20256pt too wide) in paragraph at lines 5--6
 \OT1/cmr/m/n/12 Geometron De-vel-op-ers are a crit-i-cal mem-ber of the swarm
  []
 
-[45
+[48
 
-] [46]
+] [49]
 Overfull \hbox (2.28818pt too wide) in paragraph at lines 15--16
 \OT1/cmr/m/n/12 they ex-ist in cur-rent in-for-ma-tion tech-nol-ogy sys-tems. T
 he
  []
 
-[47]
+[50]
 Overfull \hbox (16.23155pt too wide) in paragraph at lines 21--22
 []\OT1/cmr/m/n/12 Without users, there are also no pass-words, no databases,
  []
 
-[48] [49] [50] [51] [52]
+[51] [52] [53] [54] [55]
 Overfull \hbox (54.81448pt too wide) in paragraph at lines 39--40
 \OT1/cmr/m/n/12 point your browser to [the main url of the server]/php/replicat
 or.txt.
@@ -792,19 +789,19 @@ Overfull \hbox (17.1496pt too wide) in paragraph at lines 39--40
 ,
  []
 
-[53] [54]
+[56] [57]
 Overfull \hbox (223.52525pt too wide) in paragraph at lines 54--54
 []  \OT1/cmtt/m/n/12 $dnaurl = "https://raw.githubusercontent.com/LafeLabs/thin
 g/master/data/dna.txt";[] 
  []
 
-[55] [56]
+[58] [59]
 Overfull \hbox (87.64886pt too wide) in paragraph at lines 69--70
 \OT1/cmr/m/n/12 en-ti-tled tri-an-gles.html, you would put ``ed-i-tor.php?newfi
 le=triangle.html'',
  []
 
-[57]
+[60]
 Overfull \hbox (40.6952pt too wide) in paragraph at lines 72--78
 []\OT1/cmr/m/n/12 To cre-ate an-other in-stance of the full Trash Robot/Geometr
 on
@@ -822,7 +819,7 @@ Overfull \hbox (4.67535pt too wide) in paragraph at lines 72--78
  githubusercontent .
  []
 
-[58] [59]
+[61] [62]
 Overfull \hbox (51.92287pt too wide) in paragraph at lines 157--167
 \OT1/cmr/m/n/12 This is how all code de-vel-op-ment works in Trash Robot/Geomet
 ron.
@@ -834,7 +831,7 @@ Overfull \hbox (2.50735pt too wide) in paragraph at lines 157--167
 loudflare . com /
  []
 
-[60] [61] [62]
+[63] [64] [65]
 Overfull \hbox (50.62517pt too wide) in paragraph at lines 208--208
 []      \OT1/cmtt/m/n/12 if (this.readyState == 4 && this.status == 200) {[] 
  []
@@ -844,7 +841,7 @@ Overfull \hbox (50.62517pt too wide) in paragraph at lines 210--210
 []          \OT1/cmtt/m/n/12 document.getElementById("wall").value = wall;[] 
  []
 
-[63]
+[66]
 Overfull \hbox (130.9002pt too wide) in paragraph at lines 214--214
 []  \OT1/cmtt/m/n/12 httpc2.open("GET", "fileloader.php?filename=data/wall.txt"
 , true);[] 
@@ -883,7 +880,7 @@ Overfull \hbox (290.32465pt too wide) in paragraph at lines 230--231
 ww.trashrobot.org/data/wall.txtto=data/wall.txt.
  []
 
-[64] [65] [66] [67] [68]
+[67] [68] [69] [70] [71]
 Overfull \hbox (1.22514pt too wide) in paragraph at lines 247--247
 []  \OT1/cmtt/m/n/12 editor.getSession().setMode("ace/mode/html");[] 
  []
@@ -907,22 +904,26 @@ Overfull \hbox (377.49326pt too wide) in paragraph at lines 254--255
 eyouwantfromthelistontheAcepage:Therearelotsoflightthemesaswellasdarkthemes:$ 
  []
 
-[69] [70] [71] [72] [73]) [74] (./scrolls.tex [75
+[72] [73] [74] [75] [76]) [77] (./scrolls.tex [78
 
-] [76]
-Overfull \hbox (30.85779pt too wide) in paragraph at lines 81--86
+] [79]
+Overfull \hbox (30.85779pt too wide) in paragraph at lines 83--88
 \OT1/cmr/m/n/12 ever server you are on, make a link to ``copy-data.php?from=[th
 e
  []
 
-[77] [78]
-Overfull \hbox (8.9858pt too wide) in paragraph at lines 138--140
+[80] [81]
+Overfull \hbox (8.9858pt too wide) in paragraph at lines 140--142
 \OT1/cmr/m/n/12 Showdown.js, scrolls/*, file-saver.php, fileloader.php, Math-
  []
 
-[79]) [80] (./maps.tex [81
 
-] [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82])
+[83] [84] (./maps.tex [85
+
+] [86]
 Overfull \hbox (10.4321pt too wide) in paragraph at lines 67--72
 \OT1/cmr/m/n/12 Maps are deleted with []$\OT1/cmtt/m/n/12 mapdelete . html$[]\O
 T1/cmr/m/n/12 . Just click ``delete''
@@ -931,54 +932,54 @@ T1/cmr/m/n/12 . Just click ``delete''
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
-[84]
+ [87]
+[88]
 Overfull \hbox (17.46767pt too wide) in paragraph at lines 105--106
 []\OT1/cmr/m/n/12 more gen-er-al-ized re-place-ment for Pow-er-Point or Keynote
 ,
  []
 
-[85]) [86] (./feeds.tex
+[89]) [90] (./feeds.tex
 Underfull \vbox (badness 1895) has occurred while \output is active []
 
- [87
+ [91
 
 ]
-[88]
+[92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [93]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90])
-[91] (./symbols.tex [92
+ [94])
+[95] (./symbols.tex [96
 
-] [93]
+] [97]
 Overfull \hbox (8.4983pt too wide) in paragraph at lines 68--70
 []\OT1/cmr/m/n/12 0200-0217: Fixed shapes, glyphs com-posed of se-quences
  []
 
-[94] [95]
+[98] [99]
 Overfull \hbox (8.09137pt too wide) in paragraph at lines 109--116
 []\OT1/cmr/m/n/12 The soft-ware pre-sented here al-lows us to use Ge-ometron
  []
 
-[96]
+[100]
 Overfull \hbox (4.41226pt too wide) in paragraph at lines 147--148
 [][]\OT1/cmr/m/n/12 Learn to op-er-ate Ge-ometron with the Hello Ge-ometron
  []
 
-[97] [98] [99] [100] [101] [102] [103] [104] [105] [106]
+[101] [102] [103] [104] [105] [106] [107] [108] [109] [110]
 Underfull \hbox (badness 10000) in paragraph at lines 401--411
 
  []
 
-[107]
+[111]
 Underfull \hbox (badness 10000) in paragraph at lines 419--426
 
  []
 
-[108] [109]) [110] [111] (./web2d.tex
+[112] [113]) [114] [115] (./web2d.tex
 Overfull \hbox (40.98686pt too wide) in paragraph at lines 14--16
 []\OT1/cmr/m/n/12 symmetries and scales, dif-fer-ent meth-ods of ge-ometron(AG)
  
@@ -992,7 +993,7 @@ Overfull \hbox (3.37613pt too wide) in paragraph at lines 16--18
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [112
+ [116
 
 ]
 Overfull \hbox (6.77054pt too wide) in paragraph at lines 32--34
@@ -1004,20 +1005,20 @@ Overfull \hbox (2.52753pt too wide) in paragraph at lines 36--38
 []\OT1/cmr/m/n/12 control pan-els, soft-key in-ter-faces, writ-ing ge-ometron
  []
 
-) [113] (./shapes.tex <figures/rlc.png, id=831, 451.6875pt x 451.6875pt>
+) [117] (./shapes.tex <figures/rlc.png, id=847, 451.6875pt x 451.6875pt>
 File: figures/rlc.png Graphic file (type png)
 
 <use figures/rlc.png>
 Package pdftex.def Info: figures/rlc.png used on input line 5.
 (pdftex.def)             Requested size: 289.07999pt x 289.09279pt.
- <figures/rcline.png, id=832, 451.6875pt x 451.6875pt>
+ <figures/rcline.png, id=848, 451.6875pt x 451.6875pt>
 File: figures/rcline.png Graphic file (type png)
 
 <use figures/rcline.png>
 Package pdftex.def Info: figures/rcline.png used on input line 12.
 (pdftex.def)             Requested size: 289.07999pt x 289.09279pt.
 
-<figures/treeoflife.png, id=833, 451.6875pt x 752.8125pt>
+<figures/treeoflife.png, id=849, 451.6875pt x 752.8125pt>
 File: figures/treeoflife.png Graphic file (type png)
 
 <use figures/treeoflife.png>
@@ -1027,7 +1028,7 @@ Package pdftex.def Info: figures/treeoflife.png used on input line 20.
 
 LaTeX Warning: Float too large for page by 109.65463pt on input line 23.
 
-<figures/treeoflifespelling.png, id=834, 602.25pt x 401.5pt>
+<figures/treeoflifespelling.png, id=850, 602.25pt x 401.5pt>
 File: figures/treeoflifespelling.png Graphic file (type png)
 
 <use figures/treeoflifespelling.png>
@@ -1036,12 +1037,12 @@ Package pdftex.def Info: figures/treeoflifespelling.png used on input line 27.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114
+ [118
 
 ]
-[115 <./figures/rlc.png>] [116 <./figures/rcline.png>] [117 <./figures/treeofli
-fe.png>] [118 <./figures/treeoflifespelling.png>]) [119] (./machines.tex)
-[120
+[119 <./figures/rlc.png>] [120 <./figures/rcline.png>] [121 <./figures/treeofli
+fe.png>] [122 <./figures/treeoflifespelling.png>]) [123] (./machines.tex)
+[124
 
 ] (./geometron3d.tex
 Overfull \hbox (1.54837pt too wide) in paragraph at lines 15--17
@@ -1051,29 +1052,29 @@ Overfull \hbox (1.54837pt too wide) in paragraph at lines 15--17
 
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
- [121
+ [125
 
 ])
-[122] (./ontology.tex [123
+[126] (./ontology.tex [127
 
-] [124] [125]
+] [128] [129]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
+ [130]
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [127]
-[128] [129] [130] [131] [132] [133] [134] [135]
+ [131]
+[132] [133] [134] [135] [136] [137] [138] [139]
 Overfull \hbox (2.46225pt too wide) in paragraph at lines 313--335
 \OT1/cmr/m/n/12 at through the lens of these self-replicating sys-tems, where
  []
 
-[136] [137] [138] [139] [140] [141] [142]
+[140] [141] [142] [143] [144] [145] [146]
 Overfull \hbox (1.87476pt too wide) in paragraph at lines 480--491
 []\OT1/cmr/m/n/12 The power of a fully self-replicating and evolv-ing Open
  []
 
-[143]
+[147]
 Overfull \hbox (7.26631pt too wide) in paragraph at lines 504--516
 \OT1/cmr/m/n/12 mathematicians. ``Ob-ject'' here can mean \OT1/cmr/m/it/12 any-
 thing\OT1/cmr/m/n/12 . Math-
@@ -1085,24 +1086,24 @@ Overfull \hbox (12.97186pt too wide) in paragraph at lines 504--516
 s
  []
 
-[144] [145]
+[148] [149]
 Overfull \hbox (11.44226pt too wide) in paragraph at lines 553--572
 \OT1/cmr/m/n/12 de-fines truth and false-hood with-out con-tra-dic-tion. Goedel
 's
  []
 
-[146] [147] [148]
+[150] [151] [152]
 Overfull \hbox (6.57054pt too wide) in paragraph at lines 636--652
 []\OT1/cmr/m/n/12 We fur-ther state from the out-set that all self-replicating
  []
 
-[149]
+[153]
 Overfull \hbox (100.02519pt too wide) in paragraph at lines 669--669
 []    \OT1/cmtt/m/n/12 The desire of the author to describe self-replicating se
 ts,[] 
  []
 
-[150] [151]
+[154] [155]
 Overfull \hbox (19.75015pt too wide) in paragraph at lines 715--715
 []    \OT1/cmtt/m/n/12 in-person pitches and classes and discussions,[] 
  []
@@ -1113,10 +1114,10 @@ Overfull \hbox (137.07521pt too wide) in paragraph at lines 716--716
 ial media[] 
  []
 
-[152]
+[156]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [153]
+ [157]
 Overfull \hbox (11.40521pt too wide) in paragraph at lines 789--806
 \OT1/cmr/m/n/12 briefly here in or-der for this doc-u-ment to truly self-replic
 ate.
@@ -1125,138 +1126,153 @@ ate.
 
 Underfull \vbox (badness 3646) has occurred while \output is active []
 
- [154]
+ [158]
 Overfull \hbox (340.85031pt too wide) in paragraph at lines 810--810
 []\OT1/cmtt/m/n/12 sudo curl -o replicator.php https://raw.githubusercontent.co
 m/LafeLabs/thing/master/php/replicator.txt[] 
  []
 
-[155]
+[159]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [156]
-[157] [158]) [159] [160] (./trashrobot.tex [161
+ [160]
+[161] [162]) [163] [164] (./trashrobot.tex [165
 
-] [162]
-<figures/artboxelements.jpg, id=1082, 1943.26pt x 1943.26pt>
+]
+Overfull \hbox (3.20206pt too wide) in paragraph at lines 16--17
+[]\OT1/cmr/m/n/12 Token repli-ca-tor. Carry bags of to-kens, stamps, prints,
+ []
+
+[166] [167] <figures/artboxelements.jpg, id=1103, 1943.26pt x 1943.26pt>
 File: figures/artboxelements.jpg Graphic file (type jpg)
 
 <use figures/artboxelements.jpg>
-Package pdftex.def Info: figures/artboxelements.jpg used on input line 24.
+Package pdftex.def Info: figures/artboxelements.jpg used on input line 34.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
- [163] [164 <./figures/artboxelements.jpg>]
-<figures/artboxtriangle.jpg, id=1093, 1943.26pt x 1943.26pt>
+
+<figures/artboxtriangle.jpg, id=1104, 1943.26pt x 1943.26pt>
 File: figures/artboxtriangle.jpg Graphic file (type jpg)
 
 <use figures/artboxtriangle.jpg>
-Package pdftex.def Info: figures/artboxtriangle.jpg used on input line 35.
+Package pdftex.def Info: figures/artboxtriangle.jpg used on input line 45.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxtriangleset.jpg, id=1094, 1943.26pt x 1943.26pt>
+<figures/artboxtriangleset.jpg, id=1105, 1943.26pt x 1943.26pt>
 File: figures/artboxtriangleset.jpg Graphic file (type jpg)
 
 <use figures/artboxtriangleset.jpg>
-Package pdftex.def Info: figures/artboxtriangleset.jpg used on input line 42.
+Package pdftex.def Info: figures/artboxtriangleset.jpg used on input line 52.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxnet.jpg, id=1095, 1943.26pt x 1943.26pt>
+<figures/artboxnet.jpg, id=1106, 1943.26pt x 1943.26pt>
 File: figures/artboxnet.jpg Graphic file (type jpg)
 
 <use figures/artboxnet.jpg>
-Package pdftex.def Info: figures/artboxnet.jpg used on input line 49.
+Package pdftex.def Info: figures/artboxnet.jpg used on input line 59.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxassembly.jpg, id=1096, 1943.26pt x 1943.26pt>
+<figures/artboxassembly.jpg, id=1107, 1943.26pt x 1943.26pt>
 File: figures/artboxassembly.jpg Graphic file (type jpg)
 
 <use figures/artboxassembly.jpg>
-Package pdftex.def Info: figures/artboxassembly.jpg used on input line 57.
+Package pdftex.def Info: figures/artboxassembly.jpg used on input line 67.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxrainbowskin.jpg, id=1097, 1943.26pt x 1943.26pt>
+<figures/artboxrainbowskin.jpg, id=1108, 1943.26pt x 1943.26pt>
 File: figures/artboxrainbowskin.jpg Graphic file (type jpg)
 
 <use figures/artboxrainbowskin.jpg>
-Package pdftex.def Info: figures/artboxrainbowskin.jpg used on input line 64.
+Package pdftex.def Info: figures/artboxrainbowskin.jpg used on input line 74.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxhole.jpg, id=1098, 1943.26pt x 1943.26pt>
+<figures/artboxhole.jpg, id=1109, 1943.26pt x 1943.26pt>
 File: figures/artboxhole.jpg Graphic file (type jpg)
 
 <use figures/artboxhole.jpg>
-Package pdftex.def Info: figures/artboxhole.jpg used on input line 71.
+Package pdftex.def Info: figures/artboxhole.jpg used on input line 81.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxtie.jpg, id=1099, 1943.26pt x 1943.26pt>
+<figures/artboxtie.jpg, id=1110, 1943.26pt x 1943.26pt>
 File: figures/artboxtie.jpg Graphic file (type jpg)
 
 <use figures/artboxtie.jpg>
-Package pdftex.def Info: figures/artboxtie.jpg used on input line 78.
+Package pdftex.def Info: figures/artboxtie.jpg used on input line 88.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxcopy.jpg, id=1100, 1943.26pt x 1943.26pt>
+<figures/artboxcopy.jpg, id=1111, 1943.26pt x 1943.26pt>
 File: figures/artboxcopy.jpg Graphic file (type jpg)
 
 <use figures/artboxcopy.jpg>
-Package pdftex.def Info: figures/artboxcopy.jpg used on input line 85.
+Package pdftex.def Info: figures/artboxcopy.jpg used on input line 95.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
 
-LaTeX Warning: Float too large for page by 45.07463pt on input line 88.
+LaTeX Warning: Float too large for page by 45.07463pt on input line 98.
 
-[165] [166 <./figures/artboxtriangle.jpg>] [167 <./figures/artboxtriangleset.jp
-g>] [168 <./figures/artboxnet.jpg>] [169 <./figures/artboxassembly.jpg>]
-[170 <./figures/artboxrainbowskin.jpg>] [171 <./figures/artboxhole.jpg>]
-[172 <./figures/artboxtie.jpg>] [173 <./figures/artboxcopy.jpg>] [174]
-Overfull \hbox (2.26225pt too wide) in paragraph at lines 119--120
+[168] [169 <./figures/artboxelements.jpg>] [170 <./figures/artboxtriangle.jpg>]
+[171 <./figures/artboxtriangleset.jpg>] [172 <./figures/artboxnet.jpg>]
+[173 <./figures/artboxassembly.jpg>] [174 <./figures/artboxrainbowskin.jpg>]
+[175 <./figures/artboxhole.jpg>] [176 <./figures/artboxtie.jpg>] [177 <./figure
+s/artboxcopy.jpg>] [178]
+Overfull \hbox (2.26225pt too wide) in paragraph at lines 129--130
 []\OT1/cmr/m/n/12 Workflow: im-age feeds, align, trace, share, print, bake,
  []
 
-[175] [176] [177] [178]
-Overfull \hbox (254.40027pt too wide) in paragraph at lines 192--192
+[179] [180] [181] [182]
+Overfull \hbox (254.40027pt too wide) in paragraph at lines 202--202
 []        \OT1/cmtt/m/n/12 build, share, sell, use printers, following instruct
 ions on scrolls on Geometron[] 
  []
 
 
-Overfull \hbox (112.3752pt too wide) in paragraph at lines 193--193
+Overfull \hbox (112.3752pt too wide) in paragraph at lines 203--203
 []        \OT1/cmtt/m/n/12 use Geometron server to follow the rest of this work
 flow:[] 
  []
 
 
-Overfull \hbox (174.12523pt too wide) in paragraph at lines 197--197
+Overfull \hbox (174.12523pt too wide) in paragraph at lines 207--207
 []        \OT1/cmtt/m/n/12 share feed with other users, save, copy, paste, shar
 e share share!![] 
  []
 
 
-Overfull \hbox (248.22527pt too wide) in paragraph at lines 198--198
+Overfull \hbox (248.22527pt too wide) in paragraph at lines 208--208
 []        \OT1/cmtt/m/n/12 load code into Arduino, print in clay tablet, bake i
 t, sell or give away or use[] 
  []
 
 
-Overfull \hbox (81.50018pt too wide) in paragraph at lines 199--199
+Overfull \hbox (81.50018pt too wide) in paragraph at lines 209--209
 []        \OT1/cmtt/m/n/12 use print to create stamp, sell or give away or use,
 [] 
  []
 
 
-Overfull \hbox (600.20044pt too wide) in paragraph at lines 200--200
+Overfull \hbox (600.20044pt too wide) in paragraph at lines 210--210
 []        \OT1/cmtt/m/n/12 use stamp to create both coin-like tokens and pendan
 ts, stamping in clay, baking, using paint pen and sanding flat, sell, trade, or
  wear[] 
  []
 
-) [179] (./fullstack.tex
+) [183] (./fullstack.tex
 Overfull \hbox (7.94553pt too wide) in paragraph at lines 13--15
 []\OT1/cmr/m/n/12 roctal, stor-age hard-ware, scal-ing, read/write/operate 
  []
 
-) [180
+[184
 
 ]
+Overfull \hbox (3.27197pt too wide) in paragraph at lines 26--27
+[]\OT1/cmr/m/n/12 As this mix-and-match up-cy-cled Linux sys-tem evolves,
+ []
+
+[185])
+Overfull \hbox (1.05672pt too wide) in paragraph at lines 29--74
+[]\OT1/cmr/m/n/12 The Trash Robot tech-nol-ogy can, when it is ex-panded,
+ []
+
+[186]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1270,12 +1286,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9799BAEB9C10B5E86BFBF8D839DBC030;1687.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 9358 strings out of 494953
- 132938 string characters out of 6180977
- 248598 words of memory out of 5000000
+ 9365 strings out of 494953
+ 132997 string characters out of 6180977
+ 249598 words of memory out of 5000000
  12229 multiletter control sequences out of 15000+600000
  10941 words of font info for 38 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1292,10 +1312,10 @@ public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12
 .pfb>
-Output written on main.pdf (186 pages, 3564188 bytes).
+Output written on main.pdf (192 pages, 3572256 bytes).
 PDF statistics:
- 1283 PDF objects out of 1440 (max. 8388607)
- 1053 compressed objects within 11 object streams
- 297 named destinations out of 1000 (max. 500000)
+ 1309 PDF objects out of 1440 (max. 8388607)
+ 1073 compressed objects within 11 object streams
+ 304 named destinations out of 1000 (max. 500000)
  319 words of extra memory for PDF output out of 10000 (max. 10000000)
 
