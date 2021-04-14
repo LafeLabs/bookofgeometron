@@ -2,7 +2,6 @@
 
 \section{Code}\label{code}
 
-
 Geometron Developers are a critical member of the swarm that makes up the Network, and this chapter is intended to describe how to learn to take on this important role in the swarm.  We assume that you are willing to dig in and learn code but not that you already know a lot about it.
 
 If you are a bit technical but not specifically a web develoer you will first need to learn the basics of Web Development. I strongly encourage you to learn how I did(unless you are already a web developer).  You need to learn the basics of HTML, CSS, JavaScript, and PHP.  I learned these from https://www.w3schools.com/.  I had to learn using Microsoft Visual Studio Code, because I did not have an editor yet(I needed to learn to make web code to make web code to make web code.) But you will be able to entirely learn all material on all four of those languages using the code editor built into each Geometron instance and testing instantly on the same instance. 
@@ -120,7 +119,15 @@ In the terminal, you want to type
 
 Or open .bashrc
 
+\begin{verbatim}
+nano ~/.bashrc
+\end{verbatim}
+
 And copy this line after the last existing line of the file:
+
+\begin{verbatim}
+alias s='php -S localhost:80'
+\end{verbatim}
 
 And then just hit the letter ``s'' every time you get to the command
 line.
@@ -222,6 +229,10 @@ This is very simple: keystrokes save the file. If you want to copy/paste the who
 
 Another replicator script which is useful is copy.php.  To see the source code, as with all PHP scripts in Geometron, go to any Geometron server and look at php/copy.txt.  This program takes as inputs a from and to field and copies a file from one url which can be global or local to a local file location on the server.  So for instance to copy wall.html from trashrobot.org to your local raspberry pi, you can navigate a browser on the same local network as the Pi to http://[the pi's IP address]/copy.php?from=https://www.trashrobot.org/data/wall.txt&to=data/wall.txt.  this is a long URL.  But it can be put into a link with a shorter text or an image or icon, so that on a page a user can just click it like a button and they will copy the data/wall.txt file from the one server to the other.  If links like this are used to copy a file from one server to the next, decentralized replication can propagate very quickly.  Again, we can replicate using this tool from a Pi to a local developer's laptop, to a Github repository, to a public web page, to other local Pi servers all over the world, where the whole process is then repeated again and again.  And we can be doing this with \emph{any} file in the whole Geometron system: apps, data, JavaScript libraries, PHP scripts, scrolls, maps, feeds, symbols, all the other formats to be discussed here.  And again there are now owners of any of these documents.  They are not saved in a user directory and emailed to another user or shared via app from user to user.  They simply are not owned by anyone.  They are shared resources to be replicated or destroyed.  
 
+The power of copy.php can only become clear as more Geometron servers are linked.  These can be directories on a single server, of which, remember, there can be hundreds.  Imagine a collection of maps and scrolls which each contain links which activate copy.php to replicate scrolls and maps from other pages.  One can start to try to calculate the amount of information in such a network and get some shocking results at the potential power of a network like this.  If developers are actively creating apps on each node, and replicating them freely and destroying and modifying them and replicating them more we get a flow of information with similar complexity of the topology of the network to Twitter interactions with retweets and hashtags etc.  But in this case the amount of information is vastly higher, as the actual structure of apps in evolving.  If swarms of developers are all working in this way in a coffee shop on a shared Raspberry Pi Geometron server, while they all push code to their own github repositories, which are then replicated to other swarms in other shops, all over the world, and if they are using this swarm to actively develop new applications in applied math, the potential is staggering.  Like the Logopolitans in Dr. Who, a global swarm of developers all working on a math problem in parallel with code that evolves in real time can challenge classical computers at applied math problems by creating advantages of information content in a similar way to who quantum computing claims it supposedly can in the future.  If such technology were developed for real time swarm computation in a way that can be applied to cryptography, the potential could be an existential threat to the status quo, especially since swarms of anonymous developers on private networks are obviously a much harder to control technology than quantum computers, and can scale up globally with zero marginal cost using existing infrastructure.
+
+To replicate only the data from a server we can use copydata.php.  It only has the one parameter, which is the ``from'' url, which is the location of the Geometron server to copy, not specifically of the dna file, but of the whole url, to which this script adds ``data/dna.txt'' to fetch the actual information to get the data.  This is like replicator.php only it is just the contents of the maps/, scrolls/ and data/ directories.   
+
 We must also address how bad code is dealt with.  Not all bad code is from typos.  Malicious code or media of a bad nature can be intentionally created. What do we do with bad information? We totally destroy it.  Not by simply editing it but by replicating a non-corrupted version, totally annihilating the bad instance.  In the most extreme case we step out of the Geometron system and just wipe the whole thing clean and then go back and re-replicate.  A Raspberry Pi's whole system lives on a cheap little SD card the size of a fingernail.  If you really think it's infected with something so nefarious that you can't deal with it, you can always pull that out and destroy it and put a new one for just a few dollars, without any impact on your overall setup.  Our goal in Geometron is not to destroy bad things but to create good things that replicate faster than bad things and destroy them by overwhelming numbers.  If a bad thing copies a million times and a good thing copies a billion times, on average we all still win.  
 
 Also, data files in the data directory can be directly edited with editor.php, which always gives us yet another way of copy/pasting the raw data, even in cases where some data is hidden in the app, or where there is no copy/paste input/output window, which might be inconvenient for some apps.
@@ -246,18 +257,11 @@ By default, editor.php starts out editing index.html.  As with all web servers, 
 
 We must also talk about forks and deleters, both of which are critical to the operation of our system.  Any Geometron instance can be forked down into a subdirectory using the app fork.html.  This creates new directories within whatever directory the existing instance is in(initially just the main web directory on the server).
 
+fork.html is an app for seeing all the Geometron instances that are in subdirectories of whatever directory you are in, making new ones, and deleting them if you want them destroyed. This is a very powerful program, where just a single click will recursively delete \emph{everything} in a directory: every file, every directory, every subdirectory and files in them etc. There is no undo.  Destroyed is destroyed.  This is part of what keeps the system safe.  It is easy for very bad things to evolve on the system: unsavory files of the worst kind can be uploaded at any time, content which is both terrible to see and which causes havoc with executable code.  We therefore choose rather than defending against bad information to wipe it out completely. The ultimate Destroyer program is rdelete.php.  Rdelete.php has one input, called ``filename'', which is the name of the directory to be destroyed.  It has a function which calls itself recursively which uses the PHP function unlink to delete everything in its path. 
 
+The list of directories is generated using the function dir.php, which lists files or directories in a directory and returns them as a JSON array.  Numerous Geometron apps use dir.php.  It is used to list the various files in various directories in editor.php, to list the scrolls and maps in the main user page, and to list scrolls in the scroll editor and maps in the map editor.  To create a new fork, you enter the name of the new fork in the text input field and fork.html will use mkdir.php to create a new directory and copy the file replicator.php into it, and then give you a link to click on to that replicator.  Clicking on it will run the replicator and then you can click on the link after that runs to go to the main user page of the new instance, which is now down in the new directory you just created.  It is a good exercise at this point to create a new fork using fork.html, go into it and change index.html with editor.php, see your changes, then go back to the level where you started, look at fork.html, turn the delete mode on, and recursively delete your new fork you just made. Then reload fork.html and see that it's destroyed forever.  You can repeat this again, this time replicating the new fork to another instance elsewhere before you destroy it.  Or build several branches and create paths of replication of files between them using copy.php, put them on a shared wifi network with your friends and all open different instances, clicking on copy files to move data around.  You have the power to create, evolve and destroy complex active information in a swarm of people with a shared hive mind and no property.  It is not clear how powerful such technology can prove to be, but again, we must look to the claims of quantum computers and compare the information theory of our situation to see what might be possible.  You do the math yourself: first look at the information theory of these swarms, then get your applied math friends together on a shared network and build a swarm up to attack a problem and see what happens.  
 
-need to talk about fork.html, rdelete, deletefile, deletebranch,
-
-Forks and branches.
-
-mathuser.php
-user.php
-copydata.php
-replicatornodata.php
-dir.php
-mkdir.php
+In Geometron a slogan we repeat is ``no war but the math war''.  This has several meanings.
 
 \subsection{Chaos feed}
 
@@ -265,7 +269,7 @@ mkdir.php
 
 This example should further clarify what we want to do with Geometron and how we can build and use apps for people to freely share information.  This app example shows a number of more advanced aspects to operation than the wall example above. It is intended to explore dualities between images.  Duality can be interpreted any number of ways.  This is a purely artistic app, which is typical of what we want to be doing with this system.  
 
-Duality.html uses the hammer.js library, another open source JavaScript library which is used repeatedly in the Geometron system.  It also has its own JSON data format which can be freely shared in raw text from user to user. 
+Duality.html uses the hammer.js library, another open source JavaScript library which is used repeatedly in the Geometron system.  It also has its own JSON data format which can be freely shared in raw text from user to user.  Go read the source code for it using editor.php!  Whether or not you read the code, try using it by putting duality.html into the browser after whatever address you're using for your geometron server, be it http://localhost/ or the IP address of your local Raspberry Pi Geometron server.  You will see two images, each partially transparent. This is best on a touch screen, drag a finger sideways across the screen, and you will see a fade between one image and the other. This fade is such that the sum of the squares of the opacities remains 1, so they add like quantum amplitudes do to make probabilities.  This app is to create a sort of quantum meme: a pair of images, aligned in some way, which a user swipes to make modulate between different ratios of superposition. To say this app is a quantum meme is another way of saying it is an artistic expression which rejects binary thinking about the Universe.  Any time we wish to make a commentary on any failed dichotomy, which can load up two images, move them around, scale them, rotate them, and save the JSON file created to share with other people with whom we wish to share this particular attack on binary thinking.
 
 \subsection{the Math Rocks app}
 
