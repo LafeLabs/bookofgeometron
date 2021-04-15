@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  14 APR 2021 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  15 APR 2021 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,13 +976,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--426
  []
 
 [113] [114]) [115] [116] (./web2d.tex
-Overfull \hbox (40.98686pt too wide) in paragraph at lines 14--16
+<figures/web2d/vesicapiscis.png, id=845, 401.5pt x 401.5pt>
+File: figures/web2d/vesicapiscis.png Graphic file (type png)
+
+<use figures/web2d/vesicapiscis.png>
+Package pdftex.def Info: figures/web2d/vesicapiscis.png used on input line 6.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursorscale1.png, id=846, 401.5pt x 401.5pt>
+File: figures/web2d/cursorscale1.png Graphic file (type png)
+
+<use figures/web2d/cursorscale1.png>
+Package pdftex.def Info: figures/web2d/cursorscale1.png used on input line 14.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursorangle1.png, id=847, 401.5pt x 401.5pt>
+File: figures/web2d/cursorangle1.png Graphic file (type png)
+
+<use figures/web2d/cursorangle1.png>
+Package pdftex.def Info: figures/web2d/cursorangle1.png used on input line 20.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursorsquare.png, id=848, 401.5pt x 401.5pt>
+File: figures/web2d/cursorsquare.png Graphic file (type png)
+
+<use figures/web2d/cursorsquare.png>
+Package pdftex.def Info: figures/web2d/cursorsquare.png used on input line 26.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursorroot2.png, id=849, 401.5pt x 401.5pt>
+File: figures/web2d/cursorroot2.png Graphic file (type png)
+
+<use figures/web2d/cursorroot2.png>
+Package pdftex.def Info: figures/web2d/cursorroot2.png used on input line 32.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursorgolden.png, id=850, 401.5pt x 401.5pt>
+File: figures/web2d/cursorgolden.png Graphic file (type png)
+
+<use figures/web2d/cursorgolden.png>
+Package pdftex.def Info: figures/web2d/cursorgolden.png used on input line 38.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursorroot3.png, id=851, 401.5pt x 401.5pt>
+File: figures/web2d/cursorroot3.png Graphic file (type png)
+
+<use figures/web2d/cursorroot3.png>
+Package pdftex.def Info: figures/web2d/cursorroot3.png used on input line 44.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursor3.png, id=852, 401.5pt x 401.5pt>
+File: figures/web2d/cursor3.png Graphic file (type png)
+
+<use figures/web2d/cursor3.png>
+Package pdftex.def Info: figures/web2d/cursor3.png used on input line 50.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/cursor5.png, id=853, 401.5pt x 401.5pt>
+File: figures/web2d/cursor5.png Graphic file (type png)
+
+<use figures/web2d/cursor5.png>
+Package pdftex.def Info: figures/web2d/cursor5.png used on input line 56.
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+Overfull \hbox (40.98686pt too wide) in paragraph at lines 74--76
 []\OT1/cmr/m/n/12 symmetries and scales, dif-fer-ent meth-ods of ge-ometron(AG)
  
  []
 
 
-Overfull \hbox (3.37613pt too wide) in paragraph at lines 16--18
+Overfull \hbox (3.37613pt too wide) in paragraph at lines 76--78
 []\OT1/cmr/m/n/12 cursor,movements, ba-sic con-struc-tions(segment, cir-
  []
 
@@ -992,29 +1055,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [117
 
 ]
-Overfull \hbox (6.77054pt too wide) in paragraph at lines 32--34
+[118 <./figures/web2d/vesicapiscis.png>] [119 <./figures/web2d/cursorscale1.png
+>] [120 <./figures/web2d/cursorangle1.png>] [121 <./figures/web2d/cursorsquare.
+png>] [122 <./figures/web2d/cursorroot2.png>] [123 <./figures/web2d/cursorgolde
+n.png>] [124 <./figures/web2d/cursorroot3.png>] [125 <./figures/web2d/cursor3.p
+ng>] [126 <./figures/web2d/cursor5.png>]
+Overfull \hbox (6.77054pt too wide) in paragraph at lines 92--94
 []\OT1/cmr/m/n/12 editing the hy-per-cube and shape ta-ble, shar-ing them,
  []
 
 
-Overfull \hbox (2.52753pt too wide) in paragraph at lines 36--38
+Overfull \hbox (2.52753pt too wide) in paragraph at lines 96--98
 []\OT1/cmr/m/n/12 control pan-els, soft-key in-ter-faces, writ-ing ge-ometron
  []
 
-) [118] (./shapes.tex <figures/rlc.png, id=853, 451.6875pt x 451.6875pt>
+) [127] (./shapes.tex <figures/rlc.png, id=918, 451.6875pt x 451.6875pt>
 File: figures/rlc.png Graphic file (type png)
 
 <use figures/rlc.png>
 Package pdftex.def Info: figures/rlc.png used on input line 5.
 (pdftex.def)             Requested size: 289.07999pt x 289.09279pt.
- <figures/rcline.png, id=854, 451.6875pt x 451.6875pt>
+ <figures/rcline.png, id=919, 451.6875pt x 451.6875pt>
 File: figures/rcline.png Graphic file (type png)
 
 <use figures/rcline.png>
 Package pdftex.def Info: figures/rcline.png used on input line 12.
 (pdftex.def)             Requested size: 289.07999pt x 289.09279pt.
 
-<figures/treeoflife.png, id=855, 451.6875pt x 752.8125pt>
+<figures/treeoflife.png, id=920, 451.6875pt x 752.8125pt>
 File: figures/treeoflife.png Graphic file (type png)
 
 <use figures/treeoflife.png>
@@ -1024,7 +1092,7 @@ Package pdftex.def Info: figures/treeoflife.png used on input line 20.
 
 LaTeX Warning: Float too large for page by 109.65463pt on input line 23.
 
-<figures/treeoflifespelling.png, id=856, 602.25pt x 401.5pt>
+<figures/treeoflifespelling.png, id=921, 602.25pt x 401.5pt>
 File: figures/treeoflifespelling.png Graphic file (type png)
 
 <use figures/treeoflifespelling.png>
@@ -1033,12 +1101,12 @@ Package pdftex.def Info: figures/treeoflifespelling.png used on input line 27.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [119
+ [128
 
 ]
-[120 <./figures/rlc.png>] [121 <./figures/rcline.png>] [122 <./figures/treeofli
-fe.png>] [123 <./figures/treeoflifespelling.png>]) [124] (./machines.tex)
-[125
+[129 <./figures/rlc.png>] [130 <./figures/rcline.png>] [131 <./figures/treeofli
+fe.png>] [132 <./figures/treeoflifespelling.png>]) [133] (./machines.tex)
+[134
 
 ] (./geometron3d.tex
 Overfull \hbox (1.54837pt too wide) in paragraph at lines 15--17
@@ -1048,29 +1116,29 @@ Overfull \hbox (1.54837pt too wide) in paragraph at lines 15--17
 
 Underfull \vbox (badness 1590) has occurred while \output is active []
 
- [126
+ [135
 
 ])
-[127] (./ontology.tex [128
+[136] (./ontology.tex [137
 
-] [129] [130]
+] [138] [139]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131]
+ [140]
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [132]
-[133] [134] [135] [136] [137] [138] [139] [140]
+ [141]
+[142] [143] [144] [145] [146] [147] [148] [149]
 Overfull \hbox (2.46225pt too wide) in paragraph at lines 313--335
 \OT1/cmr/m/n/12 at through the lens of these self-replicating sys-tems, where
  []
 
-[141] [142] [143] [144] [145] [146] [147]
+[150] [151] [152] [153] [154] [155] [156]
 Overfull \hbox (1.87476pt too wide) in paragraph at lines 480--491
 []\OT1/cmr/m/n/12 The power of a fully self-replicating and evolv-ing Open
  []
 
-[148]
+[157]
 Overfull \hbox (7.26631pt too wide) in paragraph at lines 504--516
 \OT1/cmr/m/n/12 mathematicians. ``Ob-ject'' here can mean \OT1/cmr/m/it/12 any-
 thing\OT1/cmr/m/n/12 . Math-
@@ -1082,24 +1150,24 @@ Overfull \hbox (12.97186pt too wide) in paragraph at lines 504--516
 s
  []
 
-[149] [150]
+[158] [159]
 Overfull \hbox (11.44226pt too wide) in paragraph at lines 553--572
 \OT1/cmr/m/n/12 de-fines truth and false-hood with-out con-tra-dic-tion. Goedel
 's
  []
 
-[151] [152] [153]
+[160] [161] [162]
 Overfull \hbox (6.57054pt too wide) in paragraph at lines 636--652
 []\OT1/cmr/m/n/12 We fur-ther state from the out-set that all self-replicating
  []
 
-[154]
+[163]
 Overfull \hbox (100.02519pt too wide) in paragraph at lines 669--669
 []    \OT1/cmtt/m/n/12 The desire of the author to describe self-replicating se
 ts,[] 
  []
 
-[155] [156]
+[164] [165]
 Overfull \hbox (19.75015pt too wide) in paragraph at lines 715--715
 []    \OT1/cmtt/m/n/12 in-person pitches and classes and discussions,[] 
  []
@@ -1110,10 +1178,10 @@ Overfull \hbox (137.07521pt too wide) in paragraph at lines 716--716
 ial media[] 
  []
 
-[157]
+[166]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [158]
+ [167]
 Overfull \hbox (11.40521pt too wide) in paragraph at lines 789--806
 \OT1/cmr/m/n/12 briefly here in or-der for this doc-u-ment to truly self-replic
 ate.
@@ -1122,80 +1190,80 @@ ate.
 
 Underfull \vbox (badness 3646) has occurred while \output is active []
 
- [159]
+ [168]
 Overfull \hbox (340.85031pt too wide) in paragraph at lines 810--810
 []\OT1/cmtt/m/n/12 sudo curl -o replicator.php https://raw.githubusercontent.co
 m/LafeLabs/thing/master/php/replicator.txt[] 
  []
 
-[160]
+[169]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161]
-[162] [163]) [164] [165] (./trashrobot.tex [166
+ [170]
+[171] [172]) [173] [174] (./trashrobot.tex [175
 
 ]
 Overfull \hbox (3.20206pt too wide) in paragraph at lines 16--17
 []\OT1/cmr/m/n/12 Token repli-ca-tor. Carry bags of to-kens, stamps, prints,
  []
 
-[167] [168] <figures/artboxelements.jpg, id=1109, 1943.26pt x 1943.26pt>
+[176] [177] <figures/artboxelements.jpg, id=1174, 1943.26pt x 1943.26pt>
 File: figures/artboxelements.jpg Graphic file (type jpg)
 
 <use figures/artboxelements.jpg>
 Package pdftex.def Info: figures/artboxelements.jpg used on input line 34.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxtriangle.jpg, id=1110, 1943.26pt x 1943.26pt>
+<figures/artboxtriangle.jpg, id=1175, 1943.26pt x 1943.26pt>
 File: figures/artboxtriangle.jpg Graphic file (type jpg)
 
 <use figures/artboxtriangle.jpg>
 Package pdftex.def Info: figures/artboxtriangle.jpg used on input line 45.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxtriangleset.jpg, id=1111, 1943.26pt x 1943.26pt>
+<figures/artboxtriangleset.jpg, id=1176, 1943.26pt x 1943.26pt>
 File: figures/artboxtriangleset.jpg Graphic file (type jpg)
 
 <use figures/artboxtriangleset.jpg>
 Package pdftex.def Info: figures/artboxtriangleset.jpg used on input line 52.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxnet.jpg, id=1112, 1943.26pt x 1943.26pt>
+<figures/artboxnet.jpg, id=1177, 1943.26pt x 1943.26pt>
 File: figures/artboxnet.jpg Graphic file (type jpg)
 
 <use figures/artboxnet.jpg>
 Package pdftex.def Info: figures/artboxnet.jpg used on input line 59.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxassembly.jpg, id=1113, 1943.26pt x 1943.26pt>
+<figures/artboxassembly.jpg, id=1178, 1943.26pt x 1943.26pt>
 File: figures/artboxassembly.jpg Graphic file (type jpg)
 
 <use figures/artboxassembly.jpg>
 Package pdftex.def Info: figures/artboxassembly.jpg used on input line 67.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxrainbowskin.jpg, id=1114, 1943.26pt x 1943.26pt>
+<figures/artboxrainbowskin.jpg, id=1179, 1943.26pt x 1943.26pt>
 File: figures/artboxrainbowskin.jpg Graphic file (type jpg)
 
 <use figures/artboxrainbowskin.jpg>
 Package pdftex.def Info: figures/artboxrainbowskin.jpg used on input line 74.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxhole.jpg, id=1115, 1943.26pt x 1943.26pt>
+<figures/artboxhole.jpg, id=1180, 1943.26pt x 1943.26pt>
 File: figures/artboxhole.jpg Graphic file (type jpg)
 
 <use figures/artboxhole.jpg>
 Package pdftex.def Info: figures/artboxhole.jpg used on input line 81.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxtie.jpg, id=1116, 1943.26pt x 1943.26pt>
+<figures/artboxtie.jpg, id=1181, 1943.26pt x 1943.26pt>
 File: figures/artboxtie.jpg Graphic file (type jpg)
 
 <use figures/artboxtie.jpg>
 Package pdftex.def Info: figures/artboxtie.jpg used on input line 88.
 (pdftex.def)             Requested size: 289.07999pt x 289.07463pt.
 
-<figures/artboxcopy.jpg, id=1117, 1943.26pt x 1943.26pt>
+<figures/artboxcopy.jpg, id=1182, 1943.26pt x 1943.26pt>
 File: figures/artboxcopy.jpg Graphic file (type jpg)
 
 <use figures/artboxcopy.jpg>
@@ -1205,16 +1273,16 @@ Package pdftex.def Info: figures/artboxcopy.jpg used on input line 95.
 
 LaTeX Warning: Float too large for page by 45.07463pt on input line 98.
 
-[169] [170 <./figures/artboxelements.jpg>] [171 <./figures/artboxtriangle.jpg>]
-[172 <./figures/artboxtriangleset.jpg>] [173 <./figures/artboxnet.jpg>]
-[174 <./figures/artboxassembly.jpg>] [175 <./figures/artboxrainbowskin.jpg>]
-[176 <./figures/artboxhole.jpg>] [177 <./figures/artboxtie.jpg>] [178 <./figure
-s/artboxcopy.jpg>] [179]
+[178] [179 <./figures/artboxelements.jpg>] [180 <./figures/artboxtriangle.jpg>]
+[181 <./figures/artboxtriangleset.jpg>] [182 <./figures/artboxnet.jpg>]
+[183 <./figures/artboxassembly.jpg>] [184 <./figures/artboxrainbowskin.jpg>]
+[185 <./figures/artboxhole.jpg>] [186 <./figures/artboxtie.jpg>] [187 <./figure
+s/artboxcopy.jpg>] [188]
 Overfull \hbox (2.26225pt too wide) in paragraph at lines 129--130
 []\OT1/cmr/m/n/12 Workflow: im-age feeds, align, trace, share, print, bake,
  []
 
-[180] [181] [182] [183]
+[189] [190] [191] [192]
 Overfull \hbox (254.40027pt too wide) in paragraph at lines 202--202
 []        \OT1/cmtt/m/n/12 build, share, sell, use printers, following instruct
 ions on scrolls on Geometron[] 
@@ -1251,24 +1319,24 @@ ts, stamping in clay, baking, using paint pen and sanding flat, sell, trade, or
  wear[] 
  []
 
-) [184] (./fullstack.tex
+) [193] (./fullstack.tex
 Overfull \hbox (7.94553pt too wide) in paragraph at lines 13--15
 []\OT1/cmr/m/n/12 roctal, stor-age hard-ware, scal-ing, read/write/operate 
  []
 
-[185
+[194
 
 ]
 Overfull \hbox (3.27197pt too wide) in paragraph at lines 26--27
 []\OT1/cmr/m/n/12 As this mix-and-match up-cy-cled Linux sys-tem evolves,
  []
 
-[186] [187] [188] [189])
+[195] [196] [197] [198])
 Overfull \hbox (1.80948pt too wide) in paragraph at lines 40--74
 []\OT1/cmr/m/n/12 The for-mat for long term stor-age is in ar-rays of squares
  []
 
-[190]
+[199]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1282,13 +1350,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 9799BAEB9C10B5E86BFBF8D839DBC030;1687.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
- 9368 strings out of 494953
- 133001 string characters out of 6180977
+ 9432 strings out of 494953
+ 134512 string characters out of 6180977
  249563 words of memory out of 5000000
- 12227 multiletter control sequences out of 15000+600000
+ 12263 multiletter control sequences out of 15000+600000
  11249 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  32i,11n,30p,2223b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1304,10 +1376,10 @@ ts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (196 pages, 3586718 bytes).
+Output written on main.pdf (205 pages, 3669822 bytes).
 PDF statistics:
- 1332 PDF objects out of 1440 (max. 8388607)
- 1091 compressed objects within 11 object streams
- 309 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1402 PDF objects out of 1440 (max. 8388607)
+ 1133 compressed objects within 12 object streams
+ 327 named destinations out of 1000 (max. 500000)
+ 364 words of extra memory for PDF output out of 10000 (max. 10000000)
 
