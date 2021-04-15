@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  15 APR 2021 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  15 APR 2021 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,48 +759,63 @@ Package pdftex.def Info: figures/web2d/styleeditor.png used on input line 154.
 
 LaTeX Warning: Float too large for page by 72.39276pt on input line 157.
 
-[2 <./figures/web2d/move.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 164.
+[2 <./figures/web2d/move.png>] [3 <./figures/web2d/angles.png>]
+! You can't use `macro parameter character #' in horizontal mode.
+l.161 ...00FF, and red with half transparency is #
+                                                  FF000080(80 because 8 is h...
 
+? 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/web2d/scaleactions.png>] [5 <./figures/web2d/basicdraw.png>] [6 
+<./figures/web2d/colors.png> <./figures/web2d/pathactions.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figures/web2d/bezieractions.png>] [8 <./figures/web2d/bezierbracket.png>
+] [9 <./figures/web2d/panzoom.png> <./figures/web2d/flagactions.png>] [10 <./fi
+gures/web2d/vesicapiscis.png>] [11 <./figures/web2d/cursorscale1.png>] [12 <./f
+igures/web2d/cursorangle1.png>] [13 <./figures/web2d/cursorsquare.png>] [14 <./
+figures/web2d/cursorroot2.png>] [15 <./figures/web2d/cursorgolden.png>] [16 <./
+figures/web2d/cursorroot3.png>] [17 <./figures/web2d/cursor3.png>] [18 <./figur
+es/web2d/cursor5.png>] [19 <./figures/web2d/styleeditor.png>]
+Overfull \hbox (18.47273pt too wide) in paragraph at lines 171--172
+\OT1/cmr/m/n/12 file data/hypercube.txt and also data/currentjson.txt. When
+ []
+
+! Undefined control sequence.
+l.184 \subsections
+                  {}
+? 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 191.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 191.
 
-Overfull \hbox (40.98686pt too wide) in paragraph at lines 170--172
+Overfull \hbox (40.98686pt too wide) in paragraph at lines 197--199
 []\OT1/cmr/m/n/12 symmetries and scales, dif-fer-ent meth-ods of ge-ometron(AG)
  
  []
 
 
-Overfull \hbox (3.37613pt too wide) in paragraph at lines 172--174
+Overfull \hbox (3.37613pt too wide) in paragraph at lines 199--201
 []\OT1/cmr/m/n/12 cursor,movements, ba-sic con-struc-tions(segment, cir-
  []
 
-[3 <./figures/web2d/angles.png>]
-Overfull \hbox (6.77054pt too wide) in paragraph at lines 188--190
+[20]
+Overfull \hbox (6.77054pt too wide) in paragraph at lines 215--217
 []\OT1/cmr/m/n/12 editing the hy-per-cube and shape ta-ble, shar-ing them,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./figures/web2d/scaleactions.png>]
-Overfull \hbox (2.52753pt too wide) in paragraph at lines 192--194
+Overfull \hbox (2.52753pt too wide) in paragraph at lines 219--221
 []\OT1/cmr/m/n/12 control pan-els, soft-key in-ter-faces, writ-ing ge-ometron
  []
 
-) [5 <./figures/web2d/basicdraw.png>] [6 <./figures/web2d/colors.png> <./figure
-s/web2d/pathactions.png>] [7 <./figures/web2d/bezieractions.png>] [8 <./figures
-/web2d/bezierbracket.png>] [9 <./figures/web2d/panzoom.png> <./figures/web2d/fl
-agactions.png>] [10 <./figures/web2d/vesicapiscis.png>] [11 <./figures/web2d/cu
-rsorscale1.png>] [12 <./figures/web2d/cursorangle1.png>] [13 <./figures/web2d/c
-ursorsquare.png>] [14 <./figures/web2d/cursorroot2.png>] [15 <./figures/web2d/c
-ursorgolden.png>] [16 <./figures/web2d/cursorroot3.png>] [17 <./figures/web2d/c
-ursor3.png>] [18 <./figures/web2d/cursor5.png>] [19 <./figures/web2d/styleedito
-r.png>]
+) [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
  (./web2dpdf.aux)
@@ -811,21 +826,21 @@ Package rerunfilecheck Info: File `web2dpdf.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 14.
  ) 
 Here is how much of TeX's memory you used:
- 8951 strings out of 494953
- 129469 string characters out of 6180977
+ 8956 strings out of 494953
+ 129513 string characters out of 6180977
  248435 words of memory out of 5000000
  12127 multiletter control sequences out of 15000+600000
  6058 words of font info for 22 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,10n,29p,573b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,11n,29p,1038b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on web2dpdf.pdf (19 pages, 399127 bytes).
+Output written on web2dpdf.pdf (21 pages, 404972 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

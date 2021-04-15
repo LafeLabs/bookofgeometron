@@ -48,7 +48,7 @@
 \contentsline {chapter}{\chapternumberline {7}Feeds}{92}{chapter.7}
 \contentsline {section}{\numberline {7.1}Feeds}{92}{section.7.1}
 \contentsline {subsection}{\href {globalimagefeed.html}{Global Image Feed}}{93}{section*.37}
-\contentsline {subsection}{\href {linkfeed.html}{Link Feed}}{93}{section*.38}
+\contentsline {subsection}{\href {linkfeed.html}{Link Feed}}{94}{section*.38}
 \contentsline {subsection}{\href {chaosfeed.html}{Chaos Feed}}{95}{section*.39}
 \contentsline {subsection}{\href {iconfeed.html}{Icon Feed}}{95}{section*.40}
 \contentsline {subsection}{\href {symbolfeed.html}{Symbol Feed}}{96}{section*.41}
@@ -57,37 +57,40 @@
 \contentsline {section}{\numberline {8.1}Geometron}{102}{section.8.1}
 \contentsline {chapter}{\chapternumberline {9}2d Web Graphics}{117}{chapter.9}
 \contentsline {section}{\numberline {9.1}2d Web Symbols and Icons}{117}{section.9.1}
-\contentsline {subsection}{style}{117}{section*.43}
-\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{137}{chapter.10}
-\contentsline {section}{\numberline {10.1}shapes and fonts: examples}{137}{section.10.1}
-\contentsline {chapter}{\chapternumberline {11}Machine Control}{143}{chapter.11}
-\contentsline {section}{\numberline {11.1}Machine Control}{143}{section.11.1}
-\contentsline {chapter}{\chapternumberline {12}Geometron in 3d and Beyond}{144}{chapter.12}
-\contentsline {section}{\numberline {12.1}Geometron in 3d and Beyond}{144}{section.12.1}
-\contentsline {chapter}{\chapternumberline {13}Ontology}{146}{chapter.13}
-\contentsline {section}{\numberline {13.1}Ontology}{146}{section.13.1}
-\contentsline {section}{\numberline {13.2}On Self-Replicating Sets}{150}{section.13.2}
-\contentsline {subsubsection}{2020}{150}{section*.44}
-\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{150}{section*.45}
-\contentsline {subsection}{2. Self-Replication in Human society}{156}{section*.46}
-\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{163}{section*.47}
-\contentsline {subsection}{4. Self Replicating Sets/Documents}{167}{section*.48}
-\contentsline {subsubsection}{Motivation and definitions}{167}{section*.49}
-\contentsline {subsubsection}{This Set}{173}{section*.50}
-\contentsline {subsubsection}{Code and replication of code}{175}{section*.51}
-\contentsline {subsubsection}{Server replication}{177}{section*.52}
-\contentsline {subsubsection}{Pdf document}{180}{section*.53}
-\contentsline {subsection}{5. Generalization and Social Implications}{180}{section*.54}
-\contentsline {chapter}{\chapternumberline {14}Trash Robot}{184}{chapter.14}
-\contentsline {section}{\numberline {14.1}Trash Robot}{184}{section.14.1}
-\contentsline {subsection}{What is Trash Robot?}{184}{section*.55}
-\contentsline {subsection}{The Open Brand}{186}{section*.56}
-\contentsline {subsection}{The ArtBox}{186}{section*.57}
-\contentsline {subsection}{Laser Cut Acrylic}{197}{section*.58}
-\contentsline {subsection}{skeletron}{197}{section*.59}
-\contentsline {subsection}{textiles}{198}{section*.60}
-\contentsline {subsection}{The icon token printer robot}{198}{section*.61}
-\contentsline {subsection}{Arduino Generic Shield}{200}{section*.62}
-\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{203}{chapter.15}
-\contentsline {section}{\numberline {15.1}Full Stack Geometron}{203}{section.15.1}
-\contentsline {subsection}{Goals}{203}{section*.63}
+\contentsline {subsection}{Style}{117}{section*.43}
+\contentsline {subsection}{Graphics Setup}{121}{section*.44}
+\contentsline {subsection}{The Shape Stack}{124}{section*.45}
+\contentsline {subsection}{laser cut designs}{137}{section*.46}
+\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{139}{chapter.10}
+\contentsline {section}{\numberline {10.1}shapes and fonts: examples}{139}{section.10.1}
+\contentsline {chapter}{\chapternumberline {11}Machine Control}{145}{chapter.11}
+\contentsline {section}{\numberline {11.1}Machine Control}{145}{section.11.1}
+\contentsline {chapter}{\chapternumberline {12}Geometron in 3d and Beyond}{146}{chapter.12}
+\contentsline {section}{\numberline {12.1}Geometron in 3d and Beyond}{146}{section.12.1}
+\contentsline {chapter}{\chapternumberline {13}Ontology}{148}{chapter.13}
+\contentsline {section}{\numberline {13.1}Ontology}{148}{section.13.1}
+\contentsline {section}{\numberline {13.2}On Self-Replicating Sets}{152}{section.13.2}
+\contentsline {subsubsection}{2020}{152}{section*.47}
+\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{152}{section*.48}
+\contentsline {subsection}{2. Self-Replication in Human society}{158}{section*.49}
+\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{165}{section*.50}
+\contentsline {subsection}{4. Self Replicating Sets/Documents}{169}{section*.51}
+\contentsline {subsubsection}{Motivation and definitions}{169}{section*.52}
+\contentsline {subsubsection}{This Set}{175}{section*.53}
+\contentsline {subsubsection}{Code and replication of code}{177}{section*.54}
+\contentsline {subsubsection}{Server replication}{179}{section*.55}
+\contentsline {subsubsection}{Pdf document}{182}{section*.56}
+\contentsline {subsection}{5. Generalization and Social Implications}{182}{section*.57}
+\contentsline {chapter}{\chapternumberline {14}Trash Robot}{186}{chapter.14}
+\contentsline {section}{\numberline {14.1}Trash Robot}{186}{section.14.1}
+\contentsline {subsection}{What is Trash Robot?}{186}{section*.58}
+\contentsline {subsection}{The Open Brand}{188}{section*.59}
+\contentsline {subsection}{The ArtBox}{188}{section*.60}
+\contentsline {subsection}{Laser Cut Acrylic}{199}{section*.61}
+\contentsline {subsection}{skeletron}{199}{section*.62}
+\contentsline {subsection}{textiles}{200}{section*.63}
+\contentsline {subsection}{The icon token printer robot}{200}{section*.64}
+\contentsline {subsection}{Arduino Generic Shield}{202}{section*.65}
+\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{205}{chapter.15}
+\contentsline {section}{\numberline {15.1}Full Stack Geometron}{205}{section.15.1}
+\contentsline {subsection}{Goals}{205}{section*.66}

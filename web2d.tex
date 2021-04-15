@@ -164,6 +164,28 @@ Colors are in the format of HTML/CSS/JavaScript, and can be either names of colo
 
 The next section of the JSON we want to know how to edit in order to be able to make useful graphics is the setup, edited in the app setup.html.  Setup edits five numbers, all of which are in units of pixels: x0, y0, unit, width and height.  Width and height are the width and height of the graphics file currently being edited or created.  When a Geometron glyph is drawn with a given GVM, it starts with x and y equal to x0 and y0. Setting these two values is therefore effectively setting the horizontal and vertical offset of the field of view of the symbol.  When we activate a pan function within the symbol.html app what we are really doing is modifying the values of x0 and y0 in the JSON file.  These are done manually in this app.  Finally, unit describes the initial unit value of the GVM.  This is essentially the scale factor.  So again when we activate the zoom functions in any other symbol editor what we are really doing is making changes to the variable unit in the global JSON file.    
 
+The app setup.html has five fields in which to enter the numbers for the five values. There is also a reset button to restore default, with a 600 by 600 pixel square and 80 pixel unit centered in the center.  
+
+\subsection{The Shape Stack}
+
+The final section of the global JSON file which defines the settings of the symbol app is the shape stack.  This is a subset of the hypercube, and is stored both in the JSON file data/hypercube.txt and also data/currentjson.txt.  When vector graphics files are saved, this shape stack is stored inside them so that they can be reloaded with the whole stack.
+
+Exchange of shape stacks. Manual retrieval from .svg files.  uploaded svg files and click to load the whole json.
+
+control panel
+
+hypercube editor for manual direct control
+
+font editor, font.html editing data/hypercube.txt
+
+
+keyboard editor
+
+symbol trace, saves to symbol feed, which can get loaded, links to globalimagefeed, localimagefeed
+
+work flow with glyph strings, copy paste from all the inputs to all the inputs
+
+\subsection{laser cut designs}
 
 \begin{itemize}
 \tightlist
