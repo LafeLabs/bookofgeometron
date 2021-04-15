@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  15 APR 2021 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  15 APR 2021 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -604,105 +604,203 @@ File: figures/web2d/keyboard.png Graphic file (type png)
 Package pdftex.def Info: figures/web2d/keyboard.png used on input line 13.
 (pdftex.def)             Requested size: 289.07999pt x 83.6922pt.
 
-<figures/web2d/vesicapiscis.png, id=11, 401.5pt x 401.5pt>
+<figures/web2d/move.png, id=11, 401.5pt x 170.6375pt>
+File: figures/web2d/move.png Graphic file (type png)
+
+<use figures/web2d/move.png>
+Package pdftex.def Info: figures/web2d/move.png used on input line 20.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/angles.png, id=12, 401.5pt x 170.6375pt>
+File: figures/web2d/angles.png Graphic file (type png)
+
+<use figures/web2d/angles.png>
+Package pdftex.def Info: figures/web2d/angles.png used on input line 27.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/scaleactions.png, id=13, 401.5pt x 170.6375pt>
+File: figures/web2d/scaleactions.png Graphic file (type png)
+
+<use figures/web2d/scaleactions.png>
+Package pdftex.def Info: figures/web2d/scaleactions.png used on input line 34.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/basicdraw.png, id=14, 401.5pt x 170.6375pt>
+File: figures/web2d/basicdraw.png Graphic file (type png)
+
+<use figures/web2d/basicdraw.png>
+Package pdftex.def Info: figures/web2d/basicdraw.png used on input line 41.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/colors.png, id=15, 401.5pt x 170.6375pt>
+File: figures/web2d/colors.png Graphic file (type png)
+
+<use figures/web2d/colors.png>
+Package pdftex.def Info: figures/web2d/colors.png used on input line 48.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/pathactions.png, id=16, 401.5pt x 170.6375pt>
+File: figures/web2d/pathactions.png Graphic file (type png)
+
+<use figures/web2d/pathactions.png>
+Package pdftex.def Info: figures/web2d/pathactions.png used on input line 56.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/bezieractions.png, id=17, 401.5pt x 170.6375pt>
+File: figures/web2d/bezieractions.png Graphic file (type png)
+
+<use figures/web2d/bezieractions.png>
+Package pdftex.def Info: figures/web2d/bezieractions.png used on input line 63.
+
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/bezierbracket.png, id=18, 401.5pt x 401.5pt>
+File: figures/web2d/bezierbracket.png Graphic file (type png)
+
+<use figures/web2d/bezierbracket.png>
+Package pdftex.def Info: figures/web2d/bezierbracket.png used on input line 71.
+
+(pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
+
+<figures/web2d/panzoom.png, id=19, 401.5pt x 170.6375pt>
+File: figures/web2d/panzoom.png Graphic file (type png)
+
+<use figures/web2d/panzoom.png>
+Package pdftex.def Info: figures/web2d/panzoom.png used on input line 79.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/flagactions.png, id=20, 401.5pt x 170.6375pt>
+File: figures/web2d/flagactions.png Graphic file (type png)
+
+<use figures/web2d/flagactions.png>
+Package pdftex.def Info: figures/web2d/flagactions.png used on input line 86.
+(pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
+
+<figures/web2d/vesicapiscis.png, id=21, 401.5pt x 401.5pt>
 File: figures/web2d/vesicapiscis.png Graphic file (type png)
 
 <use figures/web2d/vesicapiscis.png>
-Package pdftex.def Info: figures/web2d/vesicapiscis.png used on input line 21.
+Package pdftex.def Info: figures/web2d/vesicapiscis.png used on input line 94.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorscale1.png, id=12, 401.5pt x 401.5pt>
+<figures/web2d/cursorscale1.png, id=22, 401.5pt x 401.5pt>
 File: figures/web2d/cursorscale1.png Graphic file (type png)
 
 <use figures/web2d/cursorscale1.png>
-Package pdftex.def Info: figures/web2d/cursorscale1.png used on input line 27.
+Package pdftex.def Info: figures/web2d/cursorscale1.png used on input line 100.
+
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorangle1.png, id=13, 401.5pt x 401.5pt>
+<figures/web2d/cursorangle1.png, id=23, 401.5pt x 401.5pt>
 File: figures/web2d/cursorangle1.png Graphic file (type png)
 
 <use figures/web2d/cursorangle1.png>
-Package pdftex.def Info: figures/web2d/cursorangle1.png used on input line 33.
+Package pdftex.def Info: figures/web2d/cursorangle1.png used on input line 106.
+
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorsquare.png, id=14, 401.5pt x 401.5pt>
+<figures/web2d/cursorsquare.png, id=24, 401.5pt x 401.5pt>
 File: figures/web2d/cursorsquare.png Graphic file (type png)
 
 <use figures/web2d/cursorsquare.png>
-Package pdftex.def Info: figures/web2d/cursorsquare.png used on input line 39.
+Package pdftex.def Info: figures/web2d/cursorsquare.png used on input line 112.
+
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorroot2.png, id=15, 401.5pt x 401.5pt>
+<figures/web2d/cursorroot2.png, id=25, 401.5pt x 401.5pt>
 File: figures/web2d/cursorroot2.png Graphic file (type png)
 
 <use figures/web2d/cursorroot2.png>
-Package pdftex.def Info: figures/web2d/cursorroot2.png used on input line 45.
+Package pdftex.def Info: figures/web2d/cursorroot2.png used on input line 118.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorgolden.png, id=16, 401.5pt x 401.5pt>
+<figures/web2d/cursorgolden.png, id=26, 401.5pt x 401.5pt>
 File: figures/web2d/cursorgolden.png Graphic file (type png)
 
 <use figures/web2d/cursorgolden.png>
-Package pdftex.def Info: figures/web2d/cursorgolden.png used on input line 51.
+Package pdftex.def Info: figures/web2d/cursorgolden.png used on input line 124.
+
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorroot3.png, id=17, 401.5pt x 401.5pt>
+<figures/web2d/cursorroot3.png, id=27, 401.5pt x 401.5pt>
 File: figures/web2d/cursorroot3.png Graphic file (type png)
 
 <use figures/web2d/cursorroot3.png>
-Package pdftex.def Info: figures/web2d/cursorroot3.png used on input line 57.
+Package pdftex.def Info: figures/web2d/cursorroot3.png used on input line 130.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursor3.png, id=18, 401.5pt x 401.5pt>
+<figures/web2d/cursor3.png, id=28, 401.5pt x 401.5pt>
 File: figures/web2d/cursor3.png Graphic file (type png)
 
 <use figures/web2d/cursor3.png>
-Package pdftex.def Info: figures/web2d/cursor3.png used on input line 63.
+Package pdftex.def Info: figures/web2d/cursor3.png used on input line 136.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursor5.png, id=19, 401.5pt x 401.5pt>
+<figures/web2d/cursor5.png, id=29, 401.5pt x 401.5pt>
 File: figures/web2d/cursor5.png Graphic file (type png)
 
 <use figures/web2d/cursor5.png>
-Package pdftex.def Info: figures/web2d/cursor5.png used on input line 69.
+Package pdftex.def Info: figures/web2d/cursor5.png used on input line 142.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./figures/web2d/cursoredit.png> <./figures/web2d/keyboard.png>]
+<figures/web2d/styleeditor.png, id=41, 514.17094pt x 558.58687pt>
+File: figures/web2d/styleeditor.png Graphic file (type png)
+
+<use figures/web2d/styleeditor.png>
+Package pdftex.def Info: figures/web2d/styleeditor.png used on input line 154.
+(pdftex.def)             Requested size: 289.07999pt x 314.05945pt.
+
+
+LaTeX Warning: Float too large for page by 72.39276pt on input line 157.
+
+[2 <./figures/web2d/move.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 164.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 164.
 
-
- <./figures/web2d/cursoredit.png> <./figures/web2d/keyboard.png>] [2 <./figures
-/web2d/vesicapiscis.png>] [3 <./figures/web2d/cursorscale1.png>] [4 <./figures/
-web2d/cursorangle1.png>] [5 <./figures/web2d/cursorsquare.png>] [6 <./figures/w
-eb2d/cursorroot2.png>] [7 <./figures/web2d/cursorgolden.png>] [8 <./figures/web
-2d/cursorroot3.png>] [9 <./figures/web2d/cursor3.png>] [10 <./figures/web2d/cur
-sor5.png>]
-Overfull \hbox (40.98686pt too wide) in paragraph at lines 87--89
+Overfull \hbox (40.98686pt too wide) in paragraph at lines 170--172
 []\OT1/cmr/m/n/12 symmetries and scales, dif-fer-ent meth-ods of ge-ometron(AG)
  
  []
 
 
-Overfull \hbox (3.37613pt too wide) in paragraph at lines 89--91
+Overfull \hbox (3.37613pt too wide) in paragraph at lines 172--174
 []\OT1/cmr/m/n/12 cursor,movements, ba-sic con-struc-tions(segment, cir-
  []
 
-
-Overfull \hbox (6.77054pt too wide) in paragraph at lines 105--107
+[3 <./figures/web2d/angles.png>]
+Overfull \hbox (6.77054pt too wide) in paragraph at lines 188--190
 []\OT1/cmr/m/n/12 editing the hy-per-cube and shape ta-ble, shar-ing them,
  []
 
 
-Overfull \hbox (2.52753pt too wide) in paragraph at lines 109--111
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./figures/web2d/scaleactions.png>]
+Overfull \hbox (2.52753pt too wide) in paragraph at lines 192--194
 []\OT1/cmr/m/n/12 control pan-els, soft-key in-ter-faces, writ-ing ge-ometron
  []
 
-) [11]
+) [5 <./figures/web2d/basicdraw.png>] [6 <./figures/web2d/colors.png> <./figure
+s/web2d/pathactions.png>] [7 <./figures/web2d/bezieractions.png>] [8 <./figures
+/web2d/bezierbracket.png>] [9 <./figures/web2d/panzoom.png> <./figures/web2d/fl
+agactions.png>] [10 <./figures/web2d/vesicapiscis.png>] [11 <./figures/web2d/cu
+rsorscale1.png>] [12 <./figures/web2d/cursorangle1.png>] [13 <./figures/web2d/c
+ursorsquare.png>] [14 <./figures/web2d/cursorroot2.png>] [15 <./figures/web2d/c
+ursorgolden.png>] [16 <./figures/web2d/cursorroot3.png>] [17 <./figures/web2d/c
+ursor3.png>] [18 <./figures/web2d/cursor5.png>] [19 <./figures/web2d/styleedito
+r.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
  (./web2dpdf.aux)
@@ -713,21 +811,21 @@ Package rerunfilecheck Info: File `web2dpdf.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 14.
  ) 
 Here is how much of TeX's memory you used:
- 8873 strings out of 494953
- 127674 string characters out of 6180977
- 243435 words of memory out of 5000000
- 12080 multiletter control sequences out of 15000+600000
- 5453 words of font info for 20 fonts, out of 8000000 for 9000
+ 8951 strings out of 494953
+ 129469 string characters out of 6180977
+ 248435 words of memory out of 5000000
+ 12127 multiletter control sequences out of 15000+600000
+ 6058 words of font info for 22 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 32i,10n,29p,313b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,10n,29p,573b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on web2dpdf.pdf (11 pages, 174178 bytes).
+Output written on web2dpdf.pdf (19 pages, 399127 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

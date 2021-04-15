@@ -145,6 +145,26 @@
 \end{figure}
 
 
+\subsection{Style}
+
+Each instance of the Geometron Virtual Machine has a style object, which defines 8 layers, numbered from 0 to 7.  Each style has a line color, line width, and fill color.  The properties of the style object are stored in the JSON file data/currentjson.txt which is used by the app symbol.html to edit graphics which are used by the rest of the Geometron system.  
+
+\begin{figure}
+	\centering
+	\includegraphics[width=4in]{figures/web2d/styleeditor.png}
+	\caption[styleeditor]
+	{Screen shot of the style editor app at styleeditor.html.  The display on the right hand side of the screen shows an unfilled circle and filled circle of each layer's style.  The text area in the bottom left of the screen is used to import and export style data, which can be saved offline and shared with other users via text message, email, etc.  The RESET button resets the style to a standard setting, which will erase any changes made to the existing style. Enter new values into any field to immediately change it.}
+\end{figure}
+
+While the style app edits the data file currentjson.txt which applies to the whole Geometron object used for symbol editing, the importing and exporting of data for sharing with other users only includes style information, without the rest of the JSON data.  This allows styles to be separated from the rest of the information for the purposes as usual of building a robust remix culture where Geometron users can constantly be sharing each piece of the system.  The EXPORT button will always post the current style JSON in the window in the lower left of the screen.  IMPORT will import the data, and RESET returns it to a default state.  Try creating your own new style with unusual line widths and colors, then exporting it and saving it offline, sharing it with other users, etc.  
+
+Colors are in the format of HTML/CSS/JavaScript, and can be either names of colors like ``red'' or RGB color values like ``\#00ff00''.  This last format is a number in base 16 which has three 2 digit numbers in it(numbers between 0 and 0xFF), where the three numbers are values of red, green, and then blue.  So black is \#000000 and white is \#FFFFFF.  Any value where all three numbers are the same, like \#808080 will be a shade of grey.   Colors can be partially transparent by adding a fourth hexidecimal number which represents opacity.  So fully opaque red is \#FF0000FF, and red with half transparency is #FF000080(80 because 8 is half of 16, this is actually 128 in decimal).
+
+\subsection{Graphics Setup}
+
+The next section of the JSON we want to know how to edit in order to be able to make useful graphics is the setup, edited in the app setup.html.  Setup edits five numbers, all of which are in units of pixels: x0, y0, unit, width and height.  Width and height are the width and height of the graphics file currently being edited or created.  When a Geometron glyph is drawn with a given GVM, it starts with x and y equal to x0 and y0. Setting these two values is therefore effectively setting the horizontal and vertical offset of the field of view of the symbol.  When we activate a pan function within the symbol.html app what we are really doing is modifying the values of x0 and y0 in the JSON file.  These are done manually in this app.  Finally, unit describes the initial unit value of the GVM.  This is essentially the scale factor.  So again when we activate the zoom functions in any other symbol editor what we are really doing is making changes to the variable unit in the global JSON file.    
+
+
 \begin{itemize}
 \tightlist
 \item
