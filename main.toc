@@ -65,31 +65,35 @@
 \contentsline {chapter}{\chapternumberline {11}Machine Control}{145}{chapter.11}
 \contentsline {section}{\numberline {11.1}Machine Control}{145}{section.11.1}
 \contentsline {subsection}{democratization of machines}{145}{section*.46}
-\contentsline {chapter}{\chapternumberline {12}Geometron in 3d and Beyond}{156}{chapter.12}
-\contentsline {section}{\numberline {12.1}Geometron in 3d and Beyond}{156}{section.12.1}
-\contentsline {chapter}{\chapternumberline {13}Ontology}{158}{chapter.13}
-\contentsline {section}{\numberline {13.1}Ontology}{158}{section.13.1}
-\contentsline {section}{\numberline {13.2}On Self-Replicating Sets}{161}{section.13.2}
-\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{161}{section*.47}
-\contentsline {subsection}{2. Self-Replication in Human society}{168}{section*.48}
-\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{174}{section*.49}
-\contentsline {subsection}{4. Self Replicating Sets/Documents}{178}{section*.50}
-\contentsline {subsubsection}{Motivation and definitions}{178}{section*.51}
-\contentsline {subsubsection}{This Set}{185}{section*.52}
-\contentsline {subsubsection}{Code and replication of code}{187}{section*.53}
-\contentsline {subsubsection}{Server replication}{188}{section*.54}
-\contentsline {subsubsection}{Pdf document}{191}{section*.55}
-\contentsline {subsection}{5. Generalization and Social Implications}{192}{section*.56}
-\contentsline {chapter}{\chapternumberline {14}Trash Robot}{196}{chapter.14}
-\contentsline {section}{\numberline {14.1}Trash Robot}{196}{section.14.1}
-\contentsline {subsection}{What is Trash Robot?}{196}{section*.57}
-\contentsline {subsection}{The Open Brand}{198}{section*.58}
-\contentsline {subsection}{The ArtBox}{198}{section*.59}
-\contentsline {subsection}{Laser Cut Acrylic}{209}{section*.60}
-\contentsline {subsection}{skeletron}{209}{section*.61}
-\contentsline {subsection}{textiles}{210}{section*.62}
-\contentsline {subsection}{The icon token printer robot}{210}{section*.63}
-\contentsline {subsection}{Arduino Generic Shield}{212}{section*.64}
-\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{215}{chapter.15}
-\contentsline {section}{\numberline {15.1}Full Stack Geometron}{215}{section.15.1}
-\contentsline {subsection}{Goals}{215}{section*.65}
+\contentsline {subsection}{Structure}{152}{section*.47}
+\contentsline {subsection}{2 and a half d printing and the Trash Robot icon token printer}{154}{section*.48}
+\contentsline {subsection}{The wall robot}{154}{section*.49}
+\contentsline {subsection}{Microfabrication and Nanofabrication}{154}{section*.50}
+\contentsline {chapter}{\chapternumberline {12}Geometron in 3d and Beyond}{159}{chapter.12}
+\contentsline {section}{\numberline {12.1}Geometron in 3d and Beyond}{159}{section.12.1}
+\contentsline {chapter}{\chapternumberline {13}Ontology}{161}{chapter.13}
+\contentsline {section}{\numberline {13.1}Ontology}{161}{section.13.1}
+\contentsline {section}{\numberline {13.2}On Self-Replicating Sets}{164}{section.13.2}
+\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{164}{section*.51}
+\contentsline {subsection}{2. Self-Replication in Human society}{171}{section*.52}
+\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{177}{section*.53}
+\contentsline {subsection}{4. Self Replicating Sets/Documents}{181}{section*.54}
+\contentsline {subsubsection}{Motivation and definitions}{181}{section*.55}
+\contentsline {subsubsection}{This Set}{188}{section*.56}
+\contentsline {subsubsection}{Code and replication of code}{190}{section*.57}
+\contentsline {subsubsection}{Server replication}{191}{section*.58}
+\contentsline {subsubsection}{Pdf document}{194}{section*.59}
+\contentsline {subsection}{5. Generalization and Social Implications}{195}{section*.60}
+\contentsline {chapter}{\chapternumberline {14}Trash Robot}{199}{chapter.14}
+\contentsline {section}{\numberline {14.1}Trash Robot}{199}{section.14.1}
+\contentsline {subsection}{What is Trash Robot?}{199}{section*.61}
+\contentsline {subsection}{The Open Brand}{201}{section*.62}
+\contentsline {subsection}{The ArtBox}{201}{section*.63}
+\contentsline {subsection}{Laser Cut Acrylic}{212}{section*.64}
+\contentsline {subsection}{skeletron}{212}{section*.65}
+\contentsline {subsection}{textiles}{213}{section*.66}
+\contentsline {subsection}{The icon token printer robot}{213}{section*.67}
+\contentsline {subsection}{Arduino Generic Shield}{215}{section*.68}
+\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{218}{chapter.15}
+\contentsline {section}{\numberline {15.1}Full Stack Geometron}{218}{section.15.1}
+\contentsline {subsection}{Goals}{218}{section*.69}

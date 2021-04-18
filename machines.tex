@@ -28,32 +28,20 @@ If our goal is to have the most control possible over our own lives in a technol
 
 \textbf{All automation actions can be stopped at any time.}  The big red ``stop'' button must also be universal. Pushing this button immediately stops the automating action.  This is different from the ``EPO'' or Emergency Power Off button which can also be a good idea, which shuts down a machine completely.  A stop button simply stops whatever action was initiated by the go button.
 
-\textbf{Discrete geometric actions of Geometron, using geometric symbols enable programming with no specialized technical knowledge.}  This is the heart of where Geometron enables 
+\textbf{Discrete geometric actions of Geometron, using geometric symbols enable programming with no specialized technical knowledge.}  This is the heart of where Geometron enables democratization of machine control.  The idea of ``move one unit to the right'' is something humans can understand without any special training.  The idea of making a symbol for that action which consists of an arrow or equivalent is also universal enough to require to special training and also eliminates the language barrier one gets from using word-based human language. These discrete motions sound limiting, but as with the earlier chapters of this work, if we allow for operations which change the unit of movement, we can make arbitrarily complex and precise motions built up from combinations of different units of movement.  
 
-\textbf{Symbol hierarchy.}  Symbols are used describe action sequences which are built up to make more complex actions.  
+\textbf{Symbol hierarchy.}  Symbols are used describe action sequences which are built up to make more complex actions.  So an action like ``move right, lower drill press, raise drill press'' can be condensed into ``drill a hole'', which has its own symbol, and then ``drill a row of holes'' has its own symbol, which is made up of a simple sequence of the ``drill a hole'' symbols.  Those rows can be terminated with a ``move back to start'' action by chaining ``move left'' actions, along with a ``move towards'' action.  When these are put together into a bigger sequence we can build up to a symbol which means ``drill an array of holes'', symbolized by just an array of dots in the standard Geometron convention of a square with symbols in it along with movement to the position of the next symbol.
 
-\textbf{Upcycled hardware.}  This is the principle used throughout this work, but must be re-emphasized here because it is so important and because it is so easy for controllers.  
+\textbf{Upcycled hardware.}  This is the principle used throughout this work, but must be re-emphasized here because it is so important and because it is so easy for controllers.  All we need is buttons and mechanical structure.  The main body of controllers can be made from cardboard trash, as can all the surfaces touched by the user.  Using simple geometry for all these parts allows them to be replicated effectively using social media without sending any files from user to user, just copying a geometric construction using simple shapes and symmetries.  Buttons themselves can be found in any of numerous consumer waste products, often in fairly large number.  An old stereo or printer can have dozens of buttons sometimes, and since the basic controllers we will build generally have about 8 buttons, this means one scavenged electronic junk item can yield multiple controllers in some cases.  Ribbon cables and connectors can also be scavenged, but they are so cheap and easy to buy that for the time being buying them from consumer off the shelf sources can be more efficient.
 
 
+\subsection{Structure}
 
-\begin{itemize}
-\tightlist
-\item
-introduction, the democratization of automation
-\item
-structure of hypercube, workflow, general principles
-\item
-trash robot printer
-\item
-wall robot on large building
-\item
-agricultural robot prototype/description
-\item
-electron beam lithography
-\item
-hacked 3d printer to make 2.5d printer
-\end{itemize}
+The control of machines using Geometron follows the pattern of the rest of Geometron as documented in earlier parts of this manuscript.  We assign addresses in the Action Cube in the Geometron Hypercube to geometric actions.  These actions all have symbols in the Symbol Cube of the Geometron Hypercube.  The Geometron Hypercube, as described earlier, is a pair of cubes, each with 8x8x8 = 512 cells.  One cube represents actions, and one cube represents symbols.  Each cell in each cube contains a sequence of addresses which describe either a geometric action or a symbol of an action.  Layers of the action cube are divided up by what kind of action they represent.  
 
+Actions which represent direct control of machines are assigned to the addresses in layer 4 of the Action Cube.  All addresses in the Geometron Hypercube begin with a zero to indicate that they are in a range from 0 to 7(base 8).  The addresses representing machine actions are of the form 04xy, where xy are numbers from 0 to 7.  Most of this set of actions is empty in the version of Geometron presented here, leaving a large space open for future development, potentially adding vast complexity if that is useful.  The way actions in the 04xy block are performed varies by the specifics of what hardware is used.  Design of symbols and programs can be carried out entirely in a Web browser using the main system of Geometron.  No hardware control is needed at all to design these systems.  It can be totally self-contained in the browser, building up custom languages of symbols in the Symbol Cube of the Hypercube in the address space defined by 014xy, where x and y are the same coordinates between 0 and 7 as in the Action Cube.  Again, sequences of addresses form glyphs which are just text which can be copied and pasted and shared instantly throughout the global network by private text message or public text file sharing and replication as described in the code chapter.
+
+Actions representing combinations of basic actions, like the ``drill an array of holes'' action mentioned above are put in the 
 
 \begin{figure}
 	\centering
@@ -78,9 +66,41 @@ hacked 3d printer to make 2.5d printer
 \end{figure}
 
 
+\subsection{2 and a half d printing and the Trash Robot icon token printer}
+
+\subsection{The wall robot}
+
+
 \begin{figure}
 	\centering
 	\includegraphics[width=4in]{figures/machines/buildingwallrobot.png}
 	\caption[buildingwallrobot]
 	{A hoist run along a rail going across the edge of a roof of a building can make a simple robot which can move to anywhere along the wall.}
 \end{figure}
+
+
+\subsection{Microfabrication and Nanofabrication}
+
+
+
+\begin{itemize}
+\tightlist
+\item
+introduction, the democratization of automation
+\item
+structure of hypercube, workflow, general principles
+\item
+trash robot printer
+\item
+wall robot on large building
+\item
+agricultural robot prototype/description
+\item
+electron beam lithography
+\item
+hacked 3d printer to make 2.5d printer
+\end{itemize}
+
+
+
+
