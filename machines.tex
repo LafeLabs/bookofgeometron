@@ -34,6 +34,13 @@ If our goal is to have the most control possible over our own lives in a technol
 
 \textbf{Upcycled hardware.}  This is the principle used throughout this work, but must be re-emphasized here because it is so important and because it is so easy for controllers.  All we need is buttons and mechanical structure.  The main body of controllers can be made from cardboard trash, as can all the surfaces touched by the user.  Using simple geometry for all these parts allows them to be replicated effectively using social media without sending any files from user to user, just copying a geometric construction using simple shapes and symmetries.  Buttons themselves can be found in any of numerous consumer waste products, often in fairly large number.  An old stereo or printer can have dozens of buttons sometimes, and since the basic controllers we will build generally have about 8 buttons, this means one scavenged electronic junk item can yield multiple controllers in some cases.  Ribbon cables and connectors can also be scavenged, but they are so cheap and easy to buy that for the time being buying them from consumer off the shelf sources can be more efficient.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=4in]{figures/machines/controller.png}
+	\caption[controller]
+	{An example controller showing all of the above design principles.  Buttons are 1.5 inches on a side and raised up above the surface of the controller enough to be easy to feel.  Their shape indicates their function, being triangles pointing in the directions of the actions.  The go button is big and green, and the stop button is big and red.  The whole thing is built from cardboard and duct tape, avoiding any use of circuit boards which require custom fabrication in a factory.  The shapes of all components, from button cutouts to the top and bottom layers of large cardboard slabs are all designed using very simple geometric constructions using the laser cut acrylic shapes described elsewhere in this work.  This geometric construction makes the whole artifact easy to replicate accurately without any contact with the physical thing to copy or any skill or knowledge in the relevant craft.}
+\end{figure}
+
 
 \subsection{Structure}
 
@@ -58,6 +65,8 @@ Actions representing combinations of basic actions, like the ``drill an array of
 	{Basic geometric actions of machine control for an arbitrary machine that moves along three perpendicular axes.}
 \end{figure}
 
+
+
 \begin{figure}
 	\centering
 	\includegraphics[width=4in]{figures/machines/actions05xx.png}
@@ -67,6 +76,15 @@ Actions representing combinations of basic actions, like the ``drill an array of
 
 
 \subsection{2 and a half d printing and the Trash Robot icon token printer}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=4in]{figures/machines/printerblockdiagram.png}
+	\caption[printerblockdiagram]
+	{Block diagram of Trash Robot printer.  The motion stages are salvaged from DVD or CD ROM drives.  The motor drivers are off the shelf from Pololu Robotics.  The Arduino is the Arduino UNO, and the whole system including the motors gets power from the USB connected to a computer.  The computer can be used to interact with a Geoemtron server over the local network or on the global Internet to create programs which are copy/pasted into the Arduino IDE as described in the Trash Robot chapter.}
+\end{figure}
+
 
 \subsection{The wall robot}
 
@@ -81,25 +99,12 @@ Actions representing combinations of basic actions, like the ``drill an array of
 
 \subsection{Microfabrication and Nanofabrication}
 
-
-
-\begin{itemize}
-\tightlist
-\item
-introduction, the democratization of automation
-\item
-structure of hypercube, workflow, general principles
-\item
-trash robot printer
-\item
-wall robot on large building
-\item
-agricultural robot prototype/description
-\item
-electron beam lithography
-\item
-hacked 3d printer to make 2.5d printer
-\end{itemize}
+\begin{figure}
+	\centering
+	\includegraphics[width=4in]{figures/machines/eblblockdiagram.png}
+	\caption[eblblockdiagram]
+	{Block diagram of electron beam lithography Geometron robot.  The Arduino here drives three analog to digital converters.  Again the user can design a program for the beam path in a web browser using any computer, which can then also control and power the Arduino and its accessories.  In this case the controller only needs one huge green go button and one huge red stop button.}
+\end{figure}
 
 
 
