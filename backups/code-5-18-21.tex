@@ -1,0 +1,273 @@
+\href{index.html}{home}
+
+\section{Code}\label{code}
+
+Geometron Developers are a critical member of the swarm that makes up the Network, and this chapter is intended to describe how to learn to take on this important role in the swarm.  We assume that you are willing to dig in and learn code but not that you already know a lot about it.
+
+If you are a bit technical but not specifically a web develoer you will first need to learn the basics of Web Development. I strongly encourage you to learn how I did(unless you are already a web developer).  You need to learn the basics of HTML, CSS, JavaScript, and PHP.  I learned these from https://www.w3schools.com/.  I had to learn using Microsoft Visual Studio Code, because I did not have an editor yet(I needed to learn to make web code to make web code to make web code.) But you will be able to entirely learn all material on all four of those languages using the code editor built into each Geometron instance and testing instantly on the same instance. 
+
+\subsection{Philosophy}
+
+All our code of all kinds is organic media as described in previous chapters.
+
+All code can be copied by all users. All code is human readable, and can be copied by copy/paste.  All code can be edited on all servers by all users.  All code can be deleted by all users on all servers.  No native code.  All code is run from a browser, and can be run from any browser on the local network.  All code is part of a server which can be replicated as a block with a single operating, copying all files from any computer on a local network to any other computer on that network.  Each instance of the code is totally self-contained, and can be edited and replicated to create a new node with no relations of any kind with any other node.  A single Raspberry Pi could be used to replicate a server to a laptop on a coffee shop which pushes the code to a public git repository which is then replicated to a globally visible url, which replicates to more computers, git repos, terminals, and servers, and so on, replicating a single instance to the whole world of billions of devices in a matter of minutes if the relations between network nodes are set up properly, all with no centralized structure of any kind.  
+
+This system does not have ``users'' in the sense that they exist in current information technology systems.  The systems just \emph{are}.  Think of them like any other appliance outside of information technology.  We will illustrate the idea of a commonly shared thing with an example.
+
+When you go into a coffee shop, the counter where orders come out and are picked up by customers does not have divisions by property.  Customers are not assigned a special area on the counter to the exclusion of others.  Likewise the baristas do not have zones marked off that are theirs, with some complex system for assigning a space over from barista to customer(like the driver and rider in a ride sharing app).  Instead, the counter is a shared resource: its value to customer and barista alike is maximized by it being a common space where cups of coffee appear and are taken based on whatever is most convenient at the moment.  Sometimes someone breaks the model here, and throws a huge dirty backpack on the counter or spills something sticky everywhere, putting the system out of use.  But again we all accept that the risk of this and the added work to correct it is outweighed by the benefit of the counter being an open space.  
+
+Our information systems in Geometron are like the counter top in a coffee shop.  Indeed, one of the primary use cases is to have the software run on a server literally sitting on the counter of a coffee shop.  As with the counter, the benefit to customers, workers, and owners of the coffee shop is such that it simply has more value shared with no property than it would if there were \emph{any} barriers to the flow of information.  Anyone with any experience designing and building information technology systems will need to constantly remind themselves how different a model this is to any existing system.  Even anonymous message boards are not structured this way.  Users are still users, even if they're just an anonymized IP address.  In our model there \emph{simply are no users!!}  No users means no passwords. It also means there are no ``transactions'' involving money or property, as any application which actually does commerce can't function without a user on each side of the transaction.  Our media can \emph{enable} all kinds of commercial transactions! People can post things which say how to get ahold of them, or link to pages with more specific content some of which might be private.  But the point is that something like an advertisement for some good or service on a local network is worth more the more people see it.  If members of a community are all posting to each other and all getting value from seeing those posts, it is in everyone's best interest to have things be as free as possible, and this means no users.
+
+Without users, there are also no passwords, no databases, and no ``security'' of any kind.  Security is physical in a physical space, and our networks are physically local and not on the open Internet.  In order for this to work, people need to not put any private information on the network, ever.  The only way users on their private devices interact with Geometron is through their web browser.  
+
+All that said, encryption can be used in interesting ways in a free open physically local network node.  Files can be encrypted in a human-readable format, dropped on a server, and copied out across the web from server to server and laptop to laptop.  One can think of numerous applications for this.  In the initial version of Geometron that is being released with this book, there are no built in cryptography technologies of any kind.  But with the application development workflow described in this work users can easily build that tech in whatever direction they choose. Again, this is the power of a fully open system: you can sit in a coffee shop anonymously editing code, write a totally new kind of cryptography application, share with other users in the coffee shop, who then copy to github and share with the world, and in no time your application has spread to the whole world, untraceable to you, and with others forking the code, riffing on it and improving it.  Your project shared with one person on a coffee shop can come back to you in the form of a vast new ecosystem of derived code, shared freely across the global network and finally back to your coffee shop.  
+
+We also need to specifically state here that part of the philosophy of Geometron is to have as little server side code as possible, and in particular to have no command line installations needed at all.  I \emph{strongly} advocate against any use whatsoever of systems like node.js or other server side packages which might do things the user cannot immediately see, copy, edit, or destroy.  This is why I am such a strong proponent of using only PHP for almost all server side code.  The only exceptions are for direct physical control of machines.  For building robots using the Raspberry Pi we will use Python, along with shell scripts to set them up, and for Arduino-based robots we'll use that language(C++ with some nice libraries).
+
+It is inevitable that developers who like these kinds of things, be it Ruby, Node, or the latest fad language like Rust or Go will want to rewrite all this in their favorite server-side language.  I again cannot overstate how strong my opposition is to to this.  PHP is unique in how it can run on pretty much any server with no added installations.  It is installed by default on all new macs.  It is installed with one command and actually always works on the Raspberry Pi and other standard *nix command prompts.  And most importantly it just runs in the browser, where a file of the form filename.php in the browser just runs the script. This is what enables the self-replication and self-editing that makes this a form of organic media and not just another software platform.  Please keep an open mind about this approach before trying to advocate for a supposedly ``more advanced'' language than PHP.  
+
+The same statement applies to my choice to use JSON instead of XML for most of the data.  This was not a choice made at random.  I've played around a lot with both formats and feel very strongly that JSON is more appropriate for how we handle information in this system than XML is, for numerous reasons.  
+
+\subsection{Code Structure}
+
+All Geometron apps run in a web browser and so are composed of HTML, CSS and JavaScript.  PHP scripts are used to communicate between the web browser and the file system on the server(even if it is just a localhost server on a laptop).  
+
+Each instance of Geometron has a standard file structure where various types of files are always stored.  Whatever directory on the web server a Geometron instance is in can have subdirectories which also have yet another Geometron instance. We aim to have the whole system be well under 10 megabytes, so a 1 gigabyte storage capacity server can host a hundred instances easily, each in its own subdirectory.  All Geometron applications are html files which sit in the root directory of that instance(although this might be a subdirectory on a server).  JavaScript libraries are stored in the directory jscode/ as .js files.  Symbol files or other image files used as icons and graphics in a Geometron server can be stored in the directory iconsymbols/.  Scrolls are markdown files, which are stored in the directory scrolls/.  JSON data for most applications is stored in the directory data/, and are always stored with the extension .txt so that they can be read as raw text in a web browser.  The files in the specific JSON format called the ``Geometron Map'', documented in a later chapter, are all stored in the directory maps/.  Two copies of all the php scripts exist on each server.  One copy is in the directory php/ and has the file extension .txt.  The other identical copies of the files are in the root directory of the Geometron instance and have the file extension .php. In other words each php script has one copy which anyone can read in a web browser and copy/paste without running the code and another which is exectuable but not human readable.  
+
+All these files of the above type are listed in a file called dna.txt which is stored in the data/ directory along with other JSON files.  A script called replicator.php has in it a url of a dna.txt file. Replicator.php will extract the root directory of the Geometron instance being copied from the global url of that dna.txt file, and use that along with the JSON data in dna.txt to copy each individual file from the source server to the destination server.  Any server can copy from any other server with this.  Any given replicator script can have the one line of code changed which points to a different dna.txt file to switch the source server from which Geometron is replicated.  So in a complex network, any node can copy from any other node, replicating the whole structure.  Note that replication is a destructive process, and in general the server onto which the code is replicated then has all the old files deleted automatically.  All information is thus volatile.  Anything can instantly be destroyed or instantly be copied an infinite number of times.
+  
+If you want to get the replicator on any given server, point your browser to [the main url of the server]/php/replicator.txt.  Copy and paste that into a new file called replicator.php, and put that in the web directory of a new server.  Then if you just point a browser to  [address of server]/replicator.php, and wait until there is a link to click on and you'll be looking at a new instance of Geometron replicated from wherever the origin was of the instance you copied the replicator from.
+
+You can try this by looking at the code at for instance http://www.trashrobot.org/php/relicator.txt.  Or go find raw code at the main Geometron Thing repository under the username lafelabs, repo name ``thing''(\url{https://www.github.com/lafelabs/thing/}).
+
+To become a Geometron developer you will want to have a laptop which can run a local php web server, as well as a Geometron Terminal as described in the section on the Street Network.  The server can also be a Street Network Terminal, but it doesn't have to be, it can be a Raspberry Pi which you install the system on.  In other words, any Terminal is a full Geometron server, but a server does not have to be a full terminal.  You can just use a headless pi dangling from a USB wall plug, as the author does at home, setting it up once with a tv, then unplugging everything and leaving it on permanently.
+
+When your laptop is on the same wifi network as your server, point your browser to the IP address of the server and you will be looking at that Geometron instance.  Now on your laptop you will want to create a new github repository. This can be as generic as a repository called ``thing''.  Make a working copy of the repository in some directory on your computer.  Now get some type of linux command line working with php installed.  In the root directory of your new project directory, make a new file replicator.php and paste into it the replicator of some other Geometron instance.  At the command line, run replicator.php.  This should copy the whole existing code system.  Once the replication is completed, still at the command line, type
+
+\begin{verbatim}
+php -S localhost:80
+\end{verbatim}
+
+And then navigate your browser to http://localhost.  From there you can edit documents and code on that instance of Geometron just as you would on a Raspberry Pi based or globally hosted server.   When you save that whole system to your github you are then publishing that entire copy of the code there.  Now you want to edit the version of replicator.txt on your local server to point to the global url on github which points to your dna.txt.  This means for instance with lafelabs/thing the line in replicator.txt which we want to edit is 
+
+\begin{verbatim}
+  $dnaurl = "https://raw.githubusercontent.com/LafeLabs/thing/master/data/dna.txt";
+\end{verbatim}
+
+In this line of the code, you will want to replace ``LafeLabs'' with your Github account name and ``thing'' with whatever the name of your github repository is(a logical choice might be ``geometron'').  Once this change is made, that global replicator.txt file which points to that global dna.txt file can be used to replicate your local instance to any other place on the Open Web.  This means any other private Raspberry Pi Geometron Terminal on the Street Network can instantly be running copies of your code, without you paying for bandwidth or building a site of any kind.  You can private message people the url of your replicator, and they can all be copying from github to private terminals in coffee shops, truck stops, and public libraries on every continent!
+
+So this is how we replicate the system from a pi server to a local laptop to a global code repo to the whole Web.  But how do we actually edit the code?  
+
+We use a program called editor.php which is based on the open source JavaScript library Ace.js to edit all code on the system.  Editor.php reads the files in the various directories and lists them, color coded by code type.  You can just edit live, and as you type the code changes. So watch out!! You can just pound keys and wipe out index.html in a few keystrokes. You can randomly delete one character somewhere or add a random letter in a JavaScript library and catastrophically break the whole system. But no fear!! This is what replication is for!! A corrupted system can be totally wiped out by just running the replicator again, to wipe out the corrupted files.  If there are billions of copies of a good app, however, the loss can be be on average negligible.  
+
+There is a window in editor.php which lists all the html and also some php files as clickable links.  This is how you run another critical replication script, called dnagenerator.php.  This script is where the JSON file dna.txt comes from.  It scans the directories, looks at all the .html files, and writes to data/dna.txt on whatever server it is being run on.  Any time you make new files of any kind on a server, always run that again.  
+
+The next most important script in understanding the system is text2php.php.  This script takes all the files in the php/ directory which end in .txt and copies them into the main directory with the extension changed to .php, making them executable.  This is why we need two copies of every PHP script: because we can't be editing PHP scripts which are actively running, and we want editor.php to be able to edit every single file on the server including itself! Editor.php, like so many code editors, was largely written in itself.  You can use it to edit the file php/editor.txt, then run text2php.php and you'll find the editor has changed!! If you corrupt the editor, you'll probably want to just run the replicator again to wipe and replace the whole system.  But this is a very useful first exercise if you're learning to become a Geometron developer, and I strongly encourage you to actually do this, right when you get started.  Go into php/editor.txt and change something in the CSS to change something like background color, run the script, and click back to editor.php and you should see your customized editor. You can change themes by referring to the documentation on Ace.js.
+
+Editor.php functions by using two other php scripts: filesaver.php and fileloader.php.  When you click on a file to load it into the editor, fileloader.php is engaged using the XMLHttpRequest object in JavaScript to fetch arbitrary files and load them into the Ace.js editor.  As you hit keys when the cursor is in the editor, the file is updated using filesaver.php with every keystroke.  Once again, there is no safety net here! If you mess around with the code, it changes instantly.
+
+To create a new file using editor.php you use the question mark to input information to the script, with the field ``newfile''. For example, to create a new application entitled triangles.html, you would put ``editor.php?newfile=triangle.html'', and scroll down to the very bottom of the list of files to find your new file.  Then just start editing it, and when you want to add it to the geometron instance, click on dnagenerator.php and it will be added to the dna to replicate to the next instance. Also, it will now be linked from editor.php, so when you reload the editor, you can click that link to get to your new app.   This also works for other files besides new applications, you just include the directory name with the file, for instance ``editor.php?newfile=jscode/newjslib.js''.  
+
+
+To create another instance of the full Trash Robot/Geometron system, we
+copy a program called ``replicator.php'' into the main web directory of
+the server. The raw code can be found at either locally on this server
+at \url{php/replicator.txt} or globally on the original lafelabs Github
+``thing'' repository at
+\url{https://raw.githubusercontent.com/LafeLabs/thing/master/php/replicator.txt}.
+
+We generally run Trash Robot/Geometron in one of three ways:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Run it on a hosted remote server somewhere
+\item
+  Run it on a Raspberry Pi and serve it over a local wifi network.
+\item
+  Run it locally on a computer we are using for active development
+\end{enumerate}
+
+To host it on a remote server, we first buy a domain name representing a
+local place which is not property: a public street, public park, public
+body of water name for instance. We always choose obscure domains, do
+not use .com, and avoid any personal information or names of businesses.
+Then we pay for hosting service. We find the root directory for web
+hosting, and create a new file called replicator.php. We copy the code
+in the replicator into that and save it. Then we point a browser to
+{[}your domain name{]}/replicator.php and wait for the script to copy
+all the files.
+
+To run it on a Raspberry Pi, after installing the normal Pi software,
+install Apache and PHP as follows:
+
+Then install the \href{https://github.com/lafelabs/thing/}{Geometron
+software} type copy/paste these commands into the terminal:
+
+To run on a local laptop as localserver, if you're on a mac, just open a
+terminal. You can use the ``command'' button combined with searching for
+``terminal'' to find it, then pin it to the menu bar. On a Windows
+machine,
+\href{https://ubuntu.com/tutorials/ubuntu-on-windows\#1-overview}{install
+Ubuntu under windows}. Then as with mac you can use control-escape to
+bring up the Start Menu, and type in ``ubuntu'' and click on it to open
+a terminal. Once the terminal is open, pin Ubuntu to the task bar for
+easy use in the future.
+
+In the terminal, you want to type
+
+Or open .bashrc
+
+\begin{verbatim}
+nano ~/.bashrc
+\end{verbatim}
+
+And copy this line after the last existing line of the file:
+
+\begin{verbatim}
+alias s='php -S localhost:80'
+\end{verbatim}
+
+And then just hit the letter ``s'' every time you get to the command
+line.
+
+When the local PHP server is running you can open a browser on that
+machine and point it to \href{http://localhost/}{http://localhost} and
+you will be running the full Trash Robot/Geometron software on that
+machine. You can use this for purely local interaction where no one in
+the world can see what you do, and can edit various files which you then
+paste into other instances of the software, send to other users, or
+import when other users send you
+date(\href{scrolls/scrolls.md}{scrolls}, \href{scrolls/maps.md}{maps},
+\href{scrolls/feeds.md}{feeds}, \href{scrolls/geometron.md}{symbols}).
+
+You can fork the whole software when you run it locally on a laptop by
+replicating the whole system into a directory which is a Git repository,
+then pushing the code to a public repository(like on Github) and then
+replicating the new version of the code to the whole Web by pointing the
+code in replicator.php which has a url for ``dna.txt'' to the global url
+for your dna.txt file. Dna.txt has all the files to copy organized by
+type. Replicator.txt uses that to figure out what to copy. The DNA is
+generated using another PHP script called dnagenerator.php. PHP files
+are all stored as .txt files in the directory php, and a script called
+text2php.php copies all of those files to the main web directory and
+changes the extensions from .txt to .php.
+
+All code is edited with the program \url{editor.php}. This is a code
+editor which edits all code directly on the server. This is how all code
+development works in Trash Robot/Geometron. It is all in the Web
+Browser. Code formatting is carried out using the free
+\href{https://ace.c9.io/}{open JavaScript library Ace.js}, hosted on
+Cloudflare CDN at
+\url{https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js}. With this
+we can edit all the HTML, all the JavaScript, all the PHP, the raw
+Geometron, and various data files. This editor is used to make and edit
+all kinds of files.
+
+To create a new file we can use ``newfile'' after editor.php as follows:
+editor.php?newfile={[}filiename{]}. The file will appear at the very end
+of the list of files, with the right color coding and syntax
+highlighting based on the file extension.
+
+A coffee shop-centered community code work flow is now described. A
+Raspberry Pi sits on the coffee shop wifi network. All users in the shop
+share in making scrolls, maps, symbols, feeds, pages and apps. Then any
+user can back all that up to a full new code instance, and push that to
+their public facing Github page. That copy of replicator.php is the
+pointed to that copy of dna.txt. The next instance of the software can
+use the code from this new replicator.php and it will clone the whole
+code base of that coffee shop, with no reference at all to the original
+code. Each fork creates a fully independent copy of the code.
+
+To fork a whole full instance of the software down a level, use
+\url{fork.html}. This lets you create new branches with whatever name
+you want, as well as delete whole branches. Deletion is real!! There are
+no backups. We prevent data loss with massive redundancy of replication.
+If all users frequently not only replicate but pass along all
+information, loss is a normal part of information life cycle and easy
+deletion is healthy.
+
+There is a standard structure to applications in Geometron.  An application generally uses the PHP scripts fileloader.php and filesaver.php via the JavaScript XMLHttpRequest object to edit some data file.  That data file is always human readable in the sense that it has some global url which you can navigate a browser to and it will display the text in a way that can be copy/pasted via email, text messages etc. With the specific exceptions of formats specific to Geometron, all data will be in the ``data'' directory.  In general, the format will either be some form of plain text for human consumption or in the JSON format.  The actual function of the application is then in completely client-side JavaScript.  For our JavaScript libraries We always use either a library which is free and open source and exists on a publicly available CDN or a library which is written by us, in the Geometron network(and is therefore public domain), and which is replicated from the ``jscode'' directory by replicator.php by way of dna.txt.   
+
+Another element we try to have in all Geometron applications is a text input/output, either an ``input'' HTML element or a ``textarea'' HTML element, which can be used to import and export the JSON data. There will generally also be a button to import and a button to export.  Whatever other buttons and inputs will be added to manipulate the data, and in general as modifications are made, the JSON file is instantly updated in real time as you go, just like with editor.php.  Then, when you press the EXPORT button, the JSON code will appear in the text area or input.  You can then copy it to the clipboard of a computer or mobile device, paste into a text message, email, private file, or public pastebin, and share with anyone anywhere, and if they have their own local copy of the same application, they can drop it into the same text window in their browser and hit the IMPORT button to load the same data into their app instance.  
+
+Perhaps the simplest Geometron app is the wall.html app.  This is just an html page where the whole screen is a text box in which everything you type is saved to the file data/wall.txt.  That's all! The HTML code in the body of the document is simply 
+
+\begin{verbatim}
+<textarea id = "wall"></textarea>
+\end{verbatim}
+
+A little bit of CSS code sets the size of the textarea element to take up the whole screen. The function of the app is in a script element and is as follows:
+
+\begin{verbatim}
+  wall = "";
+
+  var httpc2 = new XMLHttpRequest();
+  httpc2.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          wall = this.responseText;
+          document.getElementById("wall").value = wall;
+      }
+  };
+  
+  httpc2.open("GET", "fileloader.php?filename=data/wall.txt", true);
+  httpc2.send();
+  
+  document.getElementById("wall").onkeyup = function() {
+          wall = this.value;
+          var httpc = new XMLHttpRequest();
+          var url = "filesaver.php";        
+          httpc.open("POST", url, true);
+          httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
+          httpc.send("data="+encodeURIComponent(wall)+"&filename=data/wall.txt");//send text to filesaver.php        
+      
+  }
+\end{verbatim}
+
+This is very simple: keystrokes save the file. If you want to copy/paste the whole thing, just select all the text and do it, and then you can drop the whole thing into another wall on another Geometron page instance and it can be edited there and shared and copied etc. etc. from Geometron instance to Geometron instance.  
+
+Another replicator script which is useful is copy.php.  To see the source code, as with all PHP scripts in Geometron, go to any Geometron server and look at php/copy.txt.  This program takes as inputs a from and to field and copies a file from one url which can be global or local to a local file location on the server.  So for instance to copy wall.html from trashrobot.org to your local raspberry pi, you can navigate a browser on the same local network as the Pi to http://[the pi's IP address]/copy.php?from=https://www.trashrobot.org/data/wall.txt&to=data/wall.txt.  this is a long URL.  But it can be put into a link with a shorter text or an image or icon, so that on a page a user can just click it like a button and they will copy the data/wall.txt file from the one server to the other.  If links like this are used to copy a file from one server to the next, decentralized replication can propagate very quickly.  Again, we can replicate using this tool from a Pi to a local developer's laptop, to a Github repository, to a public web page, to other local Pi servers all over the world, where the whole process is then repeated again and again.  And we can be doing this with \emph{any} file in the whole Geometron system: apps, data, JavaScript libraries, PHP scripts, scrolls, maps, feeds, symbols, all the other formats to be discussed here.  And again there are now owners of any of these documents.  They are not saved in a user directory and emailed to another user or shared via app from user to user.  They simply are not owned by anyone.  They are shared resources to be replicated or destroyed.  
+
+The power of copy.php can only become clear as more Geometron servers are linked.  These can be directories on a single server, of which, remember, there can be hundreds.  Imagine a collection of maps and scrolls which each contain links which activate copy.php to replicate scrolls and maps from other pages.  One can start to try to calculate the amount of information in such a network and get some shocking results at the potential power of a network like this.  If developers are actively creating apps on each node, and replicating them freely and destroying and modifying them and replicating them more we get a flow of information with similar complexity of the topology of the network to Twitter interactions with retweets and hashtags etc.  But in this case the amount of information is vastly higher, as the actual structure of apps in evolving.  If swarms of developers are all working in this way in a coffee shop on a shared Raspberry Pi Geometron server, while they all push code to their own github repositories, which are then replicated to other swarms in other shops, all over the world, and if they are using this swarm to actively develop new applications in applied math, the potential is staggering.  Like the Logopolitans in Dr. Who, a global swarm of developers all working on a math problem in parallel with code that evolves in real time can challenge classical computers at applied math problems by creating advantages of information content in a similar way to who quantum computing claims it supposedly can in the future.  If such technology were developed for real time swarm computation in a way that can be applied to cryptography, the potential could be an existential threat to the status quo, especially since swarms of anonymous developers on private networks are obviously a much harder to control technology than quantum computers, and can scale up globally with zero marginal cost using existing infrastructure.
+
+To replicate only the data from a server we can use copydata.php.  It only has the one parameter, which is the ``from'' url, which is the location of the Geometron server to copy, not specifically of the dna file, but of the whole url, to which this script adds ``data/dna.txt'' to fetch the actual information to get the data.  This is like replicator.php only it is just the contents of the maps/, scrolls/ and data/ directories.   
+
+We must also address how bad code is dealt with.  Not all bad code is from typos.  Malicious code or media of a bad nature can be intentionally created. What do we do with bad information? We totally destroy it.  Not by simply editing it but by replicating a non-corrupted version, totally annihilating the bad instance.  In the most extreme case we step out of the Geometron system and just wipe the whole thing clean and then go back and re-replicate.  A Raspberry Pi's whole system lives on a cheap little SD card the size of a fingernail.  If you really think it's infected with something so nefarious that you can't deal with it, you can always pull that out and destroy it and put a new one for just a few dollars, without any impact on your overall setup.  Our goal in Geometron is not to destroy bad things but to create good things that replicate faster than bad things and destroy them by overwhelming numbers.  If a bad thing copies a million times and a good thing copies a billion times, on average we all still win.  
+
+Also, data files in the data directory can be directly edited with editor.php, which always gives us yet another way of copy/pasting the raw data, even in cases where some data is hidden in the app, or where there is no copy/paste input/output window, which might be inconvenient for some apps.
+
+Some more technical details on editor.php should be elaborated on here.  The look of the editor, which developers are likely to have strong opinions about, can be easily changed in two ways.  You can edit the CSS code in the style element at the end of the file and/or you can change the theme used in the Ace.js library.  The Ace themes are somewhat poorly documented but there are lots of them.  You can see how they look by using the pulldown menu of themes(as well as various other properties) in the menu at the page https://ace.c9.io/build/kitchen-sink.html. You can just google ace.js themes to find this page, also.  The thing to note with setting themes is that when you use the ``kitchen sink'' to test a theme, there are spaces, but the names used in the code have underscores.  A small detail but it can be frustrating if you don't look out for it.  The list of the actual names is in the github repo linked from the main Ace website at ace.c9.io.  If you are willing to dive deeper into the documentation of Ace, there are lots of other neat features you can turn on in the JavaScript.  For details on fancier things, again go to the main ace website and click around on the howto and other documentation.  If you have time, please do this and make a better version! What exists as of the writing of this book lacks numerous basic features which could be added, such as undo.
+
+The code in editor.php which creates the editor itself is 
+
+\begin{verbatim}
+  editor = ace.edit("maineditor");
+  editor.setTheme("ace/theme/vibrant_ink");
+  editor.getSession().setMode("ace/mode/html");
+  editor.getSession().setUseWrapMode(true);
+  editor.$blockScrolling = Infinity;
+\end{verbatim}
+
+This is about three quarters of the way down through the main script element in the file. 
+
+To change the theme without delving into Ace.js lore, just replace ``vibrant_ink'' with whatever theme you want from the list on the Ace page. There are lots of light themes as well as dark themes. 
+
+By default, editor.php starts out editing index.html.  As with all web servers, this is the file displayed automatically when a user puts the URL into their browser of your server.  We keep a backup of the default user page at user.html, which allows us to copy/paste arbitrary applications into this file and then revert back easily later if we want to have the default user page.  This means that by default the editor starts out with syntax highlighting for html.  Ace has syntax highlighting for a lot of languages.  By default, editor.php sets themes based on what type of file it is for the files which are most commonly used in the Geometron system.  So for example, if a file is in the jscode/ directory and has the file ending .js it will have syntax highlighting for JavaScript.  Files in the data directory are also formatted with JS, because they're in JSON which is part of JS.  Markdown files are recognized by .md and highlighted accordingly.  Python files are also detected, and these are useful for building hardware control on the Raspberry Pi as well as various other science things.  Arduino is close enough to C++ that using the c++ formatting is tolerable, but one thing that would be very useful is if someone wrote a highlighter for Ace.js which actually knew all the Arduino keywords. The software also automatically detects .sh files which are *nix shell script files which can be very useful for setting up things on a Raspberry Pi like an off button and robotics controls.  There is an older version of the Trash Robot documented later in this work which used the Pi for control which had several of these setup scripts, but that is now unused in the current version.
+
+We must also talk about forks and deleters, both of which are critical to the operation of our system.  Any Geometron instance can be forked down into a subdirectory using the app fork.html.  This creates new directories within whatever directory the existing instance is in(initially just the main web directory on the server).
+
+fork.html is an app for seeing all the Geometron instances that are in subdirectories of whatever directory you are in, making new ones, and deleting them if you want them destroyed. This is a very powerful program, where just a single click will recursively delete \emph{everything} in a directory: every file, every directory, every subdirectory and files in them etc. There is no undo.  Destroyed is destroyed.  This is part of what keeps the system safe.  It is easy for very bad things to evolve on the system: unsavory files of the worst kind can be uploaded at any time, content which is both terrible to see and which causes havoc with executable code.  We therefore choose rather than defending against bad information to wipe it out completely. The ultimate Destroyer program is rdelete.php.  Rdelete.php has one input, called ``filename'', which is the name of the directory to be destroyed.  It has a function which calls itself recursively which uses the PHP function unlink to delete everything in its path. 
+
+The list of directories is generated using the function dir.php, which lists files or directories in a directory and returns them as a JSON array.  Numerous Geometron apps use dir.php.  It is used to list the various files in various directories in editor.php, to list the scrolls and maps in the main user page, and to list scrolls in the scroll editor and maps in the map editor.  To create a new fork, you enter the name of the new fork in the text input field and fork.html will use mkdir.php to create a new directory and copy the file replicator.php into it, and then give you a link to click on to that replicator.  Clicking on it will run the replicator and then you can click on the link after that runs to go to the main user page of the new instance, which is now down in the new directory you just created.  It is a good exercise at this point to create a new fork using fork.html, go into it and change index.html with editor.php, see your changes, then go back to the level where you started, look at fork.html, turn the delete mode on, and recursively delete your new fork you just made. Then reload fork.html and see that it's destroyed forever.  You can repeat this again, this time replicating the new fork to another instance elsewhere before you destroy it.  Or build several branches and create paths of replication of files between them using copy.php, put them on a shared wifi network with your friends and all open different instances, clicking on copy files to move data around.  You have the power to create, evolve and destroy complex active information in a swarm of people with a shared hive mind and no property.  It is not clear how powerful such technology can prove to be, but again, we must look to the claims of quantum computers and compare the information theory of our situation to see what might be possible.  You do the math yourself: first look at the information theory of these swarms, then get your applied math friends together on a shared network and build a swarm up to attack a problem and see what happens.  
+
+In Geometron a slogan we repeat is ``no war but the math war''.  This has several meanings.
+
+\subsection{Chaos feed}
+
+\subsection{Example: Duality App}
+
+This example should further clarify what we want to do with Geometron and how we can build and use apps for people to freely share information.  This app example shows a number of more advanced aspects to operation than the wall example above. It is intended to explore dualities between images.  Duality can be interpreted any number of ways.  This is a purely artistic app, which is typical of what we want to be doing with this system.  
+
+Duality.html uses the hammer.js library, another open source JavaScript library which is used repeatedly in the Geometron system.  It also has its own JSON data format which can be freely shared in raw text from user to user.  Go read the source code for it using editor.php!  Whether or not you read the code, try using it by putting duality.html into the browser after whatever address you're using for your geometron server, be it http://localhost/ or the IP address of your local Raspberry Pi Geometron server.  You will see two images, each partially transparent. This is best on a touch screen, drag a finger sideways across the screen, and you will see a fade between one image and the other. This fade is such that the sum of the squares of the opacities remains 1, so they add like quantum amplitudes do to make probabilities.  This app is to create a sort of quantum meme: a pair of images, aligned in some way, which a user swipes to make modulate between different ratios of superposition. To say this app is a quantum meme is another way of saying it is an artistic expression which rejects binary thinking about the Universe.  Any time we wish to make a commentary on any failed dichotomy, which can load up two images, move them around, scale them, rotate them, and save the JSON file created to share with other people with whom we wish to share this particular attack on binary thinking.
+
