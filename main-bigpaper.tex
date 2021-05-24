@@ -1,0 +1,83 @@
+%\documentclass[ebook,12pt,openany]{memoir} %ebook
+
+\documentclass{report}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{imakeidx} % for how to use the index see https://www.sharelatex.com/learn/Indices
+\usepackage{hyperref}
+
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+\makeindex
+
+\title{The Book of Geometron}
+\author{Trash Robot}
+
+\begin{document}
+\frontmatter
+\begin{figure}[htbp]
+\centering
+\includegraphics{cover.png}
+\end{figure}
+
+\clearpage
+
+\clearpage
+
+\thispagestyle{empty}
+\mbox{}
+
+\maketitle
+
+
+%civilizations
+%
+
+\mainmatter
+
+\chapter{Civilizations}
+\input{civilizations.tex}
+\chapter{Organic Media}
+\input{organicmedia.tex}
+\chapter{Street Network}
+\input{streetnetwork.tex}
+\chapter{Servers}
+\input{servers.tex}
+\chapter{Scrolls}
+\input{scrolls.tex}
+\chapter{Feeds}
+\input{feeds.tex}
+\chapter{Maps}
+\input{maps.tex}
+\chapter{Symbols}
+\input{symbols.tex}
+\chapter{2d Web Graphics}
+\input{web2d.tex}
+\chapter{Shapes and Fonts}
+\input{shapes.tex}
+\chapter{Action Geometry}
+\input{actiongeometry.tex}
+\chapter{Machine Control}
+\input{machines.tex}
+\chapter{Geometron in 3d and Beyond}
+\input{geometron3d.tex}
+\chapter{Full Stack Geometron}
+\input{fullstack.tex}
+\chapter{Ontology}
+\input{ontology.tex}
+\chapter{Icons}
+\chapter{Trash Robot}
+\input{trashrobot.tex}
+
+%\printindex
+
+%https://www.sharelatex.com/learn/Glossaries
+
+\end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  24 MAY 2021 15:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  24 MAY 2021 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,52 +634,52 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
  [3]
 Overfull \hbox (2.03766pt too wide) detected at line 15
- \OT1/cmr/bx/n/12 101
+ \OT1/cmr/bx/n/12 110
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 16
- \OT1/cmr/bx/n/12 123
+ \OT1/cmr/bx/n/12 135
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 17
- \OT1/cmr/bx/n/12 149
+ \OT1/cmr/bx/n/12 164
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 18
- \OT1/cmr/bx/n/12 170
+ \OT1/cmr/bx/n/12 185
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 19
- \OT1/cmr/bx/n/12 171
+ \OT1/cmr/bx/n/12 186
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 26
- \OT1/cmr/bx/n/12 189
+ \OT1/cmr/bx/n/12 204
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 31
- \OT1/cmr/bx/n/12 207
+ \OT1/cmr/bx/n/12 222
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 34
- \OT1/cmr/bx/n/12 213
+ \OT1/cmr/bx/n/12 228
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 47
- \OT1/cmr/bx/n/12 251
+ \OT1/cmr/bx/n/12 266
  []
 
 [4]
 Overfull \hbox (2.03766pt too wide) detected at line 48
- \OT1/cmr/bx/n/12 252
+ \OT1/cmr/bx/n/12 267
  []
 
 ) (./main.lof [5] [6] [7]) [8] (./civilizations.tex [1
@@ -1826,10 +1826,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B36E9F0F0CD5A7114D59A231AFF89D0D;1307.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
@@ -1850,7 +1846,7 @@ st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmtt12.pfb>
-Output written on main.pdf (301 pages, 13333833 bytes).
+Output written on main.pdf (301 pages, 13333839 bytes).
 PDF statistics:
  1870 PDF objects out of 2073 (max. 8388607)
  1411 compressed objects within 15 object streams
