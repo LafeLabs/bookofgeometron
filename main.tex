@@ -9,6 +9,13 @@
 \usepackage{imakeidx} % for how to use the index see https://www.sharelatex.com/learn/Indices
 \usepackage{hyperref}
 
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
 \makeindex
 
 \title{The Book of Geometron}
