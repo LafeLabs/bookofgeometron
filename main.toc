@@ -4,56 +4,56 @@
 \contentsline {chapter}{\chapternumberline {1}Civilizations}{1}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}Organic Media}{14}{chapter.2}
 \contentsline {subsection}{The Book of Geometron}{29}{section*.3}
-\contentsline {chapter}{\chapternumberline {3}Street Network}{33}{chapter.3}
-\contentsline {subsection}{What is the Street Network?}{33}{section*.4}
-\contentsline {subsection}{Users}{37}{section*.5}
-\contentsline {subsection}{Trash Robot}{48}{section*.6}
-\contentsline {chapter}{\chapternumberline {4}Servers}{50}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Scrolls}{58}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Feeds}{76}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Maps}{87}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Symbols}{100}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}2d Web Graphics}{122}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{148}{chapter.10}
-\contentsline {section}{\numberline {10.1}shapes and fonts: examples}{148}{section.10.1}
-\contentsline {chapter}{\chapternumberline {11}Action Geometry}{156}{chapter.11}
-\contentsline {chapter}{\chapternumberline {12}Machine Control}{157}{chapter.12}
-\contentsline {section}{\numberline {12.1}Machine Control}{157}{section.12.1}
-\contentsline {subsection}{democratization of machines}{157}{section*.7}
-\contentsline {subsection}{Structure}{164}{section*.8}
-\contentsline {subsection}{2 and a half d printing and the Trash Robot icon token printer}{167}{section*.9}
-\contentsline {subsection}{The wall robot}{167}{section*.10}
-\contentsline {subsection}{Microfabrication and Nanofabrication}{167}{section*.11}
-\contentsline {chapter}{\chapternumberline {13}Geometron in 3d and Beyond}{175}{chapter.13}
-\contentsline {section}{\numberline {13.1}Geometron in 3d and Beyond}{175}{section.13.1}
-\contentsline {subsection}{Structure, Definitions and Formats}{175}{section*.12}
-\contentsline {subsection}{Icons and Trash Robot}{184}{section*.13}
-\contentsline {subsection}{Rotations and Higher Dimensions}{188}{section*.14}
-\contentsline {chapter}{\chapternumberline {14}Full Stack Geometron}{193}{chapter.14}
-\contentsline {section}{\numberline {14.1}Full Stack Geometron}{193}{section.14.1}
-\contentsline {subsection}{Goals}{193}{section*.15}
-\contentsline {chapter}{\chapternumberline {15}Ontology}{199}{chapter.15}
-\contentsline {section}{\numberline {15.1}Ontology}{199}{section.15.1}
-\contentsline {section}{\numberline {15.2}On Self-Replicating Sets}{202}{section.15.2}
-\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{202}{section*.16}
-\contentsline {subsection}{2. Self-Replication in Human society}{209}{section*.17}
-\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{215}{section*.18}
-\contentsline {subsection}{4. Self Replicating Sets/Documents}{219}{section*.19}
-\contentsline {subsubsection}{Motivation and definitions}{219}{section*.20}
-\contentsline {subsubsection}{This Set}{226}{section*.21}
-\contentsline {subsubsection}{Code and replication of code}{228}{section*.22}
-\contentsline {subsubsection}{Server replication}{229}{section*.23}
-\contentsline {subsubsection}{Pdf document}{232}{section*.24}
-\contentsline {subsection}{5. Generalization and Social Implications}{233}{section*.25}
-\contentsline {chapter}{\chapternumberline {16}Icons}{237}{chapter.16}
-\contentsline {chapter}{\chapternumberline {17}Trash Robot}{238}{chapter.17}
-\contentsline {section}{\numberline {17.1}Trash Robot}{238}{section.17.1}
-\contentsline {subsection}{What is Trash Robot?}{238}{section*.26}
-\contentsline {subsection}{The Operator}{241}{section*.27}
-\contentsline {subsection}{The Open Brand}{241}{section*.28}
-\contentsline {subsection}{The ArtBox}{241}{section*.29}
-\contentsline {subsection}{Laser Cut Acrylic}{252}{section*.30}
-\contentsline {subsection}{skeletron}{253}{section*.31}
-\contentsline {subsection}{textiles}{253}{section*.32}
-\contentsline {subsection}{The icon token printer robot}{254}{section*.33}
-\contentsline {subsection}{Arduino Generic Shield}{262}{section*.34}
+\contentsline {chapter}{\chapternumberline {3}Street Network}{34}{chapter.3}
+\contentsline {subsection}{What is the Street Network?}{34}{section*.4}
+\contentsline {subsection}{Users}{38}{section*.5}
+\contentsline {subsection}{Trash Robot}{49}{section*.6}
+\contentsline {chapter}{\chapternumberline {4}Servers}{51}{chapter.4}
+\contentsline {chapter}{\chapternumberline {5}Scrolls}{59}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Feeds}{77}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Maps}{88}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Symbols}{101}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}2d Web Graphics}{123}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{149}{chapter.10}
+\contentsline {section}{\numberline {10.1}shapes and fonts: examples}{149}{section.10.1}
+\contentsline {chapter}{\chapternumberline {11}Action Geometry}{157}{chapter.11}
+\contentsline {chapter}{\chapternumberline {12}Machine Control}{158}{chapter.12}
+\contentsline {section}{\numberline {12.1}Machine Control}{158}{section.12.1}
+\contentsline {subsection}{democratization of machines}{158}{section*.7}
+\contentsline {subsection}{Structure}{165}{section*.8}
+\contentsline {subsection}{2 and a half d printing and the Trash Robot icon token printer}{168}{section*.9}
+\contentsline {subsection}{The wall robot}{168}{section*.10}
+\contentsline {subsection}{Microfabrication and Nanofabrication}{168}{section*.11}
+\contentsline {chapter}{\chapternumberline {13}Geometron in 3d and Beyond}{176}{chapter.13}
+\contentsline {section}{\numberline {13.1}Geometron in 3d and Beyond}{176}{section.13.1}
+\contentsline {subsection}{Structure, Definitions and Formats}{176}{section*.12}
+\contentsline {subsection}{Icons and Trash Robot}{185}{section*.13}
+\contentsline {subsection}{Rotations and Higher Dimensions}{189}{section*.14}
+\contentsline {chapter}{\chapternumberline {14}Full Stack Geometron}{194}{chapter.14}
+\contentsline {section}{\numberline {14.1}Full Stack Geometron}{194}{section.14.1}
+\contentsline {subsection}{Goals}{194}{section*.15}
+\contentsline {chapter}{\chapternumberline {15}Ontology}{200}{chapter.15}
+\contentsline {section}{\numberline {15.1}Ontology}{200}{section.15.1}
+\contentsline {section}{\numberline {15.2}On Self-Replicating Sets}{203}{section.15.2}
+\contentsline {subsection}{1. Computer Science and the Theory of Self-Replication}{203}{section*.16}
+\contentsline {subsection}{2. Self-Replication in Human society}{210}{section*.17}
+\contentsline {subsection}{3. The \emph {Potential} Power of the Open Web for Self-Replication}{216}{section*.18}
+\contentsline {subsection}{4. Self Replicating Sets/Documents}{220}{section*.19}
+\contentsline {subsubsection}{Motivation and definitions}{220}{section*.20}
+\contentsline {subsubsection}{This Set}{227}{section*.21}
+\contentsline {subsubsection}{Code and replication of code}{229}{section*.22}
+\contentsline {subsubsection}{Server replication}{230}{section*.23}
+\contentsline {subsubsection}{Pdf document}{233}{section*.24}
+\contentsline {subsection}{5. Generalization and Social Implications}{234}{section*.25}
+\contentsline {chapter}{\chapternumberline {16}Icons}{238}{chapter.16}
+\contentsline {chapter}{\chapternumberline {17}Trash Robot}{239}{chapter.17}
+\contentsline {section}{\numberline {17.1}Trash Robot}{239}{section.17.1}
+\contentsline {subsection}{What is Trash Robot?}{239}{section*.26}
+\contentsline {subsection}{The Operator}{242}{section*.27}
+\contentsline {subsection}{The Open Brand}{242}{section*.28}
+\contentsline {subsection}{The ArtBox}{242}{section*.29}
+\contentsline {subsection}{Laser Cut Acrylic}{253}{section*.30}
+\contentsline {subsection}{skeletron}{254}{section*.31}
+\contentsline {subsection}{textiles}{254}{section*.32}
+\contentsline {subsection}{The icon token printer robot}{255}{section*.33}
+\contentsline {subsection}{Arduino Generic Shield}{263}{section*.34}
