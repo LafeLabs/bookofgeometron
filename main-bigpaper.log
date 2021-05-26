@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  26 MAY 2021 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  26 MAY 2021 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,63 +976,62 @@ Package pdftex.def Info: figures/machines/actions05xx.png used on input line 15
  [124
 
 ] [125 <./figures/machines/basicmovements.png> <./figures/machines/actions05xx.
-png>] [126]
-<figures/machines/printerblockdiagram.png, id=834, 602.25pt x 602.25pt>
+png>]
+<figures/machines/printerphoto.png, id=830, 706.64pt x 1043.9pt>
+File: figures/machines/printerphoto.png Graphic file (type png)
+
+<use figures/machines/printerphoto.png>
+Package pdftex.def Info: figures/machines/printerphoto.png used on input line 2
+6.
+(pdftex.def)             Requested size: 216.81pt x 320.2925pt.
+
+<figures/machines/printerblockdiagram.png, id=831, 602.25pt x 602.25pt>
 File: figures/machines/printerblockdiagram.png Graphic file (type png)
 
 <use figures/machines/printerblockdiagram.png>
 Package pdftex.def Info: figures/machines/printerblockdiagram.png used on input
- line 37.
+ line 33.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
 
-<figures/machines/buildingwallrobot.png, id=835, 602.25pt x 602.25pt>
+<figures/machines/trace.png, id=832, 1022.31938pt x 625.21078pt>
+File: figures/machines/trace.png Graphic file (type png)
+
+<use figures/machines/trace.png>
+Package pdftex.def Info: figures/machines/trace.png used on input line 44.
+(pdftex.def)             Requested size: 216.81pt x 132.58603pt.
+
+<figures/machines/iconfeed.png, id=833, 402.75468pt x 318.43968pt>
+File: figures/machines/iconfeed.png Graphic file (type png)
+
+<use figures/machines/iconfeed.png>
+Package pdftex.def Info: figures/machines/iconfeed.png used on input line 51.
+(pdftex.def)             Requested size: 216.81pt x 171.42038pt.
+ [126] [127 <./figures/machines/printerphoto.png>] [128 <./figures/machines/pri
+nterblockdiagram.png> <./figures/machines/trace.png>]
+<figures/machines/buildingwallrobot.png, id=852, 602.25pt x 602.25pt>
 File: figures/machines/buildingwallrobot.png Graphic file (type png)
 
 <use figures/machines/buildingwallrobot.png>
 Package pdftex.def Info: figures/machines/buildingwallrobot.png used on input l
-ine 44.
+ine 61.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
 
-<figures/machines/eblblockdiagram.png, id=836, 602.25pt x 602.25pt>
+<figures/machines/eblblockdiagram.png, id=853, 602.25pt x 602.25pt>
 File: figures/machines/eblblockdiagram.png Graphic file (type png)
 
 <use figures/machines/eblblockdiagram.png>
 Package pdftex.def Info: figures/machines/eblblockdiagram.png used on input lin
-e 51.
+e 68.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
-
-<figures/machines/trace.png, id=837, 1022.31938pt x 625.21078pt>
-File: figures/machines/trace.png Graphic file (type png)
-
-<use figures/machines/trace.png>
-Package pdftex.def Info: figures/machines/trace.png used on input line 59.
-(pdftex.def)             Requested size: 216.81pt x 132.58603pt.
-
-<figures/machines/iconfeed.png, id=838, 402.75468pt x 318.43968pt>
-File: figures/machines/iconfeed.png Graphic file (type png)
-
-<use figures/machines/iconfeed.png>
-Package pdftex.def Info: figures/machines/iconfeed.png used on input line 66.
-(pdftex.def)             Requested size: 216.81pt x 171.42038pt.
-
-<figures/machines/printerphoto.png, id=839, 706.64pt x 1043.9pt>
-File: figures/machines/printerphoto.png Graphic file (type png)
-
-<use figures/machines/printerphoto.png>
-Package pdftex.def Info: figures/machines/printerphoto.png used on input line 7
-3.
-(pdftex.def)             Requested size: 216.81pt x 320.2925pt.
-
-<figures/machines/pendant.png, id=840, 960.58875pt x 577.15625pt>
+ [129 <./figures/machines/iconfeed.png>] [130 <./figures/machines/buildingwallr
+obot.png> <./figures/machines/eblblockdiagram.png>]
+<figures/machines/pendant.png, id=869, 960.58875pt x 577.15625pt>
 File: figures/machines/pendant.png Graphic file (type png)
 
 <use figures/machines/pendant.png>
-Package pdftex.def Info: figures/machines/pendant.png used on input line 80.
+Package pdftex.def Info: figures/machines/pendant.png used on input line 81.
 (pdftex.def)             Requested size: 216.81pt x 130.25966pt.
-) [127] [128 <./figures/machines/printerblockdiagram.png>] [129 <./figures/mach
-ines/buildingwallrobot.png> <./figures/machines/eblblockdiagram.png>] [130 <./f
-igures/machines/trace.png> <./figures/machines/iconfeed.png>] [131 <./figures/m
-achines/printerphoto.png> <./figures/machines/pendant.png>]
+) [131 <./figures/machines/pendant.png>]
 Chapter 13.
 (./geometron3d.tex
 <figures/geometron3d/actions.png, id=876, 401.5pt x 501.875pt>
@@ -1115,18 +1114,41 @@ gles.png>]
 Chapter 14.
 (./magic.tex [143
 
-]) [144]
+] [144]
+<figures/magic/pisigil.png, id=957, 447.54703pt x 387.69844pt>
+File: figures/magic/pisigil.png Graphic file (type png)
+
+<use figures/magic/pisigil.png>
+Package pdftex.def Info: figures/magic/pisigil.png used on input line 18.
+(pdftex.def)             Requested size: 216.81pt x 187.82054pt.
+
+<figures/magic/actiongeometrysigil.png, id=958, 377.91188pt x 363.98485pt>
+File: figures/magic/actiongeometrysigil.png Graphic file (type png)
+
+<use figures/magic/actiongeometrysigil.png>
+Package pdftex.def Info: figures/magic/actiongeometrysigil.png used on input li
+ne 26.
+(pdftex.def)             Requested size: 216.81pt x 208.81757pt.
+ [145 <./figures/magic/pisigil.png>] <figures/magic/alchemy.png, id=965, 401.5p
+t x 401.5pt>
+File: figures/magic/alchemy.png Graphic file (type png)
+
+<use figures/magic/alchemy.png>
+Package pdftex.def Info: figures/magic/alchemy.png used on input line 39.
+(pdftex.def)             Requested size: 216.81pt x 216.81288pt.
+) [146 <./figures/magic/actiongeometrysigil.png>] [147 <./figures/magic/alchemy
+.png>]
 Chapter 15.
 (./fullstack.tex
 ! Undefined control sequence.
 l.3 \tightlist
               
 ? 
-[145
+[148
 
-] [146])
+] [149])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [147]
+ [150]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./main-bigpaper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
@@ -1136,10 +1158,10 @@ Package rerunfilecheck Info: File `main-bigpaper.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 6230 strings out of 494953
- 96729 string characters out of 6180977
+ 6252 strings out of 494953
+ 97250 string characters out of 6180977
  175938 words of memory out of 5000000
- 9103 multiletter control sequences out of 15000+600000
+ 9115 multiletter control sequences out of 15000+600000
  9154 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,6n,28p,2230b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1151,10 +1173,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb>
-Output written on main-bigpaper.pdf (150 pages, 5264221 bytes).
+Output written on main-bigpaper.pdf (153 pages, 5612942 bytes).
 PDF statistics:
- 1057 PDF objects out of 1200 (max. 8388607)
- 737 compressed objects within 8 object streams
- 250 named destinations out of 1000 (max. 500000)
- 581 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 752 compressed objects within 8 object streams
+ 256 named destinations out of 1000 (max. 500000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 
