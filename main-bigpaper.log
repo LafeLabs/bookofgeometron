@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  26 MAY 2021 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  26 MAY 2021 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1114,29 +1114,29 @@ gles.png>]
 Chapter 14.
 (./magic.tex [143
 
-] [144]
-<figures/magic/pisigil.png, id=957, 447.54703pt x 387.69844pt>
+] [144] [145]
+<figures/magic/pisigil.png, id=961, 447.54703pt x 387.69844pt>
 File: figures/magic/pisigil.png Graphic file (type png)
 
 <use figures/magic/pisigil.png>
-Package pdftex.def Info: figures/magic/pisigil.png used on input line 18.
+Package pdftex.def Info: figures/magic/pisigil.png used on input line 23.
 (pdftex.def)             Requested size: 216.81pt x 187.82054pt.
 
-<figures/magic/actiongeometrysigil.png, id=958, 377.91188pt x 363.98485pt>
+<figures/magic/actiongeometrysigil.png, id=962, 377.91188pt x 363.98485pt>
 File: figures/magic/actiongeometrysigil.png Graphic file (type png)
 
 <use figures/magic/actiongeometrysigil.png>
 Package pdftex.def Info: figures/magic/actiongeometrysigil.png used on input li
-ne 26.
+ne 31.
 (pdftex.def)             Requested size: 216.81pt x 208.81757pt.
- [145 <./figures/magic/pisigil.png>] <figures/magic/alchemy.png, id=965, 401.5p
+ [146 <./figures/magic/pisigil.png>] <figures/magic/alchemy.png, id=969, 401.5p
 t x 401.5pt>
 File: figures/magic/alchemy.png Graphic file (type png)
 
 <use figures/magic/alchemy.png>
-Package pdftex.def Info: figures/magic/alchemy.png used on input line 39.
+Package pdftex.def Info: figures/magic/alchemy.png used on input line 44.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
-) [146 <./figures/magic/actiongeometrysigil.png>] [147 <./figures/magic/alchemy
+) [147 <./figures/magic/actiongeometrysigil.png>] [148 <./figures/magic/alchemy
 .png>]
 Chapter 15.
 (./fullstack.tex
@@ -1144,11 +1144,11 @@ Chapter 15.
 l.3 \tightlist
               
 ? 
-[148
+[149
 
-] [149])
+] [150])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [150]
+ [151]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./main-bigpaper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
@@ -1158,8 +1158,8 @@ Package rerunfilecheck Info: File `main-bigpaper.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 6252 strings out of 494953
- 97250 string characters out of 6180977
+ 6253 strings out of 494953
+ 97258 string characters out of 6180977
  175938 words of memory out of 5000000
  9115 multiletter control sequences out of 15000+600000
  9154 words of font info for 32 fonts, out of 8000000 for 9000
@@ -1173,10 +1173,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti10.pfb>
-Output written on main-bigpaper.pdf (153 pages, 5612942 bytes).
+Output written on main-bigpaper.pdf (154 pages, 5615906 bytes).
 PDF statistics:
- 1081 PDF objects out of 1200 (max. 8388607)
- 752 compressed objects within 8 object streams
- 256 named destinations out of 1000 (max. 500000)
+ 1085 PDF objects out of 1200 (max. 8388607)
+ 755 compressed objects within 8 object streams
+ 257 named destinations out of 1000 (max. 500000)
  596 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -23,6 +23,6 @@
 \contentsline {subsection}{Icons and Trash Robot}{234}{section*.8}
 \contentsline {subsection}{Rotations and Higher Dimensions}{238}{section*.9}
 \contentsline {chapter}{\chapternumberline {14}Magic}{243}{chapter.14}
-\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{252}{chapter.15}
-\contentsline {section}{\numberline {15.1}Full Stack Geometron}{252}{section.15.1}
-\contentsline {subsection}{Goals}{252}{section*.10}
+\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{254}{chapter.15}
+\contentsline {section}{\numberline {15.1}Full Stack Geometron}{254}{section.15.1}
+\contentsline {subsection}{Goals}{254}{section*.10}
