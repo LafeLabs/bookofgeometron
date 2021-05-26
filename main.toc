@@ -13,16 +13,16 @@
 \contentsline {chapter}{\chapternumberline {6}Feeds}{86}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Maps}{97}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Symbols}{110}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}2d Web Graphics}{135}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{164}{chapter.10}
-\contentsline {chapter}{\chapternumberline {11}Action Geometry}{185}{chapter.11}
-\contentsline {chapter}{\chapternumberline {12}Printers}{211}{chapter.12}
-\contentsline {chapter}{\chapternumberline {13}Geometron in 3d and Beyond}{225}{chapter.13}
-\contentsline {section}{\numberline {13.1}Geometron in 3d and Beyond}{225}{section.13.1}
-\contentsline {subsection}{Structure, Definitions and Formats}{225}{section*.7}
-\contentsline {subsection}{Icons and Trash Robot}{234}{section*.8}
-\contentsline {subsection}{Rotations and Higher Dimensions}{238}{section*.9}
-\contentsline {chapter}{\chapternumberline {14}Magic}{243}{chapter.14}
-\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{254}{chapter.15}
-\contentsline {section}{\numberline {15.1}Full Stack Geometron}{254}{section.15.1}
-\contentsline {subsection}{Goals}{254}{section*.10}
+\contentsline {chapter}{\chapternumberline {9}2d Web Graphics}{134}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Shapes and Fonts}{163}{chapter.10}
+\contentsline {chapter}{\chapternumberline {11}Action Geometry}{184}{chapter.11}
+\contentsline {chapter}{\chapternumberline {12}Printers}{210}{chapter.12}
+\contentsline {chapter}{\chapternumberline {13}Geometron in 3d and Beyond}{224}{chapter.13}
+\contentsline {section}{\numberline {13.1}Geometron in 3d and Beyond}{224}{section.13.1}
+\contentsline {subsection}{Structure, Definitions and Formats}{224}{section*.7}
+\contentsline {subsection}{Icons and Trash Robot}{233}{section*.8}
+\contentsline {subsection}{Rotations and Higher Dimensions}{237}{section*.9}
+\contentsline {chapter}{\chapternumberline {14}Magic}{242}{chapter.14}
+\contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{256}{chapter.15}
+\contentsline {section}{\numberline {15.1}Full Stack Geometron}{256}{section.15.1}
+\contentsline {subsection}{Goals}{256}{section*.10}
