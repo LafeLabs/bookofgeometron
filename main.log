@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  26 MAY 2021 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  27 MAY 2021 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -639,37 +639,37 @@ Overfull \hbox (2.03766pt too wide) detected at line 15
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 16
- \OT1/cmr/bx/n/12 135
+ \OT1/cmr/bx/n/12 134
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 17
- \OT1/cmr/bx/n/12 164
+ \OT1/cmr/bx/n/12 163
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 18
- \OT1/cmr/bx/n/12 185
+ \OT1/cmr/bx/n/12 184
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 19
- \OT1/cmr/bx/n/12 211
+ \OT1/cmr/bx/n/12 210
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 20
- \OT1/cmr/bx/n/12 225
+ \OT1/cmr/bx/n/12 224
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 25
- \OT1/cmr/bx/n/12 243
+ \OT1/cmr/bx/n/12 242
  []
 
 
 Overfull \hbox (2.03766pt too wide) detected at line 26
- \OT1/cmr/bx/n/12 257
+ \OT1/cmr/bx/n/12 256
  []
 
 ) (./main.lof
@@ -1529,129 +1529,119 @@ File: figures/machines/pendant.png Graphic file (type png)
 Package pdftex.def Info: figures/machines/pendant.png used on input line 81.
 (pdftex.def)             Requested size: 216.81pt x 130.25966pt.
 ) [222] [223 <./figures/machines/pendant.png>] (./geometron3d.tex
-<figures/geometron3d/actions.png, id=1383, 401.5pt x 501.875pt>
+Overfull \hbox (2.00764pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/12 8). For each ac-tion, there is a two-dimensional Ge-ometron
+ []
+
+[224
+
+] <figures/geometron3d/actions.png, id=1387, 401.5pt x 501.875pt>
 File: figures/geometron3d/actions.png Graphic file (type png)
 
 <use figures/geometron3d/actions.png>
-Package pdftex.def Info: figures/geometron3d/actions.png used on input line 9.
-(pdftex.def)             Requested size: 289.07999pt x 361.3727pt.
+Package pdftex.def Info: figures/geometron3d/actions.png used on input line 10.
 
+(pdftex.def)             Requested size: 216.81pt x 271.01611pt.
 
-LaTeX Warning: Float too large for page by 18.20601pt on input line 12.
-
-
-Underfull \vbox (badness 2027) has occurred while \output is active []
-
- [224
-
-]
-[225 <./figures/geometron3d/actions.png>]
-<figures/geometron3d/shapebuilding1.png, id=1394, 401.5pt x 351.3125pt>
+<figures/geometron3d/shapebuilding1.png, id=1388, 401.5pt x 351.3125pt>
 File: figures/geometron3d/shapebuilding1.png Graphic file (type png)
 
 <use figures/geometron3d/shapebuilding1.png>
 Package pdftex.def Info: figures/geometron3d/shapebuilding1.png used on input l
-ine 24.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
+ine 20.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/shapebuilding2.png, id=1395, 401.5pt x 351.3125pt>
+<figures/geometron3d/shapebuilding2.png, id=1389, 401.5pt x 351.3125pt>
 File: figures/geometron3d/shapebuilding2.png Graphic file (type png)
 
 <use figures/geometron3d/shapebuilding2.png>
 Package pdftex.def Info: figures/geometron3d/shapebuilding2.png used on input l
-ine 31.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
- [226] [227 <./figures/geometron3d/shapebuilding1.png>] [228 <./figures/geometr
-on3d/shapebuilding2.png>]
-Overfull \hbox (3.31085pt too wide) in paragraph at lines 39--40
+ine 27.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
+
+Overfull \hbox (3.31085pt too wide) in paragraph at lines 35--36
 []\OT1/cmr/m/n/12 The most ba-sic way to ren-der three di-men-sional graph-
  []
 
-[229]
-Overfull \hbox (14.56491pt too wide) in paragraph at lines 43--44
+[225] [226 <./figures/geometron3d/actions.png>] [227 <./figures/geometron3d/sha
+pebuilding1.png>] [228 <./figures/geometron3d/shapebuilding2.png>]
+Overfull \hbox (14.56491pt too wide) in paragraph at lines 39--40
 []\OT1/cmr/m/n/12 All of this work is car-ried out us-ing the x3dom JavaScript
  []
 
 
-Overfull \hbox (1.24374pt too wide) in paragraph at lines 43--44
+Overfull \hbox (1.24374pt too wide) in paragraph at lines 39--40
 \OT1/cmr/m/n/12 li-brary x3dom.js. This is doc-u-mented at www.x3dom.org.
  []
 
 
-Overfull \hbox (2.48448pt too wide) in paragraph at lines 43--44
+Overfull \hbox (2.48448pt too wide) in paragraph at lines 39--40
 \OT1/cmr/m/n/12 This li-brary al-lows for cre-ation of x3d ob-jects in an HTML
  []
 
 
-Overfull \hbox (4.63448pt too wide) in paragraph at lines 43--44
+Overfull \hbox (4.63448pt too wide) in paragraph at lines 39--40
 \OT1/cmr/m/n/12 file us-ing DOM(Document Ob-ject Model) JavaScript com-
  []
 
-[230] [231]
-Overfull \hbox (2.8692pt too wide) in paragraph at lines 47--48
-[]\OT1/cmr/m/n/12 The app shapes3d.html al-lows users to edit Ge-ometron
- []
-
-
-Overfull \hbox (7.09692pt too wide) in paragraph at lines 47--48
-\OT1/cmr/m/n/12 global value of the hy-per-cube stored at data/hypercube.txt
- []
-
-[232]
-<figures/geometron3d/whimsycastleturret.png, id=1427, 401.5pt x 250.9375pt>
+[229] [230] [231]
+<figures/geometron3d/whimsycastleturret.png, id=1422, 401.5pt x 250.9375pt>
 File: figures/geometron3d/whimsycastleturret.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastleturret.png>
 Package pdftex.def Info: figures/geometron3d/whimsycastleturret.png used on inp
-ut line 53.
-(pdftex.def)             Requested size: 289.07999pt x 180.68634pt.
+ut line 49.
+(pdftex.def)             Requested size: 216.81pt x 135.50804pt.
 
-<figures/geometron3d/whimsycastlespelling.png, id=1428, 401.5pt x 351.3125pt>
+<figures/geometron3d/whimsycastlespelling.png, id=1423, 401.5pt x 351.3125pt>
 File: figures/geometron3d/whimsycastlespelling.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastlespelling.png>
 Package pdftex.def Info: figures/geometron3d/whimsycastlespelling.png used on i
-nput line 60.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
+nput line 56.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/whimsycastle.png, id=1429, 424.96266pt x 240.9pt>
+<figures/geometron3d/whimsycastle.png, id=1424, 424.96266pt x 240.9pt>
 File: figures/geometron3d/whimsycastle.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastle.png>
 Package pdftex.def Info: figures/geometron3d/whimsycastle.png used on input lin
-e 68.
-(pdftex.def)             Requested size: 289.07999pt x 163.87965pt.
- [233 <./figures/geometron3d/whimsycastleturret.png>] [234 <./figures/geometron
-3d/whimsycastlespelling.png>]
-[235 <./figures/geometron3d/whimsycastle.png>] [236]
-<figures/geometron3d/robot0500.png, id=1451, 401.5pt x 351.3125pt>
+e 63.
+(pdftex.def)             Requested size: 216.81pt x 122.90515pt.
+ [232 <./figures/geometron3d/whimsycastleturret.png>]
+Underfull \vbox (badness 2027) has occurred while \output is active []
+
+ [233 <./figures/geometron3d/whimsycastlespelling.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [234 <./figures/geometron3d/whimsycastle.png>] [235]
+<figures/geometron3d/robot0500.png, id=1445, 401.5pt x 351.3125pt>
 File: figures/geometron3d/robot0500.png Graphic file (type png)
 
 <use figures/geometron3d/robot0500.png>
-Package pdftex.def Info: figures/geometron3d/robot0500.png used on input line 8
-4.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
+Package pdftex.def Info: figures/geometron3d/robot0500.png used on input line 7
+5.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/trashrobot3d.png, id=1452, 633.11531pt x 393.72093pt>
+<figures/geometron3d/trashrobot3d.png, id=1446, 633.11531pt x 393.72093pt>
 File: figures/geometron3d/trashrobot3d.png Graphic file (type png)
 
 <use figures/geometron3d/trashrobot3d.png>
 Package pdftex.def Info: figures/geometron3d/trashrobot3d.png used on input lin
-e 91.
-(pdftex.def)             Requested size: 289.07999pt x 179.77411pt.
- [237] [238 <./figures/geometron3d/robot0500.png>] [239 <./figures/geometron3d/
+e 82.
+(pdftex.def)             Requested size: 216.81pt x 134.82457pt.
+ [236] [237 <./figures/geometron3d/robot0500.png>] [238 <./figures/geometron3d/
 trashrobot3d.png>]
-<figures/geometron3d/angles.png, id=1469, 401.5pt x 401.5pt>
+<figures/geometron3d/angles.png, id=1462, 401.5pt x 401.5pt>
 File: figures/geometron3d/angles.png Graphic file (type png)
 
 <use figures/geometron3d/angles.png>
-Package pdftex.def Info: figures/geometron3d/angles.png used on input line 104.
-
+Package pdftex.def Info: figures/geometron3d/angles.png used on input line 95.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
-) [240] [241 <./figures/geometron3d/angles.png>] (./magic.tex [242
+) [239] [240 <./figures/geometron3d/angles.png>] (./magic.tex [241
 
-] [243] [244] [245] [246] [247]
-<figures/magic/pisigil.png, id=1505, 447.54703pt x 387.69844pt>
+] [242] [243] [244] [245] [246]
+<figures/magic/pisigil.png, id=1499, 447.54703pt x 387.69844pt>
 File: figures/magic/pisigil.png Graphic file (type png)
 
 <use figures/magic/pisigil.png>
@@ -1661,20 +1651,20 @@ Package pdftex.def Info: figures/magic/pisigil.png used on input line 23.
 
 LaTeX Warning: Float too large for page by 1.82054pt on input line 26.
 
-<figures/magic/actiongeometrysigil.png, id=1506, 377.91188pt x 363.98485pt>
+<figures/magic/actiongeometrysigil.png, id=1500, 377.91188pt x 363.98485pt>
 File: figures/magic/actiongeometrysigil.png Graphic file (type png)
 
 <use figures/magic/actiongeometrysigil.png>
 Package pdftex.def Info: figures/magic/actiongeometrysigil.png used on input li
 ne 31.
 (pdftex.def)             Requested size: 216.81pt x 208.81757pt.
- [248] [249 <./figures/magic/pisigil.png>] [250 <./figures/magic/actiongeometry
+ [247] [248 <./figures/magic/pisigil.png>] [249 <./figures/magic/actiongeometry
 sigil.png>]
 Overfull \hbox (0.67203pt too wide) in paragraph at lines 39--40
 \OT1/cmr/m/n/12 Fire(JavaScript), Air(CSS), Earth(Geometron byte-code),
  []
 
-<figures/magic/alchemy.png, id=1521, 401.5pt x 401.5pt>
+<figures/magic/alchemy.png, id=1515, 401.5pt x 401.5pt>
 File: figures/magic/alchemy.png Graphic file (type png)
 
 <use figures/magic/alchemy.png>
@@ -1693,24 +1683,24 @@ File: figures/shapes/blank.png Graphic file (type png)
  <use figures/shapes/blank.png>
 Package pdftex.def Info: figures/shapes/blank.png used on input line 69.
 (pdftex.def)             Requested size: 216.81pt x 294.3747pt.
-) [251] [252 <./figures/magic/alchemy.png>] [253] [254] [255] (./fullstack.tex
+) [250] [251 <./figures/magic/alchemy.png>] [252] [253] [254] (./fullstack.tex
 Overfull \hbox (7.94553pt too wide) in paragraph at lines 13--15
 []\OT1/cmr/m/n/12 roctal, stor-age hard-ware, scal-ing, read/write/operate 
  []
 
-[256
+[255
 
 ]
 Overfull \hbox (3.27197pt too wide) in paragraph at lines 26--27
 []\OT1/cmr/m/n/12 As this mix-and-match up-cy-cled Linux sys-tem evolves,
  []
 
-[257] [258] [259] [260])
+[256] [257] [258] [259])
 Overfull \hbox (1.80948pt too wide) in paragraph at lines 40--80
 []\OT1/cmr/m/n/12 The for-mat for long term stor-age is in ar-rays of squares
  []
 
-[261]
+[260]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1722,29 +1712,39 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9984BC9F8D5EE9F7327C81E189EE1882;953.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 9984BC9F8D5EE9F7327C81E189EE1882;953
+(rerunfilecheck)             After:  152A1C28007E4C363A8A7C6041E66580;878.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 9728 strings out of 494953
- 143690 string characters out of 6180977
+ 9725 strings out of 494953
+ 143661 string characters out of 6180977
  251906 words of memory out of 5000000
  12448 multiletter control sequences out of 15000+600000
  10413 words of font info for 36 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  32i,11n,29p,2221b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (269 pages, 5554823 bytes).
+pdfTeX warning (dest): name{section.13.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (268 pages, 5556044 bytes).
 PDF statistics:
- 1686 PDF objects out of 1728 (max. 8388607)
- 1237 compressed objects within 13 object streams
- 380 named destinations out of 1000 (max. 500000)
+ 1679 PDF objects out of 1728 (max. 8388607)
+ 1231 compressed objects within 13 object streams
+ 377 named destinations out of 1000 (max. 500000)
  548 words of extra memory for PDF output out of 10000 (max. 10000000)
 

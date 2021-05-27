@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  26 MAY 2021 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  27 MAY 2021 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1033,98 +1033,101 @@ Chapter 13.
 File: figures/geometron3d/actions.png Graphic file (type png)
 
 <use figures/geometron3d/actions.png>
-Package pdftex.def Info: figures/geometron3d/actions.png used on input line 9.
-(pdftex.def)             Requested size: 289.07999pt x 361.3727pt.
+Package pdftex.def Info: figures/geometron3d/actions.png used on input line 10.
+
+(pdftex.def)             Requested size: 216.81pt x 271.01611pt.
 
 <figures/geometron3d/shapebuilding1.png, id=873, 401.5pt x 351.3125pt>
 File: figures/geometron3d/shapebuilding1.png Graphic file (type png)
 
 <use figures/geometron3d/shapebuilding1.png>
 Package pdftex.def Info: figures/geometron3d/shapebuilding1.png used on input l
-ine 24.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
+ine 20.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
 <figures/geometron3d/shapebuilding2.png, id=874, 401.5pt x 351.3125pt>
 File: figures/geometron3d/shapebuilding2.png Graphic file (type png)
 
 <use figures/geometron3d/shapebuilding2.png>
 Package pdftex.def Info: figures/geometron3d/shapebuilding2.png used on input l
-ine 31.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
+ine 27.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
  [131
 
-] [132 <./figures/geometron3d/actions.png>] [133 <./figures/geometron3d/shapebu
-ilding1.png>] [134 <./figures/geometron3d/shapebuilding2.png>] [135]
-<figures/geometron3d/whimsycastleturret.png, id=901, 401.5pt x 250.9375pt>
+] [132 <./figures/geometron3d/actions.png> <./figures/geometron3d/shapebuilding
+1.png>] [133 <./figures/geometron3d/shapebuilding2.png>] [134]
+<figures/geometron3d/whimsycastleturret.png, id=897, 401.5pt x 250.9375pt>
 File: figures/geometron3d/whimsycastleturret.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastleturret.png>
 Package pdftex.def Info: figures/geometron3d/whimsycastleturret.png used on inp
-ut line 53.
-(pdftex.def)             Requested size: 289.07999pt x 180.68634pt.
+ut line 49.
+(pdftex.def)             Requested size: 216.81pt x 135.50804pt.
 
-<figures/geometron3d/whimsycastlespelling.png, id=902, 401.5pt x 351.3125pt>
+<figures/geometron3d/whimsycastlespelling.png, id=898, 401.5pt x 351.3125pt>
 File: figures/geometron3d/whimsycastlespelling.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastlespelling.png>
 Package pdftex.def Info: figures/geometron3d/whimsycastlespelling.png used on i
-nput line 60.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
+nput line 56.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/whimsycastle.png, id=903, 424.96266pt x 240.9pt>
+<figures/geometron3d/whimsycastle.png, id=899, 424.96266pt x 240.9pt>
 File: figures/geometron3d/whimsycastle.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastle.png>
 Package pdftex.def Info: figures/geometron3d/whimsycastle.png used on input lin
-e 68.
-(pdftex.def)             Requested size: 289.07999pt x 163.87965pt.
- [136] [137 <./figures/geometron3d/whimsycastleturret.png> <./figures/geometron
-3d/whimsycastlespelling.png>]
-[138 <./figures/geometron3d/whimsycastle.png>]
-<figures/geometron3d/robot0500.png, id=923, 401.5pt x 351.3125pt>
+e 63.
+(pdftex.def)             Requested size: 216.81pt x 122.90515pt.
+ [135 <./figures/geometron3d/whimsycastleturret.png>] [136 <./figures/geometron
+3d/whimsycastlespelling.png> <./figures/geometron3d/whimsycastle.png>]
+<figures/geometron3d/robot0500.png, id=915, 401.5pt x 351.3125pt>
 File: figures/geometron3d/robot0500.png Graphic file (type png)
 
 <use figures/geometron3d/robot0500.png>
-Package pdftex.def Info: figures/geometron3d/robot0500.png used on input line 8
-4.
-(pdftex.def)             Requested size: 289.07999pt x 252.96088pt.
+Package pdftex.def Info: figures/geometron3d/robot0500.png used on input line 7
+5.
+(pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/trashrobot3d.png, id=924, 633.11531pt x 393.72093pt>
+<figures/geometron3d/trashrobot3d.png, id=916, 633.11531pt x 393.72093pt>
 File: figures/geometron3d/trashrobot3d.png Graphic file (type png)
 
 <use figures/geometron3d/trashrobot3d.png>
 Package pdftex.def Info: figures/geometron3d/trashrobot3d.png used on input lin
-e 91.
-(pdftex.def)             Requested size: 289.07999pt x 179.77411pt.
- [139 <./figures/geometron3d/robot0500.png>] <figures/geometron3d/angles.png, i
-d=931, 401.5pt x 401.5pt>
+e 82.
+(pdftex.def)             Requested size: 216.81pt x 134.82457pt.
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 87.
+
+[137] [138 <./figures/geometron3d/robot0500.png> <./figures/geometron3d/trashro
+bot3d.png>] <figures/geometron3d/angles.png, id=930, 401.5pt x 401.5pt>
 File: figures/geometron3d/angles.png Graphic file (type png)
 
 <use figures/geometron3d/angles.png>
-Package pdftex.def Info: figures/geometron3d/angles.png used on input line 104.
-
+Package pdftex.def Info: figures/geometron3d/angles.png used on input line 95.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
-) [140 <./figures/geometron3d/trashrobot3d.png>] [141 <./figures/geometron3d/an
-gles.png>]
+) [139 <./figures/geometron3d/angles.png>]
 Chapter 14.
-(./magic.tex [142
+(./magic.tex [140
 
-] [143] [144]
-<figures/magic/pisigil.png, id=957, 447.54703pt x 387.69844pt>
+] [141] [142]
+<figures/magic/pisigil.png, id=950, 447.54703pt x 387.69844pt>
 File: figures/magic/pisigil.png Graphic file (type png)
 
 <use figures/magic/pisigil.png>
 Package pdftex.def Info: figures/magic/pisigil.png used on input line 23.
 (pdftex.def)             Requested size: 216.81pt x 187.82054pt.
 
-<figures/magic/actiongeometrysigil.png, id=958, 377.91188pt x 363.98485pt>
+<figures/magic/actiongeometrysigil.png, id=951, 377.91188pt x 363.98485pt>
 File: figures/magic/actiongeometrysigil.png Graphic file (type png)
 
 <use figures/magic/actiongeometrysigil.png>
 Package pdftex.def Info: figures/magic/actiongeometrysigil.png used on input li
 ne 31.
 (pdftex.def)             Requested size: 216.81pt x 208.81757pt.
- [145 <./figures/magic/pisigil.png>] <figures/magic/alchemy.png, id=965, 401.5p
+ [143 <./figures/magic/pisigil.png>] <figures/magic/alchemy.png, id=958, 401.5p
 t x 401.5pt>
 File: figures/magic/alchemy.png Graphic file (type png)
 
@@ -1144,48 +1147,67 @@ File: figures/shapes/blank.png Graphic file (type png)
  <use figures/shapes/blank.png>
 Package pdftex.def Info: figures/shapes/blank.png used on input line 69.
 (pdftex.def)             Requested size: 216.81pt x 294.3747pt.
-) [146 <./figures/magic/actiongeometrysigil.png>] [147 <./figures/magic/alchemy
-.png>] [148]
-[149] [150]
+) [144 <./figures/magic/actiongeometrysigil.png>] [145 <./figures/magic/alchemy
+.png>] [146]
+[147] [148]
 Chapter 15.
 (./fullstack.tex
 ! Undefined control sequence.
 l.3 \tightlist
               
 ? 
-[151
+[149
 
-] [152])
+] [150])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [153]
+ [151]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./main-bigpaper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
-Package rerunfilecheck Info: File `main-bigpaper.out' has not changed.
-(rerunfilecheck)             Checksum: 9968DF8332988CEF96CFBA5CFF649C58;1457.
+
+
+Package rerunfilecheck Warning: File `main-bigpaper.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main-bigpaper.out':
+(rerunfilecheck)             Before: 9968DF8332988CEF96CFBA5CFF649C58;1457
+(rerunfilecheck)             After:  9F5F828B8E8518B672D1716C137C3C76;1213.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 6258 strings out of 494953
- 97307 string characters out of 6180977
+ 6257 strings out of 494953
+ 97308 string characters out of 6180977
  175938 words of memory out of 5000000
  9115 multiletter control sequences out of 15000+600000
  9154 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,6n,28p,2230b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmti10.pfb>
-Output written on main-bigpaper.pdf (156 pages, 5668335 bytes).
+pdfTeX warning (dest): name{subsection.13.1.3} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.13.1.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.13.1.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.13.1} has been referenced but does not exis
+t, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb>
+Output written on main-bigpaper.pdf (154 pages, 5668597 bytes).
 PDF statistics:
- 1097 PDF objects out of 1200 (max. 8388607)
- 765 compressed objects within 8 object streams
- 262 named destinations out of 1000 (max. 500000)
+ 1090 PDF objects out of 1200 (max. 8388607)
+ 760 compressed objects within 8 object streams
+ 261 named destinations out of 1000 (max. 500000)
  596 words of extra memory for PDF output out of 10000 (max. 10000000)
 
