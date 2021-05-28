@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  27 MAY 2021 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.11)  28 MAY 2021 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,7 +283,7 @@ LaTeX Info: Redefining \nameref on input line 22.
 \openout3 = `main-bigpaper.out'.
 
 
-<cover.png, id=104, 351.3125pt x 501.875pt>
+<cover.png, id=84, 351.3125pt x 501.875pt>
 File: cover.png Graphic file (type png)
  <use cover.png>
 Package pdftex.def Info: cover.png used on input line 26.
@@ -324,7 +324,7 @@ l.10
                    \relax 
 l.18 
       [2] [3] [4] [5]
-<figures/shapes/blank.png, id=143, 190.46156pt x 258.5911pt>
+<figures/shapes/blank.png, id=123, 190.46156pt x 258.5911pt>
 File: figures/shapes/blank.png Graphic file (type png)
 
 <use figures/shapes/blank.png>
@@ -431,7 +431,7 @@ Chapter 8.
 (./symbols.tex [56
 
 ] [57]
-<figures/symbol/vesicapiscisspelling.png, id=366, 401.5pt x 401.5pt>
+<figures/symbol/vesicapiscisspelling.png, id=346, 401.5pt x 401.5pt>
 File: figures/symbol/vesicapiscisspelling.png Graphic file (type png)
 
 <use figures/symbol/vesicapiscisspelling.png>
@@ -439,21 +439,21 @@ Package pdftex.def Info: figures/symbol/vesicapiscisspelling.png used on input
 line 22.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
  [58 <./figures/symbol/vesicapiscisspelling.png>] <figures/symbol/pentagram.png
-, id=374, 401.5pt x 401.5pt>
+, id=354, 401.5pt x 401.5pt>
 File: figures/symbol/pentagram.png Graphic file (type png)
 
 <use figures/symbol/pentagram.png>
 Package pdftex.def Info: figures/symbol/pentagram.png used on input line 35.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/symbol/hexagram.png, id=375, 401.5pt x 401.5pt>
+<figures/symbol/hexagram.png, id=355, 401.5pt x 401.5pt>
 File: figures/symbol/hexagram.png Graphic file (type png)
 
 <use figures/symbol/hexagram.png>
 Package pdftex.def Info: figures/symbol/hexagram.png used on input line 45.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/symbol/squareroottwo.png, id=376, 401.5pt x 401.5pt>
+<figures/symbol/squareroottwo.png, id=356, 401.5pt x 401.5pt>
 File: figures/symbol/squareroottwo.png Graphic file (type png)
 
 <use figures/symbol/squareroottwo.png>
@@ -461,14 +461,14 @@ Package pdftex.def Info: figures/symbol/squareroottwo.png used on input line 52
 .
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
  [59] [60 <./figures/symbol/pentagram.png> <./figures/symbol/hexagram.png>]
-<figures/symbol/scales.png, id=389, 312.41719pt x 95.9836pt>
+<figures/symbol/scales.png, id=369, 312.41719pt x 95.9836pt>
 File: figures/symbol/scales.png Graphic file (type png)
 
 <use figures/symbol/scales.png>
 Package pdftex.def Info: figures/symbol/scales.png used on input line 62.
 (pdftex.def)             Requested size: 216.81pt x 66.611pt.
 
-<figures/symbol/cursormovements.png, id=390, 401.5pt x 401.5pt>
+<figures/symbol/cursormovements.png, id=370, 401.5pt x 401.5pt>
 File: figures/symbol/cursormovements.png Graphic file (type png)
 
 <use figures/symbol/cursormovements.png>
@@ -477,14 +477,14 @@ Package pdftex.def Info: figures/symbol/cursormovements.png used on input line
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
  [61 <./figures/symbol/squareroottwo.png> <./figures/symbol/scales.png>] [62 <.
 /figures/symbol/cursormovements.png>]
-<figures/symbol/colors.png, id=405, 300.7486pt x 49.68562pt>
+<figures/symbol/colors.png, id=385, 300.7486pt x 49.68562pt>
 File: figures/symbol/colors.png Graphic file (type png)
 
 <use figures/symbol/colors.png>
 Package pdftex.def Info: figures/symbol/colors.png used on input line 87.
 (pdftex.def)             Requested size: 216.81pt x 35.81985pt.
 
-<figures/symbol/uparrowspelling.png, id=406, 401.5pt x 401.5pt>
+<figures/symbol/uparrowspelling.png, id=386, 401.5pt x 401.5pt>
 File: figures/symbol/uparrowspelling.png Graphic file (type png)
 
 <use figures/symbol/uparrowspelling.png>
@@ -492,7 +492,7 @@ Package pdftex.def Info: figures/symbol/uparrowspelling.png used on input line
 97.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/symbol/cubes.png, id=407, 401.5pt x 301.125pt>
+<figures/symbol/cubes.png, id=387, 401.5pt x 301.125pt>
 File: figures/symbol/cubes.png Graphic file (type png)
 
 <use figures/symbol/cubes.png>
@@ -511,7 +511,7 @@ Package pdftex.def Info: figures/shapes/blank.png used on input line 145.
 (pdftex.def)             Requested size: 216.81pt x 294.3747pt.
 ) [67] [68]
 Chapter 9.
-(./web2d.tex <figures/web2d/keyboard.png, id=439, 835.99828pt x 242.02922pt>
+(./web2d.tex <figures/web2d/keyboard.png, id=419, 835.99828pt x 242.02922pt>
 File: figures/web2d/keyboard.png Graphic file (type png)
 
 <use figures/web2d/keyboard.png>
@@ -520,56 +520,56 @@ Package pdftex.def Info: figures/web2d/keyboard.png used on input line 8.
  [69
 
 ] [70 <./figures/web2d/keyboard.png>]
-<figures/web2d/cursoredit.png, id=451, 401.5pt x 301.125pt>
+<figures/web2d/cursoredit.png, id=431, 401.5pt x 301.125pt>
 File: figures/web2d/cursoredit.png Graphic file (type png)
 
 <use figures/web2d/cursoredit.png>
 Package pdftex.def Info: figures/web2d/cursoredit.png used on input line 27.
 (pdftex.def)             Requested size: 216.81pt x 162.60966pt.
 
-<figures/web2d/move.png, id=452, 401.5pt x 170.6375pt>
+<figures/web2d/move.png, id=432, 401.5pt x 170.6375pt>
 File: figures/web2d/move.png Graphic file (type png)
 
 <use figures/web2d/move.png>
 Package pdftex.def Info: figures/web2d/move.png used on input line 35.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/angles.png, id=453, 401.5pt x 170.6375pt>
+<figures/web2d/angles.png, id=433, 401.5pt x 170.6375pt>
 File: figures/web2d/angles.png Graphic file (type png)
 
 <use figures/web2d/angles.png>
 Package pdftex.def Info: figures/web2d/angles.png used on input line 42.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/scaleactions.png, id=454, 401.5pt x 170.6375pt>
+<figures/web2d/scaleactions.png, id=434, 401.5pt x 170.6375pt>
 File: figures/web2d/scaleactions.png Graphic file (type png)
 
 <use figures/web2d/scaleactions.png>
 Package pdftex.def Info: figures/web2d/scaleactions.png used on input line 49.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/basicdraw.png, id=455, 401.5pt x 170.6375pt>
+<figures/web2d/basicdraw.png, id=435, 401.5pt x 170.6375pt>
 File: figures/web2d/basicdraw.png Graphic file (type png)
 
 <use figures/web2d/basicdraw.png>
 Package pdftex.def Info: figures/web2d/basicdraw.png used on input line 56.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/colors.png, id=456, 401.5pt x 170.6375pt>
+<figures/web2d/colors.png, id=436, 401.5pt x 170.6375pt>
 File: figures/web2d/colors.png Graphic file (type png)
 
 <use figures/web2d/colors.png>
 Package pdftex.def Info: figures/web2d/colors.png used on input line 63.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/pathactions.png, id=457, 401.5pt x 170.6375pt>
+<figures/web2d/pathactions.png, id=437, 401.5pt x 170.6375pt>
 File: figures/web2d/pathactions.png Graphic file (type png)
 
 <use figures/web2d/pathactions.png>
 Package pdftex.def Info: figures/web2d/pathactions.png used on input line 71.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/bezieractions.png, id=458, 401.5pt x 170.6375pt>
+<figures/web2d/bezieractions.png, id=438, 401.5pt x 170.6375pt>
 File: figures/web2d/bezieractions.png Graphic file (type png)
 
 <use figures/web2d/bezieractions.png>
@@ -577,7 +577,7 @@ Package pdftex.def Info: figures/web2d/bezieractions.png used on input line 78.
 
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/bezierbracket.png, id=459, 401.5pt x 401.5pt>
+<figures/web2d/bezierbracket.png, id=439, 401.5pt x 401.5pt>
 File: figures/web2d/bezierbracket.png Graphic file (type png)
 
 <use figures/web2d/bezierbracket.png>
@@ -585,21 +585,21 @@ Package pdftex.def Info: figures/web2d/bezierbracket.png used on input line 86.
 
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/panzoom.png, id=460, 401.5pt x 170.6375pt>
+<figures/web2d/panzoom.png, id=440, 401.5pt x 170.6375pt>
 File: figures/web2d/panzoom.png Graphic file (type png)
 
 <use figures/web2d/panzoom.png>
 Package pdftex.def Info: figures/web2d/panzoom.png used on input line 94.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/flagactions.png, id=461, 401.5pt x 170.6375pt>
+<figures/web2d/flagactions.png, id=441, 401.5pt x 170.6375pt>
 File: figures/web2d/flagactions.png Graphic file (type png)
 
 <use figures/web2d/flagactions.png>
 Package pdftex.def Info: figures/web2d/flagactions.png used on input line 101.
 (pdftex.def)             Requested size: 289.07999pt x 122.8667pt.
 
-<figures/web2d/vesicapiscis.png, id=462, 401.5pt x 401.5pt>
+<figures/web2d/vesicapiscis.png, id=442, 401.5pt x 401.5pt>
 File: figures/web2d/vesicapiscis.png Graphic file (type png)
 
 <use figures/web2d/vesicapiscis.png>
@@ -607,7 +607,7 @@ Package pdftex.def Info: figures/web2d/vesicapiscis.png used on input line 109.
 
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorscale1.png, id=463, 401.5pt x 401.5pt>
+<figures/web2d/cursorscale1.png, id=443, 401.5pt x 401.5pt>
 File: figures/web2d/cursorscale1.png Graphic file (type png)
 
 <use figures/web2d/cursorscale1.png>
@@ -615,7 +615,7 @@ Package pdftex.def Info: figures/web2d/cursorscale1.png used on input line 115.
 
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorangle1.png, id=464, 401.5pt x 401.5pt>
+<figures/web2d/cursorangle1.png, id=444, 401.5pt x 401.5pt>
 File: figures/web2d/cursorangle1.png Graphic file (type png)
 
 <use figures/web2d/cursorangle1.png>
@@ -623,7 +623,7 @@ Package pdftex.def Info: figures/web2d/cursorangle1.png used on input line 121.
 
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorsquare.png, id=465, 401.5pt x 401.5pt>
+<figures/web2d/cursorsquare.png, id=445, 401.5pt x 401.5pt>
 File: figures/web2d/cursorsquare.png Graphic file (type png)
 
 <use figures/web2d/cursorsquare.png>
@@ -631,14 +631,14 @@ Package pdftex.def Info: figures/web2d/cursorsquare.png used on input line 127.
 
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorroot2.png, id=466, 401.5pt x 401.5pt>
+<figures/web2d/cursorroot2.png, id=446, 401.5pt x 401.5pt>
 File: figures/web2d/cursorroot2.png Graphic file (type png)
 
 <use figures/web2d/cursorroot2.png>
 Package pdftex.def Info: figures/web2d/cursorroot2.png used on input line 133.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorgolden.png, id=467, 401.5pt x 401.5pt>
+<figures/web2d/cursorgolden.png, id=447, 401.5pt x 401.5pt>
 File: figures/web2d/cursorgolden.png Graphic file (type png)
 
 <use figures/web2d/cursorgolden.png>
@@ -646,28 +646,28 @@ Package pdftex.def Info: figures/web2d/cursorgolden.png used on input line 139.
 
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursorroot3.png, id=468, 401.5pt x 401.5pt>
+<figures/web2d/cursorroot3.png, id=448, 401.5pt x 401.5pt>
 File: figures/web2d/cursorroot3.png Graphic file (type png)
 
 <use figures/web2d/cursorroot3.png>
 Package pdftex.def Info: figures/web2d/cursorroot3.png used on input line 145.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursor3.png, id=469, 401.5pt x 401.5pt>
+<figures/web2d/cursor3.png, id=449, 401.5pt x 401.5pt>
 File: figures/web2d/cursor3.png Graphic file (type png)
 
 <use figures/web2d/cursor3.png>
 Package pdftex.def Info: figures/web2d/cursor3.png used on input line 151.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/cursor5.png, id=470, 401.5pt x 401.5pt>
+<figures/web2d/cursor5.png, id=450, 401.5pt x 401.5pt>
 File: figures/web2d/cursor5.png Graphic file (type png)
 
 <use figures/web2d/cursor5.png>
 Package pdftex.def Info: figures/web2d/cursor5.png used on input line 157.
 (pdftex.def)             Requested size: 289.07999pt x 289.09814pt.
 
-<figures/web2d/styleeditor.png, id=471, 514.17094pt x 558.58687pt>
+<figures/web2d/styleeditor.png, id=451, 514.17094pt x 558.58687pt>
 File: figures/web2d/styleeditor.png Graphic file (type png)
 
 <use figures/web2d/styleeditor.png>
@@ -703,14 +703,14 @@ Chapter 10.
 (./shapes.tex [91
 
 ] [92]
-<figures/shapes/rlc.png, id=606, 451.6875pt x 451.6875pt>
+<figures/shapes/rlc.png, id=586, 451.6875pt x 451.6875pt>
 File: figures/shapes/rlc.png Graphic file (type png)
 
 <use figures/shapes/rlc.png>
 Package pdftex.def Info: figures/shapes/rlc.png used on input line 28.
 (pdftex.def)             Requested size: 216.81pt x 216.81442pt.
 
-<figures/shapes/inductorloop.png, id=607, 401.5pt x 250.9375pt>
+<figures/shapes/inductorloop.png, id=587, 401.5pt x 250.9375pt>
 File: figures/shapes/inductorloop.png Graphic file (type png)
 
 <use figures/shapes/inductorloop.png>
@@ -718,28 +718,28 @@ Package pdftex.def Info: figures/shapes/inductorloop.png used on input line 35.
 
 (pdftex.def)             Requested size: 216.81pt x 135.50804pt.
 
-<figures/shapes/inductor.png, id=608, 401.5pt x 200.75pt>
+<figures/shapes/inductor.png, id=588, 401.5pt x 200.75pt>
 File: figures/shapes/inductor.png Graphic file (type png)
 
 <use figures/shapes/inductor.png>
 Package pdftex.def Info: figures/shapes/inductor.png used on input line 42.
 (pdftex.def)             Requested size: 216.81pt x 108.40643pt.
 
-<figures/shapes/rcline.png, id=609, 451.6875pt x 451.6875pt>
+<figures/shapes/rcline.png, id=589, 451.6875pt x 451.6875pt>
 File: figures/shapes/rcline.png Graphic file (type png)
 
 <use figures/shapes/rcline.png>
 Package pdftex.def Info: figures/shapes/rcline.png used on input line 50.
 (pdftex.def)             Requested size: 216.81pt x 216.81442pt.
 
-<figures/shapes/treeoflife.png, id=610, 451.6875pt x 752.8125pt>
+<figures/shapes/treeoflife.png, id=590, 451.6875pt x 752.8125pt>
 File: figures/shapes/treeoflife.png Graphic file (type png)
 
 <use figures/shapes/treeoflife.png>
 Package pdftex.def Info: figures/shapes/treeoflife.png used on input line 57.
 (pdftex.def)             Requested size: 216.81pt x 361.35738pt.
 
-<figures/shapes/treeoflifespelling.png, id=611, 602.25pt x 401.5pt>
+<figures/shapes/treeoflifespelling.png, id=591, 602.25pt x 401.5pt>
 File: figures/shapes/treeoflifespelling.png Graphic file (type png)
 
 <use figures/shapes/treeoflifespelling.png>
@@ -747,7 +747,7 @@ Package pdftex.def Info: figures/shapes/treeoflifespelling.png used on input li
 ne 64.
 (pdftex.def)             Requested size: 289.07999pt x 192.72392pt.
 
-<figures/shapes/estrogendiagram.png, id=612, 421.1986pt x 262.35516pt>
+<figures/shapes/estrogendiagram.png, id=592, 421.1986pt x 262.35516pt>
 File: figures/shapes/estrogendiagram.png Graphic file (type png)
 
 <use figures/shapes/estrogendiagram.png>
@@ -755,7 +755,7 @@ Package pdftex.def Info: figures/shapes/estrogendiagram.png used on input line
 71.
 (pdftex.def)             Requested size: 216.81pt x 135.04836pt.
 
-<figures/shapes/estrogenspelling.png, id=613, 311.28796pt x 214.92796pt>
+<figures/shapes/estrogenspelling.png, id=593, 311.28796pt x 214.92796pt>
 File: figures/shapes/estrogenspelling.png Graphic file (type png)
 
 <use figures/shapes/estrogenspelling.png>
@@ -763,14 +763,14 @@ Package pdftex.def Info: figures/shapes/estrogenspelling.png used on input line
  78.
 (pdftex.def)             Requested size: 216.81pt x 149.69753pt.
 
-<figures/shapes/hebrew.png, id=614, 401.5pt x 200.75pt>
+<figures/shapes/hebrew.png, id=594, 401.5pt x 200.75pt>
 File: figures/shapes/hebrew.png Graphic file (type png)
 
 <use figures/shapes/hebrew.png>
 Package pdftex.def Info: figures/shapes/hebrew.png used on input line 85.
 (pdftex.def)             Requested size: 216.81pt x 108.40643pt.
 
-<figures/shapes/katakana.png, id=615, 239.39438pt x 197.23688pt>
+<figures/shapes/katakana.png, id=595, 239.39438pt x 197.23688pt>
 File: figures/shapes/katakana.png Graphic file (type png)
 
 <use figures/shapes/katakana.png>
@@ -809,7 +809,7 @@ Chapter 11.
 (./actiongeometry.tex [106
 
 ] [107] [108]
-<figures/actiongeometry/shapeset.png, id=704, 602.25pt x 602.25pt>
+<figures/actiongeometry/shapeset.png, id=684, 602.25pt x 602.25pt>
 File: figures/actiongeometry/shapeset.png Graphic file (type png)
 
 <use figures/actiongeometry/shapeset.png>
@@ -817,7 +817,7 @@ Package pdftex.def Info: figures/actiongeometry/shapeset.png used on input line
  28.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
 
-<figures/actiongeometry/rulers.png, id=705, 702.625pt x 702.625pt>
+<figures/actiongeometry/rulers.png, id=685, 702.625pt x 702.625pt>
 File: figures/actiongeometry/rulers.png Graphic file (type png)
 
 <use figures/actiongeometry/rulers.png>
@@ -825,7 +825,7 @@ Package pdftex.def Info: figures/actiongeometry/rulers.png used on input line 3
 5.
 (pdftex.def)             Requested size: 216.81pt x 216.8037pt.
 
-<figures/actiongeometry/protractor.png, id=706, 602.25pt x 602.25pt>
+<figures/actiongeometry/protractor.png, id=686, 602.25pt x 602.25pt>
 File: figures/actiongeometry/protractor.png Graphic file (type png)
 
 <use figures/actiongeometry/protractor.png>
@@ -833,7 +833,7 @@ Package pdftex.def Info: figures/actiongeometry/protractor.png used on input li
 ne 42.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
 
-<figures/actiongeometry/penrose.png, id=707, 401.5pt x 401.5pt>
+<figures/actiongeometry/penrose.png, id=687, 401.5pt x 401.5pt>
 File: figures/actiongeometry/penrose.png Graphic file (type png)
 
 <use figures/actiongeometry/penrose.png>
@@ -841,7 +841,7 @@ Package pdftex.def Info: figures/actiongeometry/penrose.png used on input line
 50.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/stencil.png, id=708, 401.5pt x 401.5pt>
+<figures/actiongeometry/stencil.png, id=688, 401.5pt x 401.5pt>
 File: figures/actiongeometry/stencil.png Graphic file (type png)
 
 <use figures/actiongeometry/stencil.png>
@@ -849,7 +849,7 @@ Package pdftex.def Info: figures/actiongeometry/stencil.png used on input line
 57.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/pilogo.png, id=709, 401.5pt x 401.5pt>
+<figures/actiongeometry/pilogo.png, id=689, 401.5pt x 401.5pt>
 File: figures/actiongeometry/pilogo.png Graphic file (type png)
 
 <use figures/actiongeometry/pilogo.png>
@@ -857,7 +857,7 @@ Package pdftex.def Info: figures/actiongeometry/pilogo.png used on input line 6
 5.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/skeletrontripod.png, id=710, 401.5pt x 401.5pt>
+<figures/actiongeometry/skeletrontripod.png, id=690, 401.5pt x 401.5pt>
 File: figures/actiongeometry/skeletrontripod.png Graphic file (type png)
 
 <use figures/actiongeometry/skeletrontripod.png>
@@ -865,7 +865,7 @@ Package pdftex.def Info: figures/actiongeometry/skeletrontripod.png used on inp
 ut line 73.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/skeletron2.png, id=711, 401.5pt x 401.5pt>
+<figures/actiongeometry/skeletron2.png, id=691, 401.5pt x 401.5pt>
 File: figures/actiongeometry/skeletron2.png Graphic file (type png)
 
 <use figures/actiongeometry/skeletron2.png>
@@ -873,7 +873,7 @@ Package pdftex.def Info: figures/actiongeometry/skeletron2.png used on input li
 ne 80.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/shook.png, id=712, 401.5pt x 401.5pt>
+<figures/actiongeometry/shook.png, id=692, 401.5pt x 401.5pt>
 File: figures/actiongeometry/shook.png Graphic file (type png)
 
 <use figures/actiongeometry/shook.png>
@@ -881,7 +881,7 @@ Package pdftex.def Info: figures/actiongeometry/shook.png used on input line 88
 .
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/tapesnake.png, id=713, 401.5pt x 401.5pt>
+<figures/actiongeometry/tapesnake.png, id=693, 401.5pt x 401.5pt>
 File: figures/actiongeometry/tapesnake.png Graphic file (type png)
 
 <use figures/actiongeometry/tapesnake.png>
@@ -889,7 +889,7 @@ Package pdftex.def Info: figures/actiongeometry/tapesnake.png used on input lin
 e 96.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/artboxnet.png, id=714, 401.5pt x 401.5pt>
+<figures/actiongeometry/artboxnet.png, id=694, 401.5pt x 401.5pt>
 File: figures/actiongeometry/artboxnet.png Graphic file (type png)
 
 <use figures/actiongeometry/artboxnet.png>
@@ -897,7 +897,7 @@ Package pdftex.def Info: figures/actiongeometry/artboxnet.png used on input lin
 e 104.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/artbox.png, id=715, 401.5pt x 401.5pt>
+<figures/actiongeometry/artbox.png, id=695, 401.5pt x 401.5pt>
 File: figures/actiongeometry/artbox.png Graphic file (type png)
 
 <use figures/actiongeometry/artbox.png>
@@ -905,7 +905,7 @@ Package pdftex.def Info: figures/actiongeometry/artbox.png used on input line 1
 11.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/artboxtop.png, id=716, 401.5pt x 401.5pt>
+<figures/actiongeometry/artboxtop.png, id=696, 401.5pt x 401.5pt>
 File: figures/actiongeometry/artboxtop.png Graphic file (type png)
 
 <use figures/actiongeometry/artboxtop.png>
@@ -913,7 +913,7 @@ Package pdftex.def Info: figures/actiongeometry/artboxtop.png used on input lin
 e 118.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/pyramidnet.png, id=717, 401.5pt x 401.5pt>
+<figures/actiongeometry/pyramidnet.png, id=697, 401.5pt x 401.5pt>
 File: figures/actiongeometry/pyramidnet.png Graphic file (type png)
 
 <use figures/actiongeometry/pyramidnet.png>
@@ -921,7 +921,7 @@ Package pdftex.def Info: figures/actiongeometry/pyramidnet.png used on input li
 ne 126.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/actiongeometry/pyramid.png, id=718, 401.5pt x 401.5pt>
+<figures/actiongeometry/pyramid.png, id=698, 401.5pt x 401.5pt>
 File: figures/actiongeometry/pyramid.png Graphic file (type png)
 
 <use figures/actiongeometry/pyramid.png>
@@ -953,7 +953,7 @@ etry/artboxtop.png>] [119 <./figures/actiongeometry/pyramidnet.png> <./figures/
 actiongeometry/pyramid.png>] [120] [121] [122]
 Chapter 12.
 (./printers.tex
-<figures/machines/basicmovements.png, id=810, 401.5pt x 401.5pt>
+<figures/machines/basicmovements.png, id=790, 401.5pt x 401.5pt>
 File: figures/machines/basicmovements.png Graphic file (type png)
 
 <use figures/machines/basicmovements.png>
@@ -961,7 +961,7 @@ Package pdftex.def Info: figures/machines/basicmovements.png used on input line
  6.
 (pdftex.def)             Requested size: 216.81pt x 216.81288pt.
 
-<figures/machines/actions05xx.png, id=811, 602.25pt x 451.6875pt>
+<figures/machines/actions05xx.png, id=791, 602.25pt x 451.6875pt>
 File: figures/machines/actions05xx.png Graphic file (type png)
 
 <use figures/machines/actions05xx.png>
@@ -972,7 +972,7 @@ Package pdftex.def Info: figures/machines/actions05xx.png used on input line 15
 
 ] [124 <./figures/machines/basicmovements.png> <./figures/machines/actions05xx.
 png>]
-<figures/machines/printerphoto.png, id=826, 706.64pt x 1043.9pt>
+<figures/machines/printerphoto.png, id=805, 706.64pt x 1043.9pt>
 File: figures/machines/printerphoto.png Graphic file (type png)
 
 <use figures/machines/printerphoto.png>
@@ -980,7 +980,7 @@ Package pdftex.def Info: figures/machines/printerphoto.png used on input line 2
 6.
 (pdftex.def)             Requested size: 216.81pt x 320.2925pt.
 
-<figures/machines/printerblockdiagram.png, id=827, 602.25pt x 602.25pt>
+<figures/machines/printerblockdiagram.png, id=806, 602.25pt x 602.25pt>
 File: figures/machines/printerblockdiagram.png Graphic file (type png)
 
 <use figures/machines/printerblockdiagram.png>
@@ -988,14 +988,14 @@ Package pdftex.def Info: figures/machines/printerblockdiagram.png used on input
  line 33.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
 
-<figures/machines/trace.png, id=828, 1022.31938pt x 625.21078pt>
+<figures/machines/trace.png, id=807, 1022.31938pt x 625.21078pt>
 File: figures/machines/trace.png Graphic file (type png)
 
 <use figures/machines/trace.png>
 Package pdftex.def Info: figures/machines/trace.png used on input line 44.
 (pdftex.def)             Requested size: 216.81pt x 132.58603pt.
 
-<figures/machines/iconfeed.png, id=829, 402.75468pt x 318.43968pt>
+<figures/machines/iconfeed.png, id=808, 402.75468pt x 318.43968pt>
 File: figures/machines/iconfeed.png Graphic file (type png)
 
 <use figures/machines/iconfeed.png>
@@ -1003,7 +1003,7 @@ Package pdftex.def Info: figures/machines/iconfeed.png used on input line 51.
 (pdftex.def)             Requested size: 216.81pt x 171.42038pt.
  [125] [126 <./figures/machines/printerphoto.png>] [127 <./figures/machines/pri
 nterblockdiagram.png> <./figures/machines/trace.png>]
-<figures/machines/buildingwallrobot.png, id=848, 602.25pt x 602.25pt>
+<figures/machines/buildingwallrobot.png, id=828, 602.25pt x 602.25pt>
 File: figures/machines/buildingwallrobot.png Graphic file (type png)
 
 <use figures/machines/buildingwallrobot.png>
@@ -1011,7 +1011,7 @@ Package pdftex.def Info: figures/machines/buildingwallrobot.png used on input l
 ine 61.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
 
-<figures/machines/eblblockdiagram.png, id=849, 602.25pt x 602.25pt>
+<figures/machines/eblblockdiagram.png, id=829, 602.25pt x 602.25pt>
 File: figures/machines/eblblockdiagram.png Graphic file (type png)
 
 <use figures/machines/eblblockdiagram.png>
@@ -1020,7 +1020,7 @@ e 68.
 (pdftex.def)             Requested size: 216.81pt x 216.80983pt.
  [128 <./figures/machines/iconfeed.png>] [129 <./figures/machines/buildingwallr
 obot.png> <./figures/machines/eblblockdiagram.png>]
-<figures/machines/pendant.png, id=864, 960.58875pt x 577.15625pt>
+<figures/machines/pendant.png, id=844, 960.58875pt x 577.15625pt>
 File: figures/machines/pendant.png Graphic file (type png)
 
 <use figures/machines/pendant.png>
@@ -1029,7 +1029,7 @@ Package pdftex.def Info: figures/machines/pendant.png used on input line 81.
 ) [130 <./figures/machines/pendant.png>]
 Chapter 13.
 (./geometron3d.tex
-<figures/geometron3d/actions.png, id=872, 401.5pt x 501.875pt>
+<figures/geometron3d/actions.png, id=852, 401.5pt x 501.875pt>
 File: figures/geometron3d/actions.png Graphic file (type png)
 
 <use figures/geometron3d/actions.png>
@@ -1037,7 +1037,7 @@ Package pdftex.def Info: figures/geometron3d/actions.png used on input line 10.
 
 (pdftex.def)             Requested size: 216.81pt x 271.01611pt.
 
-<figures/geometron3d/shapebuilding1.png, id=873, 401.5pt x 351.3125pt>
+<figures/geometron3d/shapebuilding1.png, id=853, 401.5pt x 351.3125pt>
 File: figures/geometron3d/shapebuilding1.png Graphic file (type png)
 
 <use figures/geometron3d/shapebuilding1.png>
@@ -1045,7 +1045,7 @@ Package pdftex.def Info: figures/geometron3d/shapebuilding1.png used on input l
 ine 20.
 (pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/shapebuilding2.png, id=874, 401.5pt x 351.3125pt>
+<figures/geometron3d/shapebuilding2.png, id=854, 401.5pt x 351.3125pt>
 File: figures/geometron3d/shapebuilding2.png Graphic file (type png)
 
 <use figures/geometron3d/shapebuilding2.png>
@@ -1056,7 +1056,7 @@ ine 27.
 
 ] [132 <./figures/geometron3d/actions.png> <./figures/geometron3d/shapebuilding
 1.png>] [133 <./figures/geometron3d/shapebuilding2.png>] [134]
-<figures/geometron3d/whimsycastleturret.png, id=897, 401.5pt x 250.9375pt>
+<figures/geometron3d/whimsycastleturret.png, id=877, 401.5pt x 250.9375pt>
 File: figures/geometron3d/whimsycastleturret.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastleturret.png>
@@ -1064,7 +1064,7 @@ Package pdftex.def Info: figures/geometron3d/whimsycastleturret.png used on inp
 ut line 49.
 (pdftex.def)             Requested size: 216.81pt x 135.50804pt.
 
-<figures/geometron3d/whimsycastlespelling.png, id=898, 401.5pt x 351.3125pt>
+<figures/geometron3d/whimsycastlespelling.png, id=878, 401.5pt x 351.3125pt>
 File: figures/geometron3d/whimsycastlespelling.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastlespelling.png>
@@ -1072,7 +1072,7 @@ Package pdftex.def Info: figures/geometron3d/whimsycastlespelling.png used on i
 nput line 56.
 (pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/whimsycastle.png, id=899, 424.96266pt x 240.9pt>
+<figures/geometron3d/whimsycastle.png, id=879, 424.96266pt x 240.9pt>
 File: figures/geometron3d/whimsycastle.png Graphic file (type png)
 
 <use figures/geometron3d/whimsycastle.png>
@@ -1081,7 +1081,7 @@ e 63.
 (pdftex.def)             Requested size: 216.81pt x 122.90515pt.
  [135 <./figures/geometron3d/whimsycastleturret.png>] [136 <./figures/geometron
 3d/whimsycastlespelling.png> <./figures/geometron3d/whimsycastle.png>]
-<figures/geometron3d/robot0500.png, id=915, 401.5pt x 351.3125pt>
+<figures/geometron3d/robot0500.png, id=895, 401.5pt x 351.3125pt>
 File: figures/geometron3d/robot0500.png Graphic file (type png)
 
 <use figures/geometron3d/robot0500.png>
@@ -1089,7 +1089,7 @@ Package pdftex.def Info: figures/geometron3d/robot0500.png used on input line 7
 5.
 (pdftex.def)             Requested size: 216.81pt x 189.71127pt.
 
-<figures/geometron3d/trashrobot3d.png, id=916, 633.11531pt x 393.72093pt>
+<figures/geometron3d/trashrobot3d.png, id=896, 633.11531pt x 393.72093pt>
 File: figures/geometron3d/trashrobot3d.png Graphic file (type png)
 
 <use figures/geometron3d/trashrobot3d.png>
@@ -1102,7 +1102,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 (hyperref)                than one, level fixed on input line 87.
 
 [137] [138 <./figures/geometron3d/robot0500.png> <./figures/geometron3d/trashro
-bot3d.png>] <figures/geometron3d/angles.png, id=930, 401.5pt x 401.5pt>
+bot3d.png>] <figures/geometron3d/angles.png, id=909, 401.5pt x 401.5pt>
 File: figures/geometron3d/angles.png Graphic file (type png)
 
 <use figures/geometron3d/angles.png>
@@ -1113,21 +1113,21 @@ Chapter 14.
 (./magic.tex [140
 
 ] [141] [142]
-<figures/magic/pisigil.png, id=950, 447.54703pt x 387.69844pt>
+<figures/magic/pisigil.png, id=929, 447.54703pt x 387.69844pt>
 File: figures/magic/pisigil.png Graphic file (type png)
 
 <use figures/magic/pisigil.png>
 Package pdftex.def Info: figures/magic/pisigil.png used on input line 23.
 (pdftex.def)             Requested size: 216.81pt x 187.82054pt.
 
-<figures/magic/actiongeometrysigil.png, id=951, 377.91188pt x 363.98485pt>
+<figures/magic/actiongeometrysigil.png, id=930, 377.91188pt x 363.98485pt>
 File: figures/magic/actiongeometrysigil.png Graphic file (type png)
 
 <use figures/magic/actiongeometrysigil.png>
 Package pdftex.def Info: figures/magic/actiongeometrysigil.png used on input li
 ne 31.
 (pdftex.def)             Requested size: 216.81pt x 208.81757pt.
- [143 <./figures/magic/pisigil.png>] <figures/magic/alchemy.png, id=958, 401.5p
+ [143 <./figures/magic/pisigil.png>] <figures/magic/alchemy.png, id=937, 401.5p
 t x 401.5pt>
 File: figures/magic/alchemy.png Graphic file (type png)
 
@@ -1151,63 +1151,45 @@ Package pdftex.def Info: figures/shapes/blank.png used on input line 69.
 .png>] [146]
 [147] [148]
 Chapter 15.
-(./fullstack.tex
-! Undefined control sequence.
-l.3 \tightlist
-              
-? 
-[149
+(./fullstack.tex [149
 
-] [150])
+] [150]
+File: figures/shapes/blank.png Graphic file (type png)
+ <use figures/shapes/blank.png>
+Package pdftex.def Info: figures/shapes/blank.png used on input line 17.
+(pdftex.def)             Requested size: 216.81pt x 294.3747pt.
+ [151] [152]
+[153] [154])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [151]
+ [155]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (./main-bigpaper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
-
-
-Package rerunfilecheck Warning: File `main-bigpaper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main-bigpaper.out':
-(rerunfilecheck)             Before: 9968DF8332988CEF96CFBA5CFF649C58;1457
-(rerunfilecheck)             After:  9F5F828B8E8518B672D1716C137C3C76;1213.
+Package rerunfilecheck Info: File `main-bigpaper.out' has not changed.
+(rerunfilecheck)             Checksum: 284EFB068629AF797AC23964EDDC6DD8;1083.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 6257 strings out of 494953
- 97308 string characters out of 6180977
+ 6249 strings out of 494953
+ 97141 string characters out of 6180977
  175938 words of memory out of 5000000
- 9115 multiletter control sequences out of 15000+600000
- 9154 words of font info for 32 fonts, out of 8000000 for 9000
+ 9108 multiletter control sequences out of 15000+600000
+ 8549 words of font info for 30 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,6n,28p,2230b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsection.13.1.3} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.13.1.2} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.13.1.1} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.13.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb>
-Output written on main-bigpaper.pdf (154 pages, 5668597 bytes).
+ 29i,6n,28p,2664b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti10.pfb>
+Output written on main-bigpaper.pdf (158 pages, 5691001 bytes).
 PDF statistics:
- 1090 PDF objects out of 1200 (max. 8388607)
- 760 compressed objects within 8 object streams
- 261 named destinations out of 1000 (max. 500000)
- 596 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1087 PDF objects out of 1200 (max. 8388607)
+ 753 compressed objects within 8 object streams
+ 260 named destinations out of 1000 (max. 500000)
+ 556 words of extra memory for PDF output out of 10000 (max. 10000000)
 

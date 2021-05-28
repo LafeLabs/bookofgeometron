@@ -21,5 +21,3 @@
 \contentsline {subsection}{Rotations and Higher Dimensions}{236}{section*.7}
 \contentsline {chapter}{\chapternumberline {14}Magic}{241}{chapter.14}
 \contentsline {chapter}{\chapternumberline {15}Full Stack Geometron}{255}{chapter.15}
-\contentsline {section}{\numberline {15.1}Full Stack Geometron}{255}{section.15.1}
-\contentsline {subsection}{Goals}{255}{section*.8}
