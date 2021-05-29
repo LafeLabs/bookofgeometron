@@ -25,6 +25,6 @@ As the author of this work, you should also help find and eliminate typos, clean
  10. [Shapes and Fonts](https://github.com/LafeLabs/thing/blob/master/scrolls/shapes.md)
  11. [Action Geometry](https://github.com/LafeLabs/thing/blob/master/scrolls/actiongeometry.md)
  12. [Printers](https://github.com/LafeLabs/thing/blob/master/scrolls/printers.md)
- 13. Geometron in 3d and beyond
- 14. Magic
- 15. Full Stack Geometron
+ 13. [Geometron in 3d and beyond](https://github.com/LafeLabs/thing/blob/master/scrolls/geometron3d.md)
+ 14. [Magic](https://github.com/LafeLabs/thing/blob/master/scrolls/magic.md)
+ 15. [Full Stack Geometron](https://github.com/LafeLabs/thing/blob/master/scrolls/fullstack.md)
