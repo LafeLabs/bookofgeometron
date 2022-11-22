@@ -19,7 +19,7 @@ physical state of a physical tool.
 
 The GVM is an abstract ``machine'' of pure thought which carries out
 geometric actions. The actions of the GVM are arranged geometrically
-into two cubes(hence ``hypercube'') each composed of 8x8x8 cells. Each
+into two cubes (hence ``hypercube'') each composed of 8x8x8 cells. Each
 of these 512 cells has an address based on its geometric location. All
 addresses start with the number ``0'', and indexes count up from 0
 rather than 1. One cube has addresses from 0 through 0777, and the other
@@ -46,7 +46,7 @@ information into different categories.
 the document being used to interact with Geometron.
 
 040-0176: Printable ASCII. These are used to either place a ASCII
-character on the Word Stack( to be printed using the action at 0365) or
+character on the Word Stack (to be printed using the action at 0365) or
 to identify the action taken when a key is struck on a keyboard
 connected to a GVM
 
@@ -120,11 +120,7 @@ displays the sequence of symbols corresponding to the actions in the
 glyph. The arrow and delete keys are used for editing by keyboard, and
 there are equivalent symbols on the soft key menu.
 
-\begin{figure}[htbp]
-\centering
 \includegraphics{iconsymbols/keyboard.svg}
-\caption{}
-\end{figure}
 
 Glyphs are stored in software as strings formed from sequences of
 numbers separated by commas. As you edit a glyph the string will change
@@ -134,11 +130,7 @@ Geometron software to copy the symbol.
 
 Actions of symbol.html
 
-\begin{figure}[htbp]
-\centering
 \includegraphics{iconsymbols/actiontablet.svg}
-\caption{}
-\end{figure}
 
 \href{scrolls/hellogeometron}{Learn to operate Geometron with the Hello
 Geometron Scroll}
@@ -147,7 +139,8 @@ Geometron Scroll}
 document of an obsolete version of Geometron in the Book of Geometron
 here}
 
-\section{Geometron}\label{geometron}
+\hypertarget{geometron}{%
+\section{Geometron}\label{geometron}}
 
 The purpose of science and technology is maximize the ability of the
 human mind to interact with our physical environment. As our society
@@ -257,7 +250,7 @@ To summarize the previous paragraph, we pose that there is a geometric
 ``state'' which all humans understand how to manipulate. This state
 consists of position, orientation, a basic unit like ``blocks'',
 ``feet'', ``steps'', ``football fields'' etc, and an implied angle by
-which we turn(usually 90 degrees unless specified otherwise). We can
+which we turn (usually 90 degrees unless specified otherwise). We can
 then create symbols to represent the basic operations of movement of
 this state as follows:
 
@@ -281,11 +274,7 @@ We construct symbols for these which get as close as possible to using a
 universal language which all people will recognize, in this case arrows.
 These symbols are then:
 
-\begin{figure}[htbp]
-\centering
 \includegraphics{iconsymbols/movement-symbols.svg}
-\caption{}
-\end{figure}
 
 These symbols are intended to be as universal as possible, avoiding both
 the selection of a language like English to draw from as well as
@@ -312,11 +301,7 @@ these arrow-motion actions. In this language, a program that moves left
 on the red direction, then out in the green direction and back might
 look like this:
 
-\begin{figure}[htbp]
-\centering
 \includegraphics{robot-movements-symbols.svg}
-\caption{}
-\end{figure}
 
 This simple concept can be very powerful when combined with direct
 controls of a machine. A user who starts moving labelled levers to
@@ -330,7 +315,7 @@ With the goal in mind of being able to build a universal symbolic
 language for controlling machines, we may now proceed to documenting how
 that language is constructed. To reference the introduction here, there
 are three tools we will use: assigning addresses to things, assigning
-symbols to actions(in essence a naming of things), and the use of
+symbols to actions (in essence a naming of things), and the use of
 universal geometry of Nature. When we speak of ``actions'' in Geometron
 it is useful to have some sort of object which is carrying out those
 actions. That object is called the ``Geometron Virtual Machine'', or
@@ -340,7 +325,7 @@ and keys, encode writing in human languages and edit the structure of
 Geoemtron itself. In all cases, each action has a symbol, which is
 itself just a sequence of actions. Each action has an address which is
 made up of three numbers, each of which can range from 0 to 7. Types of
-action are organized by the first of the three numbers(e.g.~machine
+action are organized by the first of the three numbers (e.g.~machine
 movements vs.~2d geometry vs.~3d actions etc.). This system divides
 actions up into tablets which have an 8x8 array of ``boxes'' each of
 which maps to some kind of geometric action. The 8x8 array is an
@@ -441,19 +426,15 @@ used. The address ranges in the Action Cube are as follows:
 \item
   0700-0777: 3d geometric actions. These are used to edit 3d files or do
   3d geometric actions. In the implementation presented here, what is
-  edited are x3d files(formerly VRML) which are used for virtual reality
-  and augmented reality, as well as constructions with the THREE.js
-  library which can export to .stl files for 3d printers.
+  edited are x3d files (formerly VRML) which are used for virtual
+  reality and augmented reality, as well as constructions with the
+  THREE.js library which can export to .stl files for 3d printers.
 \end{itemize}
 
 As stated above, the heart of the system is the symbol constructions in
 the 03xx tablet. We now start with showing the whole tablet as follows:
 
-\begin{figure}[htbp]
-\centering
 \includegraphics{iconsymbols/actiontablet.svg}
-\caption{}
-\end{figure}
 
 These are broken up by category. The fourth row, the range from 0330 to
 0337, are motions: move forward, back, left, and right, rotate left,

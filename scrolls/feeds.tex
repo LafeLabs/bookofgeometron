@@ -1,6 +1,7 @@
 \href{index.html}{home}
 
-\section{Feeds}\label{feeds}
+\hypertarget{feeds}{%
+\section{Feeds}\label{feeds}}
 
 A Feed is a sequence of elements. The elements don't have geometric
 structure like a Map. They can be text, links, symbols, or any other
@@ -11,8 +12,9 @@ be read by humans in a browser.
 The Feed is a general framework for building formats, but in the basic
 Trash Robot server we implement a few versions.
 
+\hypertarget{global-image-feed}{%
 \subsection{\texorpdfstring{\href{globalimagefeed.html}{Global Image
-Feed}}{Global Image Feed}}\label{global-image-feed}
+Feed}}{Global Image Feed}}\label{global-image-feed}}
 
 This is an array of image urls. This is a key component of how Icon
 Tokens are made. We often start by doing an image search on the Web for
@@ -31,8 +33,9 @@ to get the url and putting that url in the image feed. This method is
 used to document much of the Trash Robot system or for general rapid
 information sharing.
 
+\hypertarget{link-feed}{%
 \subsection{\texorpdfstring{\href{linkfeed.html}{Link
-Feed}}{Link Feed}}\label{link-feed}
+Feed}}{Link Feed}}\label{link-feed}}
 
 This is a feed of ``links'' in a general sense which can be images,
 links, or just text. They are edited using the ``operator screen'',
@@ -50,20 +53,21 @@ a global server, for private exchange of link feeds. f \#\#
 \href{textfeed.html}{Text Feed}
 
 The Text Feed is used for a number of Trash Robot applications. In spite
-of its name, it is not just a feed of text, but consists of three
-feeds(arrays): ``text'', ``src'' and ``href''. These really are what
-they sound like, three feeds in one. Users can add links, add images,
-add text, or delete any of them, and can copy and paste and share and
-import feeds. Text feed has a number of functions in the Trash
-Robot/Geometron system. It is used for the Map Editor as a source of
-links, images, and text which do not need to be entered in a keyboard.
-It is also used in the \href{poetryengine.html}{Poetry Engine} and
+of its name, it is not just a feed of text, but consists of three feeds
+(arrays): ``text'', ``src'' and ``href''. These really are what they
+sound like, three feeds in one. Users can add links, add images, add
+text, or delete any of them, and can copy and paste and share and import
+feeds. Text feed has a number of functions in the Trash Robot/Geometron
+system. It is used for the Map Editor as a source of links, images, and
+text which do not need to be entered in a keyboard. It is also used in
+the \href{poetryengine.html}{Poetry Engine} and
 \href{duality.html}{Duality}. These are documented with the
 \href{scrolls/poetryengine}{poetry engine scroll} and
 \href{scrolls/duality}{duality scroll}.
 
+\hypertarget{chaos-feed}{%
 \subsection{\texorpdfstring{\href{chaosfeed.html}{Chaos
-Feed}}{Chaos Feed}}\label{chaos-feed}
+Feed}}{Chaos Feed}}\label{chaos-feed}}
 
 Chaos Feed is a user friendly text feed. Type in the input to post. Hit
 red ``x'' to delete. Nuke the feed with the explode emoji. Reload with
@@ -72,8 +76,9 @@ links and images, allowing a link out to be added. Chaos Feed can be set
 to be the top level of a Trash Robot Server for text feed sharing mayhem
 and fun. Chaos feeds are stored at \url{data/chaosfeed.txt}.
 
+\hypertarget{icon-feed}{%
 \subsection{\texorpdfstring{\href{iconfeed.html}{Icon
-Feed}}{Icon Feed}}\label{icon-feed}
+Feed}}{Icon Feed}}\label{icon-feed}}
 
 This is a critical feed for the overall system work flow, as it is how
 we share the Token Icons which are printed into clay. See the
@@ -86,8 +91,9 @@ edit on their own private servers, without any data ever leaking to the
 public Internet, while still having no users and no databases on each
 individual server.
 
+\hypertarget{symbol-feed}{%
 \subsection{\texorpdfstring{\href{symbolfeed.html}{Symbol
-Feed}}{Symbol Feed}}\label{symbol-feed}
+Feed}}{Symbol Feed}}\label{symbol-feed}}
 
 This is not really a feed in the strict sense above, but it behaves like
 a feed in the user interface. Every time a symbol is saved using
@@ -102,7 +108,8 @@ Clicking on an SVG file also loads it up into \url{symbol.html},
 including the structural JSON information which sets styles and
 positions of the symbol.
 
-\subsection{\texorpdfstring{\href{wall.html}{Wall}}{Wall}}\label{wall}
+\hypertarget{wall}{%
+\subsection{\texorpdfstring{\href{wall.html}{Wall}}{Wall}}\label{wall}}
 
 The Wall is a feed of one element. It is just a text document, stored at
 \url{data/wall.txt}, which is edited and read by users. Type to edit.
